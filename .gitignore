@@ -1,0 +1,7 @@
+data/
+*.pth
+*.hwp
+*.hwpx
+*.pdf
+__pycache__/
+.env

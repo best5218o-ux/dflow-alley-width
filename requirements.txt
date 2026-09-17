@@ -1,0 +1,11 @@
+numpy==2.5.3
+shapely==2.1.2
+pyproj==3.8.0
+pillow==12.3.0
+opencv-python-headless==5.0.0.93
+pandas==3.0.5
+pyogrio==0.13.0
+scipy==1.18.1
+torch==2.14.0
+torchvision==0.29.0
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
