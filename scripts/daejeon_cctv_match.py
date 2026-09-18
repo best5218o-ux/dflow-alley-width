@@ -13,6 +13,7 @@ import io
 import json
 import sys
 from pathlib import Path
+from _rawio import open_raw  # 2026-09-18: .jsonl 없으면 .jsonl.gz
 
 import pandas as pd
 import shapely
@@ -37,7 +38,7 @@ def main():
     cam = cam[ok].copy()
     xy = [t.transform(a, b) for a, b in zip(lon[ok], lat[ok])]
     segs = []
-    for line in open(ROOT / "data/vworld/national/raw/daejeon_sprd_geom.jsonl", encoding="utf-8"):
+    for line in open_raw(ROOT / "data/vworld/national/raw/daejeon_sprd_geom.jsonl"):
         r = json.loads(line)
         segs.append((norm(r["rn"]), shapely.from_wkt(r["wkt"])))
     geoms = [g for _, g in segs]

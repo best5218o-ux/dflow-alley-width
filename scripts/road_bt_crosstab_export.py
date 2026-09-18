@@ -11,6 +11,7 @@ import csv
 import json
 from collections import defaultdict
 from pathlib import Path
+from _rawio import open_raw  # 2026-09-18: .jsonl 없으면 .jsonl.gz
 
 import numpy as np
 
@@ -64,7 +65,7 @@ def bin_of(v):
 def main():
     seen = set()
     groups = defaultdict(list)
-    for line in RAW.open(encoding="utf-8"):
+    for line in open_raw(RAW):
         for p in json.loads(line)["rows"]:
             k = (str(p.get("sig_cd")), str(p.get("rds_man_no")))
             if k in seen:

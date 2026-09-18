@@ -1,0 +1,2 @@
+# docs/prereg/ 의 사전 확정 사본은 blob SHA-1 대조용이다 — 줄끝 변환 없이 바이트 그대로 보존한다
+docs/prereg/*.md -text

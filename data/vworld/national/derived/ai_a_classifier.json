@@ -1,5 +1,5 @@
 {
- "rule_doc": "docs/vworld/회전기하_판정기준.md §24",
+ "rule_doc": "docs/판정기준.md §24",
  "rule_commit": "f8d26dd",
  "samples": {
   "n": 2964,

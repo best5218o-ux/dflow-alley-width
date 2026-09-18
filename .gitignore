@@ -31,3 +31,9 @@ __pycache__/
 
 # --- 무시: 재현 감사 작업 폴더(실행 전 산출물 사본)
 _audit/
+
+# --- 무시: 전국소방용수시설표준데이터 평문(52 MB). 같은 내용의 .csv.gz 를 커밋한다
+data/vworld/national/raw/firewater/*.csv
+
+# --- 무시: 작업지시서2 의 실행 전 사본 폴더
+_run/

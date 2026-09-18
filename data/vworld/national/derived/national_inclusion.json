@@ -1,5 +1,5 @@
 {
- "rule_doc": "docs/vworld/회전기하_판정기준.md §20 (정규화·판정 §19)",
+ "rule_doc": "docs/판정기준.md §20 (정규화·판정 §19)",
  "rule_commit": "cadef64",
  "unit": "(시군구, 정규화 도로명) · 길·번길",
  "prefix_assignment": {

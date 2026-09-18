@@ -1,5 +1,5 @@
 {
- "rule_doc": "docs/vworld/회전기하_판정기준.md §8",
+ "rule_doc": "docs/판정기준.md §8",
  "rule_commit": "ab6e651",
  "layer": "lt_l_sprd(도로명주소도로)",
  "sites_total": 26,

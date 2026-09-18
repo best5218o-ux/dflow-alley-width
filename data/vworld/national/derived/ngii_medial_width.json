@@ -1,5 +1,5 @@
 {
- "rule_doc": "docs/vworld/회전기하_판정기준.md §29",
+ "rule_doc": "docs/판정기준.md §29",
  "rule_commit": "d182518",
  "name": "도로경계 면 내접폭 · 장애물 차감폭 (「통과가능폭」 아님)",
  "boundary_definition": "미확인 — 브이월드 제공 속성 id·dycd 뿐(설명서상 SCLS 미제공). 포장 경계인지 도로구역 경계인지 확인하지 못했다",

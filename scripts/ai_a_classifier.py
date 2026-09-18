@@ -16,6 +16,7 @@ import urllib.parse
 import urllib.request
 from collections import defaultdict
 from pathlib import Path
+from _rawio import open_raw  # 2026-09-18: .jsonl 없으면 .jsonl.gz
 
 import numpy as np
 import pandas as pd
@@ -80,7 +81,7 @@ def fetch():
 
 def features():
     rows, seen = [], {}
-    for line in GEOM.open(encoding="utf-8"):
+    for line in open_raw(GEOM):
         r = json.loads(line)
         k = (r["sig_cd"], str(r["rds_man_no"]))
         g = shapely.from_wkt(r["wkt"])

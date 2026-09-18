@@ -1,5 +1,5 @@
 {
- "rule_doc": "docs/vworld/회전기하_판정기준.md §33",
+ "rule_doc": "docs/판정기준.md §33",
  "rule_commit": "5f33956",
  "원천": {
   "표고점": "lt_p_n3f0020000 (nume) 연속수치지형도 1:5,000",

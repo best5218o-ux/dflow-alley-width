@@ -16,6 +16,7 @@ import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from _rawio import raw_path  # 2026-09-18: 평문 없으면 .gz
 
 import pandas as pd
 import shapely
@@ -80,7 +81,7 @@ def to5186(feature):
 def main():
     cc = json.loads((DER / "missing_alley_crosscheck.json").read_text(encoding="utf-8"))
     mw = {r["piece"]: r for r in json.loads((DER / "ngii_medial_width.json").read_text(encoding="utf-8"))["pieces"]}
-    fw = pd.read_csv(ROOT / "data/vworld/national/raw/firewater/std_firewater_20240213.csv", dtype=str, encoding="utf-8-sig")
+    fw = pd.read_csv(raw_path(ROOT / "data/vworld/national/raw/firewater/std_firewater_20240213.csv"), dtype=str, encoding="utf-8-sig")   # 2026-09-18: .csv 없으면 .csv.gz(pandas 가 확장자로 압축 해제)
     fw = fw[fw["시도명"] == "대전광역시"].copy()
     lat = pd.to_numeric(fw["위도"], errors="coerce")
     lon = pd.to_numeric(fw["경도"], errors="coerce")
