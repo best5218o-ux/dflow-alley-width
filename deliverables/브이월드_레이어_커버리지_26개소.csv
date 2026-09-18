@@ -1,0 +1,17 @@
+﻿레이어명,레이어 한글명,조회 조각 수,피처 있는 조각 수,피처 합계,속성 항목(있을 때),조회 실패 수,비고
+lt_c_a3drivewaysection,차도구간,37,0,0,,0,정상 조회
+lt_c_a4subsidiarysection,보도구간,37,5,29,"admincode,direction,evcharger,gasstation,histremark,histtype,id,lpgstation,maker,name,prmname,remark,secname,secseq,subtype,toilet,updatedate,version",0,정상 조회
+lt_c_a5parkinglot,주차면,37,0,0,,0,정상 조회
+lt_l_c5heightbarrier,높이장애물,37,0,0,,0,정상 조회
+lt_c_c4speedbump,과속방지턱,37,0,0,,0,정상 조회
+lt_l_a2link,주행경로링크,37,6,37,"admincode,fromnodeid,histremark,histtype,id,itslinkid,l_linkid,laneno,length,linktype,maker,prmname,r_linkid,remark,roadno,roadrank,roadtype,secname,secseq,sectionid,tonodeid,updatedate,version",0,정상 조회
+lt_p_a1node,주행경로노드,37,3,10,"admincode,histremark,histtype,id,itsnodeid,maker,nodetype,prmname,remark,secname,secseq,updatedate,version",0,정상 조회
+lt_c_b3surfacemark,노면표시,37,4,17,"admincode,histremark,histtype,id,kind,linkid,maker,prmname,remark,secname,secseq,type,updatedate,version",0,정상 조회
+lt_l_b2surfacelinemark,노면선표시,37,6,94,"admincode,histremark,histtype,id,kind,l_linkid,maker,prmname,r_linkid,remark,secname,secseq,type,updatedate,version",0,정상 조회
+lt_c_b1safetysign,안전표지,37,4,17,"admincode,histremark,histtype,id,linkid,maker,postid,prmname,ref_lane,remark,secname,secseq,type,updatedate,version",0,정상 조회
+lt_c_up401,급경사재해예방지역,37,0,0,,0,정상 조회
+lt_c_usfsffb,소방서관할구역,37,37,42,"cat_cde,cat_nam,ward_id,ward_nm",0,정상 조회
+lt_p_utiscctv,교통CCTV,37,34,140,"cam_cnt,cam_dat,cam_inf,cam_val,cat_cde,cat_nam,cctvname,jibun_adr,loc_dat,loc_detail,locate,mng_tel,new_adr,reg_dat,x,y",0,정상 조회
+lt_c_uq125,방재지구,37,0,0,,0,정상 조회
+lt_c_up201,재해위험지구,37,4,4,"admin_cd,alias,bon_bun,bu_bun,dnum,dyear,mnum,remark,sido_cd,sido_name,sigg_name,sigungu_cd,std_sggcd,ucode,uname",0,정상 조회
+lt_c_uq128,취락지구,37,0,0,,0,정상 조회

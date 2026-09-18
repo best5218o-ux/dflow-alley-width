@@ -1,0 +1,331 @@
+{
+ "rule_doc": "docs/vworld/회전기하_판정기준.md §20 (정규화·판정 §19)",
+ "rule_commit": "cadef64",
+ "unit": "(시군구, 정규화 도로명) · 길·번길",
+ "prefix_assignment": {
+  "prefixes": 251,
+  "assigned": 193,
+  "mixed": 58,
+  "failed": []
+ },
+ "nodelink_no_name_links": 69247,
+ "national_pooled": {
+  "names": 152944,
+  "included": 33336,
+  "inclusion_rate": 0.218,
+  "not_included_rate": 0.782,
+  "ci95": [
+   0.2159,
+   0.22
+  ]
+ },
+ "sido_mean_inclusion": 0.2208,
+ "failed_sido": [],
+ "daejeon_reproduction_note": "§19 대전 대조군(처리군 제외) 미포함 79.1 % 와 방식 차이: 이번은 처리군 포함 전체 이름 · 앞자리 시군구 배정",
+ "by_sido": {
+  "서울특별시": {
+   "sido_code": "11",
+   "names": 13675,
+   "included": 2292,
+   "inclusion_rate": 0.1676,
+   "not_included_rate": 0.8324,
+   "inclusion_ci95": [
+    0.1614,
+    0.174
+   ],
+   "gil_names": 13672,
+   "gil_inclusion": 0.1676,
+   "beongil_names": 3,
+   "beongil_inclusion": 0.0,
+   "beongil_share_of_names": 0.0002,
+   "nodelink_links_assigned": 62509,
+   "mixed_prefix_links": 29741,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "전남광주통합특별시": {
+   "sido_code": "12",
+   "names": 15808,
+   "included": 3879,
+   "inclusion_rate": 0.2454,
+   "not_included_rate": 0.7546,
+   "inclusion_ci95": [
+    0.2387,
+    0.2522
+   ],
+   "gil_names": 12572,
+   "gil_inclusion": 0.2141,
+   "beongil_names": 3236,
+   "beongil_inclusion": 0.3668,
+   "beongil_share_of_names": 0.2047,
+   "nodelink_links_assigned": 179766,
+   "mixed_prefix_links": 22751,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "부산광역시": {
+   "sido_code": "26",
+   "names": 7322,
+   "included": 1072,
+   "inclusion_rate": 0.1464,
+   "not_included_rate": 0.8536,
+   "inclusion_ci95": [
+    0.1385,
+    0.1547
+   ],
+   "gil_names": 1419,
+   "gil_inclusion": 0.1409,
+   "beongil_names": 5903,
+   "beongil_inclusion": 0.1477,
+   "beongil_share_of_names": 0.8062,
+   "nodelink_links_assigned": 40363,
+   "mixed_prefix_links": 21841,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "대구광역시": {
+   "sido_code": "27",
+   "names": 4031,
+   "included": 1159,
+   "inclusion_rate": 0.2875,
+   "not_included_rate": 0.7125,
+   "inclusion_ci95": [
+    0.2738,
+    0.3017
+   ],
+   "gil_names": 4031,
+   "gil_inclusion": 0.2875,
+   "beongil_names": 0,
+   "beongil_inclusion": null,
+   "beongil_share_of_names": 0.0,
+   "nodelink_links_assigned": 42429,
+   "mixed_prefix_links": 16922,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "인천광역시": {
+   "sido_code": "28",
+   "names": 5731,
+   "included": 1076,
+   "inclusion_rate": 0.1878,
+   "not_included_rate": 0.8122,
+   "inclusion_ci95": [
+    0.1779,
+    0.1981
+   ],
+   "gil_names": 275,
+   "gil_inclusion": 0.2509,
+   "beongil_names": 5456,
+   "beongil_inclusion": 0.1846,
+   "beongil_share_of_names": 0.952,
+   "nodelink_links_assigned": 39640,
+   "mixed_prefix_links": 816,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "대전광역시": {
+   "sido_code": "30",
+   "names": 2964,
+   "included": 612,
+   "inclusion_rate": 0.2065,
+   "not_included_rate": 0.7935,
+   "inclusion_ci95": [
+    0.1923,
+    0.2214
+   ],
+   "gil_names": 523,
+   "gil_inclusion": 0.1338,
+   "beongil_names": 2441,
+   "beongil_inclusion": 0.222,
+   "beongil_share_of_names": 0.8235,
+   "nodelink_links_assigned": 36254,
+   "mixed_prefix_links": 17113,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "울산광역시": {
+   "sido_code": "31",
+   "names": 3363,
+   "included": 1063,
+   "inclusion_rate": 0.3161,
+   "not_included_rate": 0.6839,
+   "inclusion_ci95": [
+    0.3006,
+    0.332
+   ],
+   "gil_names": 2566,
+   "gil_inclusion": 0.309,
+   "beongil_names": 797,
+   "beongil_inclusion": 0.3388,
+   "beongil_share_of_names": 0.237,
+   "nodelink_links_assigned": 36023,
+   "mixed_prefix_links": 6913,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "세종특별자치시": {
+   "sido_code": "36",
+   "names": 1027,
+   "included": 215,
+   "inclusion_rate": 0.2093,
+   "not_included_rate": 0.7907,
+   "inclusion_ci95": [
+    0.1856,
+    0.2353
+   ],
+   "gil_names": 1027,
+   "gil_inclusion": 0.2093,
+   "beongil_names": 0,
+   "beongil_inclusion": null,
+   "beongil_share_of_names": 0.0,
+   "nodelink_links_assigned": 11586,
+   "mixed_prefix_links": 11586,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "경기도": {
+   "sido_code": "41",
+   "names": 23740,
+   "included": 5869,
+   "inclusion_rate": 0.2472,
+   "not_included_rate": 0.7528,
+   "inclusion_ci95": [
+    0.2418,
+    0.2527
+   ],
+   "gil_names": 7504,
+   "gil_inclusion": 0.26,
+   "beongil_names": 16236,
+   "beongil_inclusion": 0.2413,
+   "beongil_share_of_names": 0.6839,
+   "nodelink_links_assigned": 261392,
+   "mixed_prefix_links": 63296,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "충청북도": {
+   "sido_code": "43",
+   "names": 10140,
+   "included": 2226,
+   "inclusion_rate": 0.2195,
+   "not_included_rate": 0.7805,
+   "inclusion_ci95": [
+    0.2116,
+    0.2277
+   ],
+   "gil_names": 7715,
+   "gil_inclusion": 0.2045,
+   "beongil_names": 2425,
+   "beongil_inclusion": 0.2672,
+   "beongil_share_of_names": 0.2392,
+   "nodelink_links_assigned": 94608,
+   "mixed_prefix_links": 23884,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "충청남도": {
+   "sido_code": "44",
+   "names": 11706,
+   "included": 2112,
+   "inclusion_rate": 0.1804,
+   "not_included_rate": 0.8196,
+   "inclusion_ci95": [
+    0.1736,
+    0.1875
+   ],
+   "gil_names": 8306,
+   "gil_inclusion": 0.1967,
+   "beongil_names": 3400,
+   "beongil_inclusion": 0.1406,
+   "beongil_share_of_names": 0.2904,
+   "nodelink_links_assigned": 120038,
+   "mixed_prefix_links": 0,
+   "status": "정상"
+  },
+  "경상북도": {
+   "sido_code": "47",
+   "names": 15679,
+   "included": 3114,
+   "inclusion_rate": 0.1986,
+   "not_included_rate": 0.8014,
+   "inclusion_ci95": [
+    0.1924,
+    0.2049
+   ],
+   "gil_names": 13032,
+   "gil_inclusion": 0.2027,
+   "beongil_names": 2647,
+   "beongil_inclusion": 0.1787,
+   "beongil_share_of_names": 0.1688,
+   "nodelink_links_assigned": 166455,
+   "mixed_prefix_links": 31365,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "경상남도": {
+   "sido_code": "48",
+   "names": 16029,
+   "included": 3499,
+   "inclusion_rate": 0.2183,
+   "not_included_rate": 0.7817,
+   "inclusion_ci95": [
+    0.212,
+    0.2248
+   ],
+   "gil_names": 10786,
+   "gil_inclusion": 0.1966,
+   "beongil_names": 5243,
+   "beongil_inclusion": 0.263,
+   "beongil_share_of_names": 0.3271,
+   "nodelink_links_assigned": 162258,
+   "mixed_prefix_links": 27966,
+   "status": "시군구 혼재 앞자리 있음"
+  },
+  "제주특별자치도": {
+   "sido_code": "50",
+   "names": 3447,
+   "included": 758,
+   "inclusion_rate": 0.2199,
+   "not_included_rate": 0.7801,
+   "inclusion_ci95": [
+    0.2064,
+    0.234
+   ],
+   "gil_names": 2229,
+   "gil_inclusion": 0.2158,
+   "beongil_names": 1218,
+   "beongil_inclusion": 0.2274,
+   "beongil_share_of_names": 0.3534,
+   "nodelink_links_assigned": 36534,
+   "mixed_prefix_links": 0,
+   "status": "정상"
+  },
+  "강원특별자치도": {
+   "sido_code": "51",
+   "names": 7711,
+   "included": 1886,
+   "inclusion_rate": 0.2446,
+   "not_included_rate": 0.7554,
+   "inclusion_ci95": [
+    0.2351,
+    0.2543
+   ],
+   "gil_names": 5743,
+   "gil_inclusion": 0.2539,
+   "beongil_names": 1968,
+   "beongil_inclusion": 0.2175,
+   "beongil_share_of_names": 0.2552,
+   "nodelink_links_assigned": 106349,
+   "mixed_prefix_links": 0,
+   "status": "정상"
+  },
+  "전북특별자치도": {
+   "sido_code": "52",
+   "names": 10571,
+   "included": 2504,
+   "inclusion_rate": 0.2369,
+   "not_included_rate": 0.7631,
+   "inclusion_ci95": [
+    0.2289,
+    0.2451
+   ],
+   "gil_names": 10569,
+   "gil_inclusion": 0.2369,
+   "beongil_names": 2,
+   "beongil_inclusion": 0.0,
+   "beongil_share_of_names": 0.0002,
+   "nodelink_links_assigned": 125042,
+   "mixed_prefix_links": 26273,
+   "status": "시군구 혼재 앞자리 있음"
+  }
+ }
+}

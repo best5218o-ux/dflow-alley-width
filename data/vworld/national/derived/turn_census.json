@@ -1,0 +1,202 @@
+{
+ "rule_commit": "d93d3d6",
+ "design_vehicles_rule_5_2": {
+  "대형자동차": {
+   "B": 2.5,
+   "L": 6.5,
+   "F": 2.5,
+   "R": 12.0,
+   "W_req_turn_m": 5.931,
+   "detail": {
+    "R_or": 10.087,
+    "R_ir": 7.587,
+    "R_oc": 13.519
+   }
+  },
+  "소형자동차": {
+   "B": 2.0,
+   "L": 3.7,
+   "F": 1.0,
+   "R": 7.0,
+   "W_req_turn_m": 3.634,
+   "detail": {
+    "R_or": 5.942,
+    "R_ir": 3.942,
+    "R_oc": 7.576
+   }
+  },
+  "승용자동차": {
+   "B": 1.7,
+   "L": 2.7,
+   "F": 0.8,
+   "R": 6.0,
+   "W_req_turn_m": 2.742,
+   "detail": {
+    "R_or": 5.358,
+    "R_ir": 3.658,
+    "R_oc": 6.4
+   }
+  }
+ },
+ "vehicle_specific_W_req": {
+  "P50": null,
+  "L50": null,
+  "A1": null,
+  "reason": "R·L·F 공란(선보고 §0-1)"
+ },
+ "national": {
+  "moves_after_exclusion": 2227815,
+  "sharp_moves": 379300,
+  "nodes_with_sharp_move": 283946,
+  "sharp_moves_with_turninfo_record": 1470,
+  "theta_bins": {
+   "0–30": 1420484,
+   "30–60": 56400,
+   "60–90": 371631,
+   "90–120": 349936,
+   "120–150": 26390,
+   "150–180.0001": 2974
+  },
+  "links": 1562356,
+  "links_R_not_computed(<20m)": 491682,
+  "links_R_lt_12": 25045,
+  "R_link_bins": {
+   "0–7": 2667,
+   "7–12": 22378,
+   "12–15": 13234,
+   "15–30": 85258,
+   "30–60": 178210,
+   "60–∞": 768927
+  },
+  "judgeable_sharp": 0,
+  "evidence_grade": "D",
+  "reason": "폭 속성 부재(표준노드링크) — 판정 보류"
+ },
+ "moves_total_before_exclusion": 2230134,
+ "excluded": {
+  "reverse_same_nodes": 770,
+  "same_name_theta_ge150": 1549
+ },
+ "targets": {
+  "서울 이태원동": {
+   "moves_after_exclusion": 175,
+   "sharp_moves": 27,
+   "nodes_with_sharp_move": 17,
+   "sharp_moves_with_turninfo_record": 0,
+   "theta_bins": {
+    "0–30": 113,
+    "30–60": 6,
+    "60–90": 29,
+    "90–120": 24,
+    "120–150": 2,
+    "150–180.0001": 1
+   },
+   "links": 123,
+   "links_R_not_computed(<20m)": 41,
+   "links_R_lt_12": 3,
+   "R_link_bins": {
+    "0–7": 0,
+    "7–12": 3,
+    "12–15": 2,
+    "15–30": 10,
+    "30–60": 16,
+    "60–∞": 51
+   },
+   "judgeable_sharp": 0,
+   "evidence_grade": "D",
+   "reason": "폭 속성 부재(표준노드링크) — 판정 보류",
+   "note": "반경 500 m 탐색창 값이며 도시 대표값이 아니다",
+   "sharp_curve_links_widening_ref_large": "규칙 제22조 대형자동차 표 범위(R≥15 m) 밖"
+  },
+  "부산 초량동": {
+   "moves_after_exclusion": 252,
+   "sharp_moves": 54,
+   "nodes_with_sharp_move": 39,
+   "sharp_moves_with_turninfo_record": 1,
+   "theta_bins": {
+    "0–30": 151,
+    "30–60": 7,
+    "60–90": 40,
+    "90–120": 45,
+    "120–150": 7,
+    "150–180.0001": 2
+   },
+   "links": 169,
+   "links_R_not_computed(<20m)": 54,
+   "links_R_lt_12": 2,
+   "R_link_bins": {
+    "0–7": 1,
+    "7–12": 1,
+    "12–15": 0,
+    "15–30": 10,
+    "30–60": 13,
+    "60–∞": 90
+   },
+   "judgeable_sharp": 0,
+   "evidence_grade": "D",
+   "reason": "폭 속성 부재(표준노드링크) — 판정 보류",
+   "note": "반경 500 m 탐색창 값이며 도시 대표값이 아니다",
+   "sharp_curve_links_widening_ref_large": "규칙 제22조 대형자동차 표 범위(R≥15 m) 밖"
+  },
+  "대전 변동": {
+   "moves_after_exclusion": 151,
+   "sharp_moves": 27,
+   "nodes_with_sharp_move": 17,
+   "sharp_moves_with_turninfo_record": 0,
+   "theta_bins": {
+    "0–30": 96,
+    "30–60": 8,
+    "60–90": 20,
+    "90–120": 21,
+    "120–150": 6,
+    "150–180.0001": 0
+   },
+   "links": 102,
+   "links_R_not_computed(<20m)": 25,
+   "links_R_lt_12": 0,
+   "R_link_bins": {
+    "0–7": 0,
+    "7–12": 0,
+    "12–15": 0,
+    "15–30": 1,
+    "30–60": 6,
+    "60–∞": 70
+   },
+   "judgeable_sharp": 0,
+   "evidence_grade": "D",
+   "reason": "폭 속성 부재(표준노드링크) — 판정 보류",
+   "note": "반경 500 m 탐색창 값이며 도시 대표값이 아니다",
+   "sharp_curve_links_widening_ref_large": null
+  },
+  "청주 내덕동": {
+   "moves_after_exclusion": 199,
+   "sharp_moves": 31,
+   "nodes_with_sharp_move": 23,
+   "sharp_moves_with_turninfo_record": 0,
+   "theta_bins": {
+    "0–30": 128,
+    "30–60": 3,
+    "60–90": 37,
+    "90–120": 29,
+    "120–150": 2,
+    "150–180.0001": 0
+   },
+   "links": 157,
+   "links_R_not_computed(<20m)": 44,
+   "links_R_lt_12": 2,
+   "R_link_bins": {
+    "0–7": 0,
+    "7–12": 2,
+    "12–15": 2,
+    "15–30": 2,
+    "30–60": 6,
+    "60–∞": 101
+   },
+   "judgeable_sharp": 0,
+   "evidence_grade": "D",
+   "reason": "폭 속성 부재(표준노드링크) — 판정 보류",
+   "note": "반경 500 m 탐색창 값이며 도시 대표값이 아니다",
+   "sharp_curve_links_widening_ref_large": "규칙 제22조 대형자동차 표 범위(R≥15 m) 밖"
+  }
+ }
+}

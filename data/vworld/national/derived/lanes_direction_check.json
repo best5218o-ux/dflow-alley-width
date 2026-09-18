@@ -1,0 +1,149 @@
+{
+ "method": "same ROAD_NAME + opposite direction + nearest within 30 m",
+ "scopes": {
+  "서울 용산구": {
+   "l1_links": 1011,
+   "l1_no_road_name": 0,
+   "with_opposite_same_name_pair": 996,
+   "pair_pct": 98.52,
+   "pair_distance_bins_m": [
+    0,
+    1,
+    3,
+    5,
+    7,
+    9,
+    12,
+    15,
+    20,
+    30
+   ],
+   "pair_distance_hist": [
+    1,
+    1,
+    0,
+    38,
+    7,
+    395,
+    437,
+    43,
+    44
+   ],
+   "pair_distance_median_m": 12.0,
+   "partner_lanes": {
+    "1": 925,
+    "2": 30,
+    "3": 22,
+    "4": 19
+   }
+  },
+  "부산 동구": {
+   "l1_links": 595,
+   "l1_no_road_name": 0,
+   "with_opposite_same_name_pair": 588,
+   "pair_pct": 98.82,
+   "pair_distance_bins_m": [
+    0,
+    1,
+    3,
+    5,
+    7,
+    9,
+    12,
+    15,
+    20,
+    30
+   ],
+   "pair_distance_hist": [
+    0,
+    0,
+    1,
+    38,
+    6,
+    258,
+    258,
+    16,
+    8
+   ],
+   "pair_distance_median_m": 12.0,
+   "partner_lanes": {
+    "1": 567,
+    "2": 15,
+    "4": 5,
+    "5": 1
+   }
+  },
+  "대전 서구": {
+   "l1_links": 2939,
+   "l1_no_road_name": 0,
+   "with_opposite_same_name_pair": 2931,
+   "pair_pct": 99.73,
+   "pair_distance_bins_m": [
+    0,
+    1,
+    3,
+    5,
+    7,
+    9,
+    12,
+    15,
+    20,
+    30
+   ],
+   "pair_distance_hist": [
+    0,
+    5,
+    76,
+    232,
+    47,
+    849,
+    1611,
+    65,
+    19
+   ],
+   "pair_distance_median_m": 12.0,
+   "partner_lanes": {
+    "1": 2789,
+    "2": 113,
+    "3": 16,
+    "4": 8,
+    "5": 5
+   }
+  },
+  "청주 청원구": {
+   "l1_links": 4947,
+   "l1_no_road_name": 0,
+   "with_opposite_same_name_pair": 4930,
+   "pair_pct": 99.66,
+   "pair_distance_bins_m": [
+    0,
+    1,
+    3,
+    5,
+    7,
+    9,
+    12,
+    15,
+    20,
+    30
+   ],
+   "pair_distance_hist": [
+    0,
+    0,
+    40,
+    359,
+    101,
+    2166,
+    2098,
+    78,
+    49
+   ],
+   "pair_distance_median_m": 12.0,
+   "partner_lanes": {
+    "1": 4773,
+    "2": 137,
+    "3": 20
+   }
+  }
+ }
+}

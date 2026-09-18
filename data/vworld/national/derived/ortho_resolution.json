@@ -1,0 +1,499 @@
+{
+ "rule_commit": "cadef64",
+ "sites": 26,
+ "mean_lat": 36.3456,
+ "tile_pixel_spacing_m": {
+  "18": 0.481,
+  "19": 0.2405,
+  "20": 0.1202
+ },
+ "z20_tiles_available": 0,
+ "R_z19_median": 1.6515,
+ "R_z20_median": null,
+ "native_zoom_by_rule": 19,
+ "native_pixel_spacing_m": 0.2405,
+ "reading_width_low_m": [
+  3,
+  3,
+  5,
+  3,
+  4,
+  6,
+  5,
+  5,
+  5,
+  6
+ ],
+ "reading_width_high_m": [
+  4,
+  4,
+  7,
+  4,
+  5,
+  7,
+  8,
+  7,
+  6,
+  7
+ ],
+ "reading_width_low_px": [
+  12.5,
+  12.5,
+  20.8,
+  12.5,
+  16.6,
+  24.9,
+  20.8,
+  20.8,
+  20.8,
+  24.9
+ ],
+ "reading_width_low_px_median": 20.8,
+ "M_gate": "해상도상 가능",
+ "road_bt_ref_px_median_unit_unconfirmed": 20.8,
+ "note": "판독 폭은 사람 판독(C) 10조각 — 검증셋, 학습에 쓰지 않음 · 수목·그림자 가림은 가부 판정과 별도",
+ "rows": [
+  {
+   "연번": 1,
+   "piece": "계족로330번길",
+   "lat": 36.34213,
+   "R_z19": 1.54,
+   "z19_status": {
+    "z": 19,
+    "hi": "cache",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 2,
+   "piece": "동대전로110번길",
+   "lat": 36.33215,
+   "R_z19": 1.787,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 3,
+   "piece": "역전시장길7",
+   "lat": 36.33104,
+   "R_z19": 1.628,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 5,
+   "piece": "목척3길",
+   "lat": 36.33069,
+   "R_z19": 1.669,
+   "z19_status": {
+    "z": 19,
+    "hi": "cache",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 6,
+   "piece": "진수길",
+   "lat": 36.33508,
+   "R_z19": 1.15,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 7,
+   "piece": "대종로601번길",
+   "lat": 36.33478,
+   "R_z19": 1.591,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 9,
+   "piece": "대전천북로116번길",
+   "lat": 36.34002,
+   "R_z19": 1.83,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 10,
+   "piece": "갈마중로28번길",
+   "lat": 36.3474,
+   "R_z19": 1.727,
+   "z19_status": {
+    "z": 19,
+    "hi": "cache",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 11,
+   "piece": "문정로170번길",
+   "lat": 36.34936,
+   "R_z19": 1.717,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 12,
+   "piece": "문정로112번안길",
+   "lat": 36.34569,
+   "R_z19": 1.696,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 14,
+   "piece": "계족산로5번안길 22",
+   "lat": 36.36707,
+   "R_z19": 1.867,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 15,
+   "piece": "대전로1375번길 22-14",
+   "lat": 36.37727,
+   "R_z19": 1.488,
+   "z19_status": {
+    "z": 19,
+    "hi": "cache",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 16,
+   "piece": "대전로1397번길 50",
+   "lat": 36.37957,
+   "R_z19": 1.651,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 17,
+   "piece": "청자마을길 28",
+   "lat": 36.4372,
+   "R_z19": 2.011,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 18,
+   "piece": "태양마을길 28",
+   "lat": 36.43817,
+   "R_z19": 1.593,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 19,
+   "piece": "동심9길",
+   "lat": 36.36468,
+   "R_z19": 1.663,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 20,
+   "piece": "늘봄2길",
+   "lat": 36.36468,
+   "R_z19": 1.918,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 23,
+   "piece": "동춘당로31번길",
+   "lat": 36.3582,
+   "R_z19": 1.652,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 27,
+   "piece": "도솔로175번길",
+   "lat": 36.32639,
+   "R_z19": 1.579,
+   "z19_status": {
+    "z": 19,
+    "hi": "cache",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 28,
+   "piece": "변정1길",
+   "lat": 36.32486,
+   "R_z19": 1.693,
+   "z19_status": {
+    "z": 19,
+    "hi": "cache",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 29,
+   "piece": "당디로124번길",
+   "lat": 36.3158,
+   "R_z19": 1.591,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 31,
+   "piece": "충무로68번길",
+   "lat": 36.31692,
+   "R_z19": 1.878,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 32,
+   "piece": "보문산공원로530번길",
+   "lat": 36.31462,
+   "R_z19": 1.628,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 33,
+   "piece": "대둔산로414번길",
+   "lat": 36.30694,
+   "R_z19": 1.471,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 35,
+   "piece": "보문산로122번길",
+   "lat": 36.30467,
+   "R_z19": 1.415,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  },
+  {
+   "연번": 36,
+   "piece": "계백로1158번길",
+   "lat": 36.30054,
+   "R_z19": 1.584,
+   "z19_status": {
+    "z": 19,
+    "hi": "fetched",
+    "lo": "fetched"
+   },
+   "R_z20": null,
+   "z20_status": {
+    "z": 20,
+    "hi": "UnidentifiedImageError",
+    "lo": "cache"
+   }
+  }
+ ]
+}

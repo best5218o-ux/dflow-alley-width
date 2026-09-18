@@ -24,6 +24,8 @@ from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+from _rawio import open_raw, raw_exists  # 2026-09-18: .jsonl 없으면 .jsonl.gz
+
 import numpy as np
 import pyogrio
 import shapely
@@ -39,7 +41,9 @@ PREFIX = ROOT / "data/vworld/national/derived/nodelink_prefix_sido.json"
 LINK = ROOT / "data/vworld/national/raw/NODELINKDATA_20260914/MOCT_LINK.shp"
 DER = ROOT / "data/vworld/national/derived"
 DELIV = ROOT / "deliverables"
-KEY = os.environ.get("VWORLD_APIKEY", "")
+KEY = os.environ.get("VWORLD_APIKEY", "").strip()
+# 2026-09-18: 개발키는 발급 시 등록한 도메인이 같이 가야 한다(없으면 ServiceExceptionReport). 앞뒤 공백도 걷어낸다.
+DOMAIN = os.environ.get("VWORLD_DOMAIN", "localhost")
 CAP = 1000
 lock = threading.Lock()
 
@@ -50,7 +54,7 @@ def mask(s):
 
 def wfs(typename, bbox, props, maxf=CAP):
     q = {"SERVICE": "WFS", "REQUEST": "GetFeature", "VERSION": "1.1.0", "TYPENAME": typename, "OUTPUT": "application/json",
-         "MAXFEATURES": str(maxf), "SRSNAME": "EPSG:900913", "PROPERTYNAME": props, "BBOX": ",".join(f"{v}" for v in bbox) + ",EPSG:900913", "key": KEY}
+         "MAXFEATURES": str(maxf), "SRSNAME": "EPSG:900913", "PROPERTYNAME": props, "BBOX": ",".join(f"{v}" for v in bbox) + ",EPSG:900913", "key": KEY, "domain": DOMAIN}
     url = "https://api.vworld.kr/req/wfs?" + urllib.parse.urlencode(q)
     err = None
     for attempt in range(3):
@@ -70,7 +74,7 @@ def fetch():
     X0, Y0 = t.transform(124.5, 33.0)
     X1, Y1 = t.transform(132.0, 38.7)
     STEP = 20000.0
-    done = {json.loads(l)["cell"] for l in RAW2.open(encoding="utf-8")} if RAW2.exists() else set()
+    done = {json.loads(l)["cell"] for l in open_raw(RAW2)} if raw_exists(RAW2) else set()
     if FAIL2.exists():
         FAIL2.unlink()
     queue = [(x, y, min(x + STEP, X1), min(y + STEP, Y1)) for x in np.arange(X0, X1, STEP) for y in np.arange(Y0, Y1, STEP)]
@@ -137,7 +141,7 @@ def sido():
 def agg():
     # 도로명주소도로(길이)
     seen, sprd = set(), []
-    for line in RAW2.open(encoding="utf-8"):
+    for line in open_raw(RAW2):
         for p in json.loads(line)["rows"]:
             k = (str(p.get("sig_cd")), str(p.get("rds_man_no")))
             if k in seen:

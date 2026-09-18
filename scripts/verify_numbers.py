@@ -13,6 +13,10 @@ import sys
 
 
 def body_text(hwpx):
+    # 2026-09-18: 제출본이 .hwp(바이너리)라 hwpx 대신 본문 텍스트 추출본(.txt)도 받는다 — docs/서식2_본문_2026-09-18.txt
+    #   (.hwp 5.0 BodyText/Section0 의 문단 텍스트를 줄 단위로 뽑은 것 · 개인정보가 있는 서식1·3·4·5 는 넣지 않았다)
+    if str(hwpx).lower().endswith(".txt"):
+        return pathlib.Path(hwpx).read_text(encoding="utf-8")
     import zipfile
     x = zipfile.ZipFile(hwpx).read("Contents/section0.xml").decode("utf-8")
     ps = re.findall(r"<hp:p\b.*?</hp:p>", x, re.S)

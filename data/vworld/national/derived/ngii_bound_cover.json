@@ -1,0 +1,335 @@
+[
+ {
+  "piece": "계족로330번길",
+  "rvwd": 4.5,
+  "rddv": "RDD000",
+  "len_m": 56.0,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 17.7,
+  "poly_area_covering": 20113.0
+ },
+ {
+  "piece": "계족로336번길",
+  "rvwd": 6,
+  "rddv": "RDD000",
+  "len_m": 38.0,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 6.1,
+  "poly_area_covering": 23458.0
+ },
+ {
+  "piece": "동대전로110번길",
+  "rvwd": 7.6,
+  "rddv": "RDD000",
+  "len_m": 42.3,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 6.4,
+  "poly_area_covering": 21156.0
+ },
+ {
+  "piece": "역전시장길7",
+  "rvwd": 5.9,
+  "rddv": "RDD000",
+  "len_m": 19.8,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 18.7,
+  "poly_area_covering": 27687.0
+ },
+ {
+  "piece": "역전시장길75",
+  "rvwd": 6.9,
+  "rddv": "RDD000",
+  "len_m": 44.6,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 17.3,
+  "poly_area_covering": 14813.0
+ },
+ {
+  "piece": "목척3길",
+  "rvwd": 8.2,
+  "rddv": "RDD000",
+  "len_m": 37.8,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 9.6,
+  "poly_area_covering": 20797.0
+ },
+ {
+  "piece": "목척5길",
+  "rvwd": 5,
+  "rddv": "RDD000",
+  "len_m": 18.3,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 11.6,
+  "poly_area_covering": 22223.0
+ },
+ {
+  "piece": "진수길",
+  "rvwd": 3,
+  "rddv": "RDD000",
+  "len_m": 78.7,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 7.7,
+  "poly_area_covering": 17703.0
+ },
+ {
+  "piece": "진보길",
+  "rvwd": 3.5,
+  "rddv": "RDD000",
+  "len_m": 64.2,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 30.6,
+  "poly_area_covering": 24383.0
+ },
+ {
+  "piece": "수양길",
+  "rvwd": 2.5,
+  "rddv": "RDD008",
+  "len_m": 81.6,
+  "inside_frac": 0.0,
+  "line_d_to_point_m": 8.7,
+  "poly_area_covering": 18956.0
+ },
+ {
+  "piece": "대종로601번길",
+  "rvwd": 6.6,
+  "rddv": "RDD000",
+  "len_m": 86.1,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 14.7,
+  "poly_area_covering": 21261.0
+ },
+ {
+  "piece": "대전천북로116번길",
+  "rvwd": 4.7,
+  "rddv": "RDD000",
+  "len_m": 80.6,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 9.7,
+  "poly_area_covering": 19723.0
+ },
+ {
+  "piece": "갈마중로28번길",
+  "rvwd": 4,
+  "rddv": "RDD000",
+  "len_m": 63.1,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 11.2,
+  "poly_area_covering": 18988.0
+ },
+ {
+  "piece": "갈마중로30번길",
+  "rvwd": 6.7,
+  "rddv": "RDD000",
+  "len_m": 28.2,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 7.6,
+  "poly_area_covering": 15866.0
+ },
+ {
+  "piece": "갈마중로46번길",
+  "rvwd": 6,
+  "rddv": "RDD000",
+  "len_m": 71.3,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 10.1,
+  "poly_area_covering": 24321.0
+ },
+ {
+  "piece": "문정로170번길",
+  "rvwd": 8,
+  "rddv": "RDD000",
+  "len_m": 18.7,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 12.2,
+  "poly_area_covering": 33338.0
+ },
+ {
+  "piece": "문정로112번안길",
+  "rvwd": 8,
+  "rddv": "RDD000",
+  "len_m": 52.4,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 10.6,
+  "poly_area_covering": 21345.0
+ },
+ {
+  "piece": "남선로9번길",
+  "rvwd": 6,
+  "rddv": "RDD000",
+  "len_m": 34.6,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 9.9,
+  "poly_area_covering": 13130.0
+ },
+ {
+  "piece": "계족산로5번안길 22",
+  "rvwd": 15,
+  "rddv": "RDD000",
+  "len_m": 105.0,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 14.2,
+  "poly_area_covering": 30269.0
+ },
+ {
+  "piece": "계족로608번길 30",
+  "rvwd": 8,
+  "rddv": "RDD000",
+  "len_m": 22.2,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 12.0,
+  "poly_area_covering": 22463.0
+ },
+ {
+  "piece": "대전로1375번길 22-14",
+  "rvwd": 3,
+  "rddv": "RDD000",
+  "len_m": 28.0,
+  "inside_frac": 0.95,
+  "line_d_to_point_m": 9.8,
+  "poly_area_covering": 14331.0
+ },
+ {
+  "piece": "대전로1397번길 50",
+  "rvwd": 6,
+  "rddv": "RDD000",
+  "len_m": 9.1,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 6.9,
+  "poly_area_covering": 7406.0
+ },
+ {
+  "piece": "청자마을길 28",
+  "rvwd": 3.5,
+  "rddv": "RDD000",
+  "len_m": 55.6,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 8.2,
+  "poly_area_covering": 3452.0
+ },
+ {
+  "piece": "태양마을길 28",
+  "rvwd": 1.5,
+  "rddv": "RDD009",
+  "len_m": 14.7,
+  "inside_frac": 0.0,
+  "line_d_to_point_m": 5.6,
+  "poly_area_covering": 4698.0
+ },
+ {
+  "piece": "동심9길",
+  "rvwd": 3.5,
+  "rddv": "RDD000",
+  "len_m": 61.3,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 5.7,
+  "poly_area_covering": 16931.0
+ },
+ {
+  "piece": "늘봄2길",
+  "rvwd": 4,
+  "rddv": "RDD000",
+  "len_m": 73.7,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 6.6,
+  "poly_area_covering": 13119.0
+ },
+ {
+  "piece": "동춘당로31번길",
+  "rvwd": 7.3,
+  "rddv": "RDD000",
+  "len_m": 81.8,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 10.5,
+  "poly_area_covering": 14146.0
+ },
+ {
+  "piece": "도솔로175번길",
+  "rvwd": 6,
+  "rddv": "RDD000",
+  "len_m": 58.1,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 10.4,
+  "poly_area_covering": 13901.0
+ },
+ {
+  "piece": "변정1길",
+  "rvwd": 6,
+  "rddv": "RDD000",
+  "len_m": 65.1,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 21.8,
+  "poly_area_covering": 22454.0
+ },
+ {
+  "piece": "변정7길",
+  "rvwd": 3,
+  "rddv": "RDD000",
+  "len_m": 26.0,
+  "inside_frac": 0.95,
+  "line_d_to_point_m": 8.7,
+  "poly_area_covering": 18209.0
+ },
+ {
+  "piece": "당디로124번길",
+  "rvwd": 6.1,
+  "rddv": "RDD000",
+  "len_m": 36.4,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 12.4,
+  "poly_area_covering": 27377.0
+ },
+ {
+  "piece": "충무로68번길",
+  "rvwd": 5,
+  "rddv": "RDD000",
+  "len_m": 46.2,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 9.5,
+  "poly_area_covering": 24777.0
+ },
+ {
+  "piece": "보문산공원로530번길",
+  "rvwd": 4,
+  "rddv": "RDD000",
+  "len_m": 14.4,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 14.0,
+  "poly_area_covering": 15059.0
+ },
+ {
+  "piece": "대둔산로414번길",
+  "rvwd": 3.5,
+  "rddv": "RDD000",
+  "len_m": 135.2,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 7.7,
+  "poly_area_covering": 19680.0
+ },
+ {
+  "piece": "보문산로122번길",
+  "rvwd": 4,
+  "rddv": "RDD000",
+  "len_m": 4.6,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 9.5,
+  "poly_area_covering": 22332.0
+ },
+ {
+  "piece": "대둔산로386번길",
+  "rvwd": 3,
+  "rddv": "RDD000",
+  "len_m": 20.8,
+  "inside_frac": 0.95,
+  "line_d_to_point_m": 10.3,
+  "poly_area_covering": 21839.0
+ },
+ {
+  "piece": "계백로1158번길",
+  "rvwd": 8,
+  "rddv": "RDD000",
+  "len_m": 160.0,
+  "inside_frac": 1.0,
+  "line_d_to_point_m": 8.0,
+  "poly_area_covering": 26087.0
+ }
+]

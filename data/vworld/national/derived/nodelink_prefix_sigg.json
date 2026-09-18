@@ -1,0 +1,2840 @@
+{
+ "100": {
+  "samples": 20,
+  "values": {
+   "11110": 20
+  },
+  "assigned_sig": "11110",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "101": {
+  "samples": 20,
+  "values": {
+   "11140": 20
+  },
+  "assigned_sig": "11140",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "102": {
+  "samples": 20,
+  "values": {
+   "11140": 2,
+   "11170": 18
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "103": {
+  "samples": 20,
+  "values": {
+   "11200": 19,
+   "11140": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "104": {
+  "samples": 20,
+  "values": {
+   "11215": 19,
+   "11200+11215": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "105": {
+  "samples": 20,
+  "values": {
+   "11230": 20
+  },
+  "assigned_sig": "11230",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "106": {
+  "samples": 20,
+  "values": {
+   "11260": 20
+  },
+  "assigned_sig": "11260",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "107": {
+  "samples": 20,
+  "values": {
+   "11290": 20
+  },
+  "assigned_sig": "11290",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "108": {
+  "samples": 20,
+  "values": {
+   "11305": 19,
+   "11305+11320": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "109": {
+  "samples": 20,
+  "values": {
+   "11320": 20
+  },
+  "assigned_sig": "11320",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "110": {
+  "samples": 20,
+  "values": {
+   "11350": 20
+  },
+  "assigned_sig": "11350",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "111": {
+  "samples": 20,
+  "values": {
+   "11380": 20
+  },
+  "assigned_sig": "11380",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "112": {
+  "samples": 20,
+  "values": {
+   "11410": 18,
+   "11440": 1,
+   "11410+11440": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "113": {
+  "samples": 20,
+  "values": {
+   "11440": 20
+  },
+  "assigned_sig": "11440",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "114": {
+  "samples": 20,
+  "values": {
+   "11470": 18,
+   "11500": 1,
+   "11470+11500": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "115": {
+  "samples": 20,
+  "values": {
+   "11500": 19,
+   "11470": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "116": {
+  "samples": 20,
+  "values": {
+   "11530": 19,
+   "11470": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "117": {
+  "samples": 20,
+  "values": {
+   "11545": 20
+  },
+  "assigned_sig": "11545",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "118": {
+  "samples": 20,
+  "values": {
+   "11560": 20
+  },
+  "assigned_sig": "11560",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "119": {
+  "samples": 20,
+  "values": {
+   "11590": 19,
+   "11560": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "120": {
+  "samples": 20,
+  "values": {
+   "11620": 19,
+   "11545+11620": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "121": {
+  "samples": 20,
+  "values": {
+   "11650": 19,
+   "11590": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "122": {
+  "samples": 20,
+  "values": {
+   "11680": 19,
+   "11650": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "123": {
+  "samples": 20,
+  "values": {
+   "11710": 20
+  },
+  "assigned_sig": "11710",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "124": {
+  "samples": 20,
+  "values": {
+   "11740": 20
+  },
+  "assigned_sig": "11740",
+  "sido_candidates": [
+   "11"
+  ],
+  "all_failed": false
+ },
+ "130": {
+  "samples": 20,
+  "values": {
+   "26110": 16,
+   "26110+26140": 3,
+   "26170": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "131": {
+  "samples": 20,
+  "values": {
+   "26140": 19,
+   "26110": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "132": {
+  "samples": 20,
+  "values": {
+   "26170": 19,
+   "26170+26230": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "133": {
+  "samples": 20,
+  "values": {
+   "26200": 20
+  },
+  "assigned_sig": "26200",
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "134": {
+  "samples": 20,
+  "values": {
+   "26230": 18,
+   "26290": 1,
+   "26230+26530": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "135": {
+  "samples": 20,
+  "values": {
+   "26260": 20
+  },
+  "assigned_sig": "26260",
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "136": {
+  "samples": 20,
+  "values": {
+   "26290": 19,
+   "없음": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "137": {
+  "samples": 20,
+  "values": {
+   "26320": 19,
+   "26260": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "138": {
+  "samples": 20,
+  "values": {
+   "26350": 20
+  },
+  "assigned_sig": "26350",
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "139": {
+  "samples": 20,
+  "values": {
+   "26380": 18,
+   "없음": 1,
+   "26140": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "140": {
+  "samples": 20,
+  "values": {
+   "26410": 20
+  },
+  "assigned_sig": "26410",
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "141": {
+  "samples": 20,
+  "values": {
+   "26440": 19,
+   "26440+48250": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "26",
+   "48"
+  ],
+  "all_failed": false
+ },
+ "142": {
+  "samples": 20,
+  "values": {
+   "26470": 18,
+   "26260+26470": 1,
+   "26260": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "143": {
+  "samples": 20,
+  "values": {
+   "26500": 19,
+   "없음": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "144": {
+  "samples": 20,
+  "values": {
+   "26530": 20
+  },
+  "assigned_sig": "26530",
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "145": {
+  "samples": 20,
+  "values": {
+   "26710": 20
+  },
+  "assigned_sig": "26710",
+  "sido_candidates": [
+   "26"
+  ],
+  "all_failed": false
+ },
+ "150": {
+  "samples": 20,
+  "values": {
+   "27110": 16,
+   "27110+27170": 2,
+   "27110+27200": 1,
+   "27140": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "27"
+  ],
+  "all_failed": false
+ },
+ "151": {
+  "samples": 20,
+  "values": {
+   "27140": 20
+  },
+  "assigned_sig": "27140",
+  "sido_candidates": [
+   "27"
+  ],
+  "all_failed": false
+ },
+ "152": {
+  "samples": 20,
+  "values": {
+   "27170": 19,
+   "27170+27230": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "27"
+  ],
+  "all_failed": false
+ },
+ "153": {
+  "samples": 20,
+  "values": {
+   "27200": 20
+  },
+  "assigned_sig": "27200",
+  "sido_candidates": [
+   "27"
+  ],
+  "all_failed": false
+ },
+ "154": {
+  "samples": 20,
+  "values": {
+   "27230": 20
+  },
+  "assigned_sig": "27230",
+  "sido_candidates": [
+   "27"
+  ],
+  "all_failed": false
+ },
+ "155": {
+  "samples": 20,
+  "values": {
+   "27260": 19,
+   "27140+27260": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "27"
+  ],
+  "all_failed": false
+ },
+ "156": {
+  "samples": 20,
+  "values": {
+   "27290": 20
+  },
+  "assigned_sig": "27290",
+  "sido_candidates": [
+   "27"
+  ],
+  "all_failed": false
+ },
+ "157": {
+  "samples": 20,
+  "values": {
+   "27710": 19,
+   "27170": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "27"
+  ],
+  "all_failed": false
+ },
+ "163": {
+  "samples": 20,
+  "values": {
+   "28177": 20
+  },
+  "assigned_sig": "28177",
+  "sido_candidates": [
+   "28"
+  ],
+  "all_failed": false
+ },
+ "164": {
+  "samples": 20,
+  "values": {
+   "28185": 20
+  },
+  "assigned_sig": "28185",
+  "sido_candidates": [
+   "28"
+  ],
+  "all_failed": false
+ },
+ "165": {
+  "samples": 20,
+  "values": {
+   "28200": 20
+  },
+  "assigned_sig": "28200",
+  "sido_candidates": [
+   "28"
+  ],
+  "all_failed": false
+ },
+ "166": {
+  "samples": 20,
+  "values": {
+   "28237": 20
+  },
+  "assigned_sig": "28237",
+  "sido_candidates": [
+   "28"
+  ],
+  "all_failed": false
+ },
+ "167": {
+  "samples": 20,
+  "values": {
+   "28245": 20
+  },
+  "assigned_sig": "28245",
+  "sido_candidates": [
+   "28"
+  ],
+  "all_failed": false
+ },
+ "169": {
+  "samples": 20,
+  "values": {
+   "28710": 20
+  },
+  "assigned_sig": "28710",
+  "sido_candidates": [
+   "28"
+  ],
+  "all_failed": false
+ },
+ "170": {
+  "samples": 20,
+  "values": {
+   "없음": 1,
+   "28720": 19
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "28"
+  ],
+  "all_failed": false
+ },
+ "171": {
+  "samples": 20,
+  "values": {
+   "28125": 20
+  },
+  "assigned_sig": "28125",
+  "sido_candidates": [
+   "28"
+  ],
+  "all_failed": false
+ },
+ "172": {
+  "samples": 20,
+  "values": {
+   "28155": 20
+  },
+  "assigned_sig": "28155",
+  "sido_candidates": [
+   "28"
+  ],
+  "all_failed": false
+ },
+ "173": {
+  "samples": 20,
+  "values": {
+   "28275": 20
+  },
+  "assigned_sig": "28275",
+  "sido_candidates": [
+   "28"
+  ],
+  "all_failed": false
+ },
+ "174": {
+  "samples": 20,
+  "values": {
+   "28290": 20
+  },
+  "assigned_sig": "28290",
+  "sido_candidates": [
+   "28"
+  ],
+  "all_failed": false
+ },
+ "175": {
+  "samples": 20,
+  "values": {
+   "12210": 18,
+   "12210+12300": 2
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "176": {
+  "samples": 20,
+  "values": {
+   "12240": 20
+  },
+  "assigned_sig": "12240",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "177": {
+  "samples": 20,
+  "values": {
+   "12270": 20
+  },
+  "assigned_sig": "12270",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "178": {
+  "samples": 20,
+  "values": {
+   "12300": 20
+  },
+  "assigned_sig": "12300",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "179": {
+  "samples": 20,
+  "values": {
+   "12330": 20
+  },
+  "assigned_sig": "12330",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "183": {
+  "samples": 20,
+  "values": {
+   "30110": 20
+  },
+  "assigned_sig": "30110",
+  "sido_candidates": [
+   "30"
+  ],
+  "all_failed": false
+ },
+ "184": {
+  "samples": 20,
+  "values": {
+   "30140": 20
+  },
+  "assigned_sig": "30140",
+  "sido_candidates": [
+   "30"
+  ],
+  "all_failed": false
+ },
+ "185": {
+  "samples": 20,
+  "values": {
+   "30170": 18,
+   "30200": 1,
+   "30140": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "30"
+  ],
+  "all_failed": false
+ },
+ "186": {
+  "samples": 20,
+  "values": {
+   "30200": 20
+  },
+  "assigned_sig": "30200",
+  "sido_candidates": [
+   "30"
+  ],
+  "all_failed": false
+ },
+ "187": {
+  "samples": 20,
+  "values": {
+   "30230": 20
+  },
+  "assigned_sig": "30230",
+  "sido_candidates": [
+   "30"
+  ],
+  "all_failed": false
+ },
+ "192": {
+  "samples": 20,
+  "values": {
+   "31110": 20
+  },
+  "assigned_sig": "31110",
+  "sido_candidates": [
+   "31"
+  ],
+  "all_failed": false
+ },
+ "193": {
+  "samples": 20,
+  "values": {
+   "31140": 19,
+   "없음": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "31"
+  ],
+  "all_failed": false
+ },
+ "194": {
+  "samples": 20,
+  "values": {
+   "31170": 20
+  },
+  "assigned_sig": "31170",
+  "sido_candidates": [
+   "31"
+  ],
+  "all_failed": false
+ },
+ "195": {
+  "samples": 20,
+  "values": {
+   "31200": 20
+  },
+  "assigned_sig": "31200",
+  "sido_candidates": [
+   "31"
+  ],
+  "all_failed": false
+ },
+ "196": {
+  "samples": 20,
+  "values": {
+   "31710": 20
+  },
+  "assigned_sig": "31710",
+  "sido_candidates": [
+   "31"
+  ],
+  "all_failed": false
+ },
+ "200": {
+  "samples": 20,
+  "values": {
+   "41111": 19,
+   "41111+41115": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "201": {
+  "samples": 20,
+  "values": {
+   "41113": 20
+  },
+  "assigned_sig": "41113",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "202": {
+  "samples": 20,
+  "values": {
+   "41115": 17,
+   "41111+41115": 1,
+   "41111": 2
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "203": {
+  "samples": 20,
+  "values": {
+   "41117": 20
+  },
+  "assigned_sig": "41117",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "204": {
+  "samples": 20,
+  "values": {
+   "41131": 19,
+   "41135": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "205": {
+  "samples": 20,
+  "values": {
+   "41133": 18,
+   "41131": 1,
+   "41131+41133": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "206": {
+  "samples": 20,
+  "values": {
+   "41135": 20
+  },
+  "assigned_sig": "41135",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "207": {
+  "samples": 20,
+  "values": {
+   "41150": 20
+  },
+  "assigned_sig": "41150",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "208": {
+  "samples": 20,
+  "values": {
+   "41171": 20
+  },
+  "assigned_sig": "41171",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "209": {
+  "samples": 20,
+  "values": {
+   "41173": 20
+  },
+  "assigned_sig": "41173",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "213": {
+  "samples": 20,
+  "values": {
+   "41210": 20
+  },
+  "assigned_sig": "41210",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "214": {
+  "samples": 20,
+  "values": {
+   "41220": 20
+  },
+  "assigned_sig": "41220",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "215": {
+  "samples": 20,
+  "values": {
+   "41250": 20
+  },
+  "assigned_sig": "41250",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "216": {
+  "samples": 20,
+  "values": {
+   "41271": 20
+  },
+  "assigned_sig": "41271",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "217": {
+  "samples": 20,
+  "values": {
+   "41273": 19,
+   "41271": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "218": {
+  "samples": 20,
+  "values": {
+   "41281": 20
+  },
+  "assigned_sig": "41281",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "219": {
+  "samples": 20,
+  "values": {
+   "41480": 1,
+   "41287": 19
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "220": {
+  "samples": 20,
+  "values": {
+   "41290": 20
+  },
+  "assigned_sig": "41290",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "221": {
+  "samples": 20,
+  "values": {
+   "41310": 19,
+   "41360": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "222": {
+  "samples": 20,
+  "values": {
+   "41360": 20
+  },
+  "assigned_sig": "41360",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "223": {
+  "samples": 20,
+  "values": {
+   "41370": 20
+  },
+  "assigned_sig": "41370",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "224": {
+  "samples": 20,
+  "values": {
+   "41390": 20
+  },
+  "assigned_sig": "41390",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "225": {
+  "samples": 20,
+  "values": {
+   "41410": 20
+  },
+  "assigned_sig": "41410",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "226": {
+  "samples": 20,
+  "values": {
+   "41430": 20
+  },
+  "assigned_sig": "41430",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "227": {
+  "samples": 20,
+  "values": {
+   "41450": 20
+  },
+  "assigned_sig": "41450",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "229": {
+  "samples": 20,
+  "values": {
+   "41480": 20
+  },
+  "assigned_sig": "41480",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "230": {
+  "samples": 20,
+  "values": {
+   "41500": 20
+  },
+  "assigned_sig": "41500",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "231": {
+  "samples": 20,
+  "values": {
+   "41550": 20
+  },
+  "assigned_sig": "41550",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "232": {
+  "samples": 20,
+  "values": {
+   "41570": 20
+  },
+  "assigned_sig": "41570",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "233": {
+  "samples": 20,
+  "values": {
+   "41597": 4,
+   "41591": 10,
+   "41593": 2,
+   "41117": 1,
+   "41595": 3
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "234": {
+  "samples": 20,
+  "values": {
+   "41610": 20
+  },
+  "assigned_sig": "41610",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "235": {
+  "samples": 20,
+  "values": {
+   "41630": 20
+  },
+  "assigned_sig": "41630",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "236": {
+  "samples": 20,
+  "values": {
+   "41650": 20
+  },
+  "assigned_sig": "41650",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "237": {
+  "samples": 20,
+  "values": {
+   "41670": 19,
+   "41830": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "238": {
+  "samples": 20,
+  "values": {
+   "41800": 20
+  },
+  "assigned_sig": "41800",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "239": {
+  "samples": 20,
+  "values": {
+   "41820": 20
+  },
+  "assigned_sig": "41820",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "240": {
+  "samples": 20,
+  "values": {
+   "41830": 20
+  },
+  "assigned_sig": "41830",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "241": {
+  "samples": 20,
+  "values": {
+   "41285": 20
+  },
+  "assigned_sig": "41285",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "242": {
+  "samples": 20,
+  "values": {
+   "41196": 4,
+   "41194": 5,
+   "41192": 11
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "243": {
+  "samples": 20,
+  "values": {
+   "41461": 20
+  },
+  "assigned_sig": "41461",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "244": {
+  "samples": 20,
+  "values": {
+   "41463": 20
+  },
+  "assigned_sig": "41463",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "245": {
+  "samples": 20,
+  "values": {
+   "41465": 20
+  },
+  "assigned_sig": "41465",
+  "sido_candidates": [
+   "41"
+  ],
+  "all_failed": false
+ },
+ "250": {
+  "samples": 20,
+  "values": {
+   "51110": 20
+  },
+  "assigned_sig": "51110",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "251": {
+  "samples": 20,
+  "values": {
+   "51130": 20
+  },
+  "assigned_sig": "51130",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "252": {
+  "samples": 20,
+  "values": {
+   "51150": 20
+  },
+  "assigned_sig": "51150",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "253": {
+  "samples": 20,
+  "values": {
+   "51170": 20
+  },
+  "assigned_sig": "51170",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "254": {
+  "samples": 20,
+  "values": {
+   "51190": 20
+  },
+  "assigned_sig": "51190",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "255": {
+  "samples": 20,
+  "values": {
+   "51210": 20
+  },
+  "assigned_sig": "51210",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "256": {
+  "samples": 20,
+  "values": {
+   "51230": 20
+  },
+  "assigned_sig": "51230",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "257": {
+  "samples": 20,
+  "values": {
+   "51720": 20
+  },
+  "assigned_sig": "51720",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "258": {
+  "samples": 20,
+  "values": {
+   "51730": 20
+  },
+  "assigned_sig": "51730",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "259": {
+  "samples": 20,
+  "values": {
+   "51750": 20
+  },
+  "assigned_sig": "51750",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "260": {
+  "samples": 20,
+  "values": {
+   "51760": 20
+  },
+  "assigned_sig": "51760",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "261": {
+  "samples": 20,
+  "values": {
+   "51770": 20
+  },
+  "assigned_sig": "51770",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "262": {
+  "samples": 20,
+  "values": {
+   "51780": 20
+  },
+  "assigned_sig": "51780",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "263": {
+  "samples": 20,
+  "values": {
+   "51790": 20
+  },
+  "assigned_sig": "51790",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "264": {
+  "samples": 20,
+  "values": {
+   "51800": 20
+  },
+  "assigned_sig": "51800",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "265": {
+  "samples": 20,
+  "values": {
+   "51810": 20
+  },
+  "assigned_sig": "51810",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "266": {
+  "samples": 20,
+  "values": {
+   "51820": 20
+  },
+  "assigned_sig": "51820",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "267": {
+  "samples": 20,
+  "values": {
+   "51830": 20
+  },
+  "assigned_sig": "51830",
+  "sido_candidates": [
+   "51"
+  ],
+  "all_failed": false
+ },
+ "270": {
+  "samples": 20,
+  "values": {
+   "43111": 19,
+   "43111+43112": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "271": {
+  "samples": 20,
+  "values": {
+   "43113": 19,
+   "43112+43113": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "272": {
+  "samples": 20,
+  "values": {
+   "43130": 20
+  },
+  "assigned_sig": "43130",
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "273": {
+  "samples": 20,
+  "values": {
+   "43150": 20
+  },
+  "assigned_sig": "43150",
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "275": {
+  "samples": 20,
+  "values": {
+   "43720": 20
+  },
+  "assigned_sig": "43720",
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "276": {
+  "samples": 20,
+  "values": {
+   "43730": 20
+  },
+  "assigned_sig": "43730",
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "277": {
+  "samples": 20,
+  "values": {
+   "43740": 20
+  },
+  "assigned_sig": "43740",
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "278": {
+  "samples": 20,
+  "values": {
+   "43745": 20
+  },
+  "assigned_sig": "43745",
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "279": {
+  "samples": 20,
+  "values": {
+   "43750": 20
+  },
+  "assigned_sig": "43750",
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "280": {
+  "samples": 20,
+  "values": {
+   "43760": 20
+  },
+  "assigned_sig": "43760",
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "281": {
+  "samples": 20,
+  "values": {
+   "43770": 20
+  },
+  "assigned_sig": "43770",
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "282": {
+  "samples": 20,
+  "values": {
+   "43800": 19,
+   "47280": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "43",
+   "47"
+  ],
+  "all_failed": false
+ },
+ "283": {
+  "samples": 20,
+  "values": {
+   "43112": 19,
+   "43111+43112": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "284": {
+  "samples": 20,
+  "values": {
+   "43114": 20
+  },
+  "assigned_sig": "43114",
+  "sido_candidates": [
+   "43"
+  ],
+  "all_failed": false
+ },
+ "286": {
+  "samples": 20,
+  "values": {
+   "44150": 20
+  },
+  "assigned_sig": "44150",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "287": {
+  "samples": 20,
+  "values": {
+   "44180": 20
+  },
+  "assigned_sig": "44180",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "288": {
+  "samples": 20,
+  "values": {
+   "44200": 20
+  },
+  "assigned_sig": "44200",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "289": {
+  "samples": 20,
+  "values": {
+   "44210": 20
+  },
+  "assigned_sig": "44210",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "290": {
+  "samples": 20,
+  "values": {
+   "44230": 20
+  },
+  "assigned_sig": "44230",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "291": {
+  "samples": 20,
+  "values": {
+   "44250": 20
+  },
+  "assigned_sig": "44250",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "292": {
+  "samples": 20,
+  "values": {
+   "44710": 20
+  },
+  "assigned_sig": "44710",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "294": {
+  "samples": 20,
+  "values": {
+   "44760": 20
+  },
+  "assigned_sig": "44760",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "295": {
+  "samples": 20,
+  "values": {
+   "44770": 20
+  },
+  "assigned_sig": "44770",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "296": {
+  "samples": 20,
+  "values": {
+   "44790": 20
+  },
+  "assigned_sig": "44790",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "297": {
+  "samples": 20,
+  "values": {
+   "44800": 20
+  },
+  "assigned_sig": "44800",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "298": {
+  "samples": 20,
+  "values": {
+   "44810": 20
+  },
+  "assigned_sig": "44810",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "299": {
+  "samples": 20,
+  "values": {
+   "44825": 20
+  },
+  "assigned_sig": "44825",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "300": {
+  "samples": 20,
+  "values": {
+   "44270": 20
+  },
+  "assigned_sig": "44270",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "301": {
+  "samples": 20,
+  "values": {
+   "44131": 20
+  },
+  "assigned_sig": "44131",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "302": {
+  "samples": 20,
+  "values": {
+   "44133": 20
+  },
+  "assigned_sig": "44133",
+  "sido_candidates": [
+   "44"
+  ],
+  "all_failed": false
+ },
+ "305": {
+  "samples": 20,
+  "values": {
+   "52111": 20
+  },
+  "assigned_sig": "52111",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "306": {
+  "samples": 20,
+  "values": {
+   "52113": 20
+  },
+  "assigned_sig": "52113",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "307": {
+  "samples": 20,
+  "values": {
+   "52130": 20
+  },
+  "assigned_sig": "52130",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "308": {
+  "samples": 20,
+  "values": {
+   "52140": 20
+  },
+  "assigned_sig": "52140",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "309": {
+  "samples": 20,
+  "values": {
+   "52180": 20
+  },
+  "assigned_sig": "52180",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "310": {
+  "samples": 20,
+  "values": {
+   "52190": 19,
+   "52190+52740": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "311": {
+  "samples": 20,
+  "values": {
+   "52210": 19,
+   "없음": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "312": {
+  "samples": 20,
+  "values": {
+   "52710": 20
+  },
+  "assigned_sig": "52710",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "313": {
+  "samples": 20,
+  "values": {
+   "52720": 20
+  },
+  "assigned_sig": "52720",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "314": {
+  "samples": 20,
+  "values": {
+   "52730": 20
+  },
+  "assigned_sig": "52730",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "315": {
+  "samples": 20,
+  "values": {
+   "52740": 20
+  },
+  "assigned_sig": "52740",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "316": {
+  "samples": 20,
+  "values": {
+   "52750": 20
+  },
+  "assigned_sig": "52750",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "317": {
+  "samples": 20,
+  "values": {
+   "52770": 20
+  },
+  "assigned_sig": "52770",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "318": {
+  "samples": 20,
+  "values": {
+   "52790": 20
+  },
+  "assigned_sig": "52790",
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "319": {
+  "samples": 20,
+  "values": {
+   "52800": 18,
+   "없음": 2
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "52"
+  ],
+  "all_failed": false
+ },
+ "324": {
+  "samples": 20,
+  "values": {
+   "12110": 20
+  },
+  "assigned_sig": "12110",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "325": {
+  "samples": 20,
+  "values": {
+   "12130": 19,
+   "없음": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "326": {
+  "samples": 20,
+  "values": {
+   "12150": 20
+  },
+  "assigned_sig": "12150",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "327": {
+  "samples": 20,
+  "values": {
+   "12170": 20
+  },
+  "assigned_sig": "12170",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "328": {
+  "samples": 20,
+  "values": {
+   "12190": 20
+  },
+  "assigned_sig": "12190",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "329": {
+  "samples": 20,
+  "values": {
+   "12710": 20
+  },
+  "assigned_sig": "12710",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "330": {
+  "samples": 20,
+  "values": {
+   "12720": 20
+  },
+  "assigned_sig": "12720",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "331": {
+  "samples": 20,
+  "values": {
+   "12730": 20
+  },
+  "assigned_sig": "12730",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "332": {
+  "samples": 20,
+  "values": {
+   "12740": 19,
+   "없음": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "333": {
+  "samples": 20,
+  "values": {
+   "12750": 20
+  },
+  "assigned_sig": "12750",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "334": {
+  "samples": 20,
+  "values": {
+   "12760": 20
+  },
+  "assigned_sig": "12760",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "335": {
+  "samples": 20,
+  "values": {
+   "12770": 20
+  },
+  "assigned_sig": "12770",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "336": {
+  "samples": 20,
+  "values": {
+   "12780": 20
+  },
+  "assigned_sig": "12780",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "337": {
+  "samples": 20,
+  "values": {
+   "12790": 20
+  },
+  "assigned_sig": "12790",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "338": {
+  "samples": 20,
+  "values": {
+   "12800": 20
+  },
+  "assigned_sig": "12800",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "339": {
+  "samples": 20,
+  "values": {
+   "12810": 20
+  },
+  "assigned_sig": "12810",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "340": {
+  "samples": 20,
+  "values": {
+   "12820": 20
+  },
+  "assigned_sig": "12820",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "341": {
+  "samples": 20,
+  "values": {
+   "12830": 20
+  },
+  "assigned_sig": "12830",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "342": {
+  "samples": 20,
+  "values": {
+   "12840": 20
+  },
+  "assigned_sig": "12840",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "343": {
+  "samples": 20,
+  "values": {
+   "12850": 19,
+   "없음": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "344": {
+  "samples": 20,
+  "values": {
+   "12860": 20
+  },
+  "assigned_sig": "12860",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "345": {
+  "samples": 20,
+  "values": {
+   "12870": 20
+  },
+  "assigned_sig": "12870",
+  "sido_candidates": [
+   "12"
+  ],
+  "all_failed": false
+ },
+ "350": {
+  "samples": 20,
+  "values": {
+   "47111": 19,
+   "47111+47113": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "351": {
+  "samples": 20,
+  "values": {
+   "47113": 20
+  },
+  "assigned_sig": "47113",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "352": {
+  "samples": 20,
+  "values": {
+   "47130": 20
+  },
+  "assigned_sig": "47130",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "353": {
+  "samples": 20,
+  "values": {
+   "47150": 19,
+   "47150+47190": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "354": {
+  "samples": 20,
+  "values": {
+   "47170": 20
+  },
+  "assigned_sig": "47170",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "355": {
+  "samples": 20,
+  "values": {
+   "47190": 20
+  },
+  "assigned_sig": "47190",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "356": {
+  "samples": 20,
+  "values": {
+   "47210": 20
+  },
+  "assigned_sig": "47210",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "357": {
+  "samples": 20,
+  "values": {
+   "47230": 20
+  },
+  "assigned_sig": "47230",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "358": {
+  "samples": 20,
+  "values": {
+   "47250": 20
+  },
+  "assigned_sig": "47250",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "359": {
+  "samples": 20,
+  "values": {
+   "47280": 20
+  },
+  "assigned_sig": "47280",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "360": {
+  "samples": 20,
+  "values": {
+   "47290": 20
+  },
+  "assigned_sig": "47290",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "361": {
+  "samples": 20,
+  "values": {
+   "27720": 20
+  },
+  "assigned_sig": "27720",
+  "sido_candidates": [
+   "27"
+  ],
+  "all_failed": false
+ },
+ "362": {
+  "samples": 20,
+  "values": {
+   "47730": 20
+  },
+  "assigned_sig": "47730",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "363": {
+  "samples": 20,
+  "values": {
+   "47750": 20
+  },
+  "assigned_sig": "47750",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "364": {
+  "samples": 20,
+  "values": {
+   "47760": 20
+  },
+  "assigned_sig": "47760",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "365": {
+  "samples": 20,
+  "values": {
+   "47770": 20
+  },
+  "assigned_sig": "47770",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "366": {
+  "samples": 20,
+  "values": {
+   "47820": 20
+  },
+  "assigned_sig": "47820",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "367": {
+  "samples": 20,
+  "values": {
+   "47830": 19,
+   "48890": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "47",
+   "48"
+  ],
+  "all_failed": false
+ },
+ "368": {
+  "samples": 20,
+  "values": {
+   "47840": 20
+  },
+  "assigned_sig": "47840",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "369": {
+  "samples": 20,
+  "values": {
+   "47850": 20
+  },
+  "assigned_sig": "47850",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "370": {
+  "samples": 20,
+  "values": {
+   "47900": 20
+  },
+  "assigned_sig": "47900",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "371": {
+  "samples": 20,
+  "values": {
+   "47920": 20
+  },
+  "assigned_sig": "47920",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "372": {
+  "samples": 20,
+  "values": {
+   "47930": 19,
+   "없음": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "373": {
+  "samples": 20,
+  "values": {
+   "47940": 20
+  },
+  "assigned_sig": "47940",
+  "sido_candidates": [
+   "47"
+  ],
+  "all_failed": false
+ },
+ "381": {
+  "samples": 20,
+  "values": {
+   "48170": 20
+  },
+  "assigned_sig": "48170",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "383": {
+  "samples": 20,
+  "values": {
+   "48220": 20
+  },
+  "assigned_sig": "48220",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "384": {
+  "samples": 20,
+  "values": {
+   "48240": 20
+  },
+  "assigned_sig": "48240",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "385": {
+  "samples": 20,
+  "values": {
+   "48250": 20
+  },
+  "assigned_sig": "48250",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "386": {
+  "samples": 20,
+  "values": {
+   "48270": 20
+  },
+  "assigned_sig": "48270",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "387": {
+  "samples": 20,
+  "values": {
+   "48310": 19,
+   "없음": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "388": {
+  "samples": 20,
+  "values": {
+   "48330": 20
+  },
+  "assigned_sig": "48330",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "389": {
+  "samples": 20,
+  "values": {
+   "48720": 20
+  },
+  "assigned_sig": "48720",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "390": {
+  "samples": 20,
+  "values": {
+   "48730": 20
+  },
+  "assigned_sig": "48730",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "391": {
+  "samples": 20,
+  "values": {
+   "48740": 20
+  },
+  "assigned_sig": "48740",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "392": {
+  "samples": 20,
+  "values": {
+   "48820": 20
+  },
+  "assigned_sig": "48820",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "393": {
+  "samples": 20,
+  "values": {
+   "48840": 19,
+   "없음": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "394": {
+  "samples": 20,
+  "values": {
+   "48850": 20
+  },
+  "assigned_sig": "48850",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "395": {
+  "samples": 20,
+  "values": {
+   "48860": 20
+  },
+  "assigned_sig": "48860",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "396": {
+  "samples": 20,
+  "values": {
+   "48870": 20
+  },
+  "assigned_sig": "48870",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "397": {
+  "samples": 20,
+  "values": {
+   "48880": 20
+  },
+  "assigned_sig": "48880",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "398": {
+  "samples": 20,
+  "values": {
+   "48890": 20
+  },
+  "assigned_sig": "48890",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "405": {
+  "samples": 20,
+  "values": {
+   "50110": 20
+  },
+  "assigned_sig": "50110",
+  "sido_candidates": [
+   "50"
+  ],
+  "all_failed": false
+ },
+ "406": {
+  "samples": 20,
+  "values": {
+   "50130": 20
+  },
+  "assigned_sig": "50130",
+  "sido_candidates": [
+   "50"
+  ],
+  "all_failed": false
+ },
+ "413": {
+  "samples": 20,
+  "values": {
+   "36110": 19,
+   "30200": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "30",
+   "36"
+  ],
+  "all_failed": false
+ },
+ "414": {
+  "samples": 20,
+  "values": {
+   "48121": 19,
+   "48123": 1
+  },
+  "assigned_sig": null,
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "415": {
+  "samples": 20,
+  "values": {
+   "48123": 20
+  },
+  "assigned_sig": "48123",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "416": {
+  "samples": 20,
+  "values": {
+   "48125": 20
+  },
+  "assigned_sig": "48125",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "417": {
+  "samples": 20,
+  "values": {
+   "48127": 20
+  },
+  "assigned_sig": "48127",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ },
+ "418": {
+  "samples": 20,
+  "values": {
+   "48129": 20
+  },
+  "assigned_sig": "48129",
+  "sido_candidates": [
+   "48"
+  ],
+  "all_failed": false
+ }
+}

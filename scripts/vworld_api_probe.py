@@ -17,6 +17,7 @@ import datetime as dt
 import json
 import math
 import os
+import sys
 import time
 import urllib.error
 import urllib.parse
@@ -25,7 +26,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]   # 저장소 루트(scripts/ 한 단계 위)
 OUT = ROOT / "data/vworld/national/derived/vworld_probe.json"
-KEY = os.environ["VWORLD_APIKEY"]
+KEY = os.environ.get("VWORLD_APIKEY", "").strip()
+# 2026-09-18: 개발키는 발급 시 등록한 도메인이 같이 가야 한다(없으면 ServiceExceptionReport). 앞뒤 공백도 걷어낸다.
+DOMAIN = os.environ.get("VWORLD_DOMAIN", "localhost")
+if not KEY:
+    # 2026-09-18: 네트워크 단계(브이월드 WFS/WMS 조회)라 키 없이는 재수급할 수 없다. 원 실행(2026-09-15~16) 산출은
+    # data/vworld/national/derived/vworld_probe.json 에 있고, 검증은 scripts/verify_deliverables.py 로 한다.
+    sys.exit("VWORLD_APIKEY 없음 — 이 스크립트는 브이월드 API 조회 단계다. 원 실행 산출: data/vworld/national/derived/vworld_probe.json")
 UA = "Mozilla/5.0 (D-FLOW contest probe)"
 API = "https://api.vworld.kr"
 

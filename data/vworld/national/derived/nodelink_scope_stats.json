@@ -1,0 +1,474 @@
+{
+ "source": "MOCT_LINK.shp",
+ "scopes": {
+  "서울 용산구": {
+   "rows": 1978,
+   "LANES": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_RANK": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_NAME": {
+    "null_pct": 0.4,
+    "zero_pct": 0.0
+   },
+   "MAX_SPD": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "REST_VEH": {
+    "null_pct": 0.0,
+    "zero_pct": 95.15
+   },
+   "REST_W": {
+    "null_pct": 0.0,
+    "zero_pct": 100.0
+   },
+   "REST_H": {
+    "null_pct": 0.0,
+    "zero_pct": 90.6
+   },
+   "LENGTH": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   }
+  },
+  "부산 동래구": {
+   "rows": 1926,
+   "LANES": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_RANK": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_NAME": {
+    "null_pct": 0.88,
+    "zero_pct": 0.0
+   },
+   "MAX_SPD": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "REST_VEH": {
+    "null_pct": 0.0,
+    "zero_pct": 95.17
+   },
+   "REST_W": {
+    "null_pct": 0.0,
+    "zero_pct": 99.95
+   },
+   "REST_H": {
+    "null_pct": 0.0,
+    "zero_pct": 93.04
+   },
+   "LENGTH": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   }
+  },
+  "부산 전체": {
+   "rows": 42916,
+   "LANES": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_RANK": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_NAME": {
+    "null_pct": 5.95,
+    "zero_pct": 0.0
+   },
+   "MAX_SPD": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "REST_VEH": {
+    "null_pct": 0.0,
+    "zero_pct": 95.5
+   },
+   "REST_W": {
+    "null_pct": 0.0,
+    "zero_pct": 99.96
+   },
+   "REST_H": {
+    "null_pct": 0.0,
+    "zero_pct": 96.36
+   },
+   "LENGTH": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   }
+  },
+  "청주시(270·271·283·284)": {
+   "rows": 28832,
+   "LANES": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_RANK": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_NAME": {
+    "null_pct": 7.79,
+    "zero_pct": 0.0
+   },
+   "MAX_SPD": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "REST_VEH": {
+    "null_pct": 0.0,
+    "zero_pct": 96.4
+   },
+   "REST_W": {
+    "null_pct": 0.0,
+    "zero_pct": 99.92
+   },
+   "REST_H": {
+    "null_pct": 0.0,
+    "zero_pct": 97.21
+   },
+   "LENGTH": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   }
+  },
+  "대전 서구": {
+   "rows": 5642,
+   "LANES": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_RANK": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_NAME": {
+    "null_pct": 2.04,
+    "zero_pct": 0.0
+   },
+   "MAX_SPD": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "REST_VEH": {
+    "null_pct": 0.0,
+    "zero_pct": 98.88
+   },
+   "REST_W": {
+    "null_pct": 0.0,
+    "zero_pct": 100.0
+   },
+   "REST_H": {
+    "null_pct": 0.0,
+    "zero_pct": 97.31
+   },
+   "LENGTH": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   }
+  },
+  "전국": {
+   "rows": 1562356,
+   "LANES": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_RANK": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "ROAD_NAME": {
+    "null_pct": 4.43,
+    "zero_pct": 0.0
+   },
+   "MAX_SPD": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   },
+   "REST_VEH": {
+    "null_pct": 0.0,
+    "zero_pct": 96.97
+   },
+   "REST_W": {
+    "null_pct": 0.0,
+    "zero_pct": 99.98
+   },
+   "REST_H": {
+    "null_pct": 0.0,
+    "zero_pct": 97.43
+   },
+   "LENGTH": {
+    "null_pct": 0.0,
+    "zero_pct": 0.0
+   }
+  }
+ },
+ "seed_windows": [
+  {
+   "label": "서울 용산구 이태원동",
+   "seed_src": "수기 근사(이태원역)",
+   "radius_m": 500,
+   "links": 106,
+   "rank_counts": {
+    "104": 106
+   },
+   "prefixes": {
+    "102": 106
+   },
+   "busan_its_csv_links": null,
+   "rest_h_nonzero": 4,
+   "lanes_1": 81
+  },
+  {
+   "label": "대전 서구 변동",
+   "seed_src": "교량표준데이터 소재지 '서구 변동'(태평교)",
+   "radius_m": 500,
+   "links": 94,
+   "rank_counts": {
+    "104": 94
+   },
+   "prefixes": {
+    "185": 80,
+    "184": 14
+   },
+   "busan_its_csv_links": null,
+   "rest_h_nonzero": 5,
+   "lanes_1": 52
+  },
+  {
+   "label": "부산 후보1 동래구 온천동",
+   "seed_src": "교량표준데이터 소재지 '동래구 온천동' 6건 평균",
+   "radius_m": 500,
+   "links": 77,
+   "rank_counts": {
+    "102": 2,
+    "103": 17,
+    "104": 58
+   },
+   "prefixes": {
+    "135": 77
+   },
+   "busan_its_csv_links": 26,
+   "rest_h_nonzero": 7,
+   "lanes_1": 30
+  },
+  {
+   "label": "부산 후보2 동구 초량동 산복도로",
+   "seed_src": "수기 근사",
+   "radius_m": 500,
+   "links": 151,
+   "rank_counts": {
+    "103": 12,
+    "104": 107,
+    "107": 32
+   },
+   "prefixes": {
+    "132": 151
+   },
+   "busan_its_csv_links": 39,
+   "rest_h_nonzero": 0,
+   "lanes_1": 135
+  },
+  {
+   "label": "부산 후보3 부산진구 전포동",
+   "seed_src": "수기 근사",
+   "radius_m": 500,
+   "links": 194,
+   "rank_counts": {
+    "102": 3,
+    "104": 141,
+    "107": 50
+   },
+   "prefixes": {
+    "134": 194
+   },
+   "busan_its_csv_links": 62,
+   "rest_h_nonzero": 10,
+   "lanes_1": 150
+  },
+  {
+   "label": "청주 후보1 상당구 수동(수암골)",
+   "seed_src": "수기 근사",
+   "radius_m": 500,
+   "links": 82,
+   "rank_counts": {
+    "107": 82
+   },
+   "prefixes": {
+    "270": 82
+   },
+   "busan_its_csv_links": null,
+   "rest_h_nonzero": 2,
+   "lanes_1": 64
+  },
+  {
+   "label": "청주 후보2 서원구 모충동",
+   "seed_src": "수기 근사",
+   "radius_m": 500,
+   "links": 128,
+   "rank_counts": {
+    "106": 25,
+    "107": 103
+   },
+   "prefixes": {
+    "283": 128
+   },
+   "busan_its_csv_links": null,
+   "rest_h_nonzero": 0,
+   "lanes_1": 102
+  },
+  {
+   "label": "청주 후보3 청원구 내덕동",
+   "seed_src": "교량표준데이터 소재지 '청원구 내덕동' 3건 평균",
+   "radius_m": 500,
+   "links": 279,
+   "rank_counts": {
+    "105": 23,
+    "107": 256
+   },
+   "prefixes": {
+    "284": 236,
+    "271": 43
+   },
+   "busan_its_csv_links": null,
+   "rest_h_nonzero": 6,
+   "lanes_1": 184
+  }
+ ],
+ "seed_windows_vworld": [
+  {
+   "label": "서울 용산구 이태원동",
+   "seed_src": "브이월드 검색 API type=district",
+   "title": "서울특별시 용산구 이태원동",
+   "lonlat": [
+    126.9950627,
+    37.53251464
+   ],
+   "shift_m": 223,
+   "links": 123,
+   "busan_its_csv_links": null,
+   "rest_h_nonzero": 6,
+   "lanes_1": 96
+  },
+  {
+   "label": "대전 서구 변동",
+   "seed_src": "브이월드 검색 API type=district",
+   "title": "대전광역시 서구 변동",
+   "lonlat": [
+    127.3867477,
+    36.32581829
+   ],
+   "shift_m": 289,
+   "links": 102,
+   "busan_its_csv_links": null,
+   "rest_h_nonzero": 4,
+   "lanes_1": 39
+  },
+  {
+   "label": "부산 후보1 동래구 온천동",
+   "seed_src": "브이월드 검색 API type=district",
+   "title": "부산광역시 동래구 온천동",
+   "lonlat": [
+    129.0801103,
+    35.22005403
+   ],
+   "shift_m": 1468,
+   "links": 173,
+   "busan_its_csv_links": 50,
+   "rest_h_nonzero": 7,
+   "lanes_1": 102
+  },
+  {
+   "label": "부산 후보2 동구 초량동 산복도로",
+   "seed_src": "브이월드 검색 API type=district",
+   "title": "부산광역시 동구 초량동",
+   "lonlat": [
+    129.0369625,
+    35.11393599
+   ],
+   "shift_m": 560,
+   "links": 169,
+   "busan_its_csv_links": 46,
+   "rest_h_nonzero": 6,
+   "lanes_1": 127
+  },
+  {
+   "label": "부산 후보3 부산진구 전포동",
+   "seed_src": "브이월드 검색 API type=district",
+   "title": "부산광역시 부산진구 전포동",
+   "lonlat": [
+    129.0673912,
+    35.15434684
+   ],
+   "shift_m": 221,
+   "links": 168,
+   "busan_its_csv_links": 54,
+   "rest_h_nonzero": 6,
+   "lanes_1": 135
+  },
+  {
+   "label": "청주 후보1 상당구 수동(수암골)",
+   "seed_src": "브이월드 검색 API type=district",
+   "title": "충청북도 청주시 상당구 수동",
+   "lonlat": [
+    127.49568637144594,
+    36.64300854539127
+   ],
+   "shift_m": 279,
+   "links": 64,
+   "busan_its_csv_links": null,
+   "rest_h_nonzero": 0,
+   "lanes_1": 63
+  },
+  {
+   "label": "청주 후보2 서원구 모충동",
+   "seed_src": "브이월드 검색 API type=district",
+   "title": "충청북도 청주시 서원구 모충동",
+   "lonlat": [
+    127.4768389,
+    36.62771297
+   ],
+   "shift_m": 412,
+   "links": 197,
+   "busan_its_csv_links": null,
+   "rest_h_nonzero": 4,
+   "lanes_1": 152
+  },
+  {
+   "label": "청주 후보3 청원구 내덕동",
+   "seed_src": "브이월드 검색 API type=district",
+   "title": "충청북도 청주시 청원구 내덕동",
+   "lonlat": [
+    127.4826598,
+    36.65836046
+   ],
+   "shift_m": 755,
+   "links": 157,
+   "busan_its_csv_links": null,
+   "rest_h_nonzero": 0,
+   "lanes_1": 60
+  }
+ ],
+ "busan_its_csv": {
+  "ids": 9462,
+  "matched_in_20260914": 9115,
+  "rank_of_matched": {
+   "104": 7025,
+   "103": 707,
+   "107": 514,
+   "105": 391,
+   "102": 238,
+   "101": 238,
+   "106": 2
+  }
+ }
+}

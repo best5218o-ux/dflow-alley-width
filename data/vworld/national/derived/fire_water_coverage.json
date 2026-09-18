@@ -1,0 +1,151 @@
+{
+ "source": {
+  "portal": "data.go.kr 15034538 → fileData uddi:d3b8e2ef-f159-43c8-9a9c-cf2effd16941",
+  "provider": "소방청",
+  "portal_modified": "2024-02-13",
+  "portal_rows": 199507,
+  "file": "std_firewater_20240213.csv",
+  "sha256": "e51d718fba077541f4b9aa4c8b667f43ba2cb7cd28badc7354def27c6c3630a1",
+  "reference_date_values": [
+   "2024-02-07"
+  ]
+ },
+ "national": {
+  "rows": 199507,
+  "valid_latlon": 199506,
+  "sido_count": 17
+ },
+ "by_sido": {
+  "강원특별자치도": {
+   "rows": 9323,
+   "valid_latlon": 9323
+  },
+  "경기도": {
+   "rows": 19018,
+   "valid_latlon": 19018
+  },
+  "경상남도": {
+   "rows": 12507,
+   "valid_latlon": 12507
+  },
+  "경상북도": {
+   "rows": 12647,
+   "valid_latlon": 12647
+  },
+  "광주광역시": {
+   "rows": 5002,
+   "valid_latlon": 5002
+  },
+  "대구광역시": {
+   "rows": 7215,
+   "valid_latlon": 7215
+  },
+  "대전광역시": {
+   "rows": 3422,
+   "valid_latlon": 3422
+  },
+  "부산광역시": {
+   "rows": 11207,
+   "valid_latlon": 11207
+  },
+  "서울특별시": {
+   "rows": 62827,
+   "valid_latlon": 62827
+  },
+  "세종특별자치시": {
+   "rows": 1755,
+   "valid_latlon": 1755
+  },
+  "울산광역시": {
+   "rows": 3481,
+   "valid_latlon": 3481
+  },
+  "인천광역시": {
+   "rows": 10848,
+   "valid_latlon": 10848
+  },
+  "전라남도": {
+   "rows": 13040,
+   "valid_latlon": 13039
+  },
+  "전북특별자치도": {
+   "rows": 9833,
+   "valid_latlon": 9833
+  },
+  "제주특별자치도": {
+   "rows": 2764,
+   "valid_latlon": 2764
+  },
+  "충청남도": {
+   "rows": 8127,
+   "valid_latlon": 8127
+  },
+  "충청북도": {
+   "rows": 6491,
+   "valid_latlon": 6491
+  }
+ },
+ "facility_type_code_meaning": "미정의(파일·포털 항목설명에 없음) — 코드별 건수만 기록",
+ "targets": {
+  "서울 이태원동": {
+   "sido_scope": "서울특별시",
+   "scope_rows": 62827,
+   "scope_valid_latlon": 62827,
+   "window_radius_m": 500.0,
+   "seed_query": "서울 용산구 이태원동",
+   "within_window": 175,
+   "within_window_by_type_code": {
+    "2": 141,
+    "1": 29,
+    "6": 5
+   },
+   "geocoding_needed": 0,
+   "water_reach_status_default": "NOT_EVALUATED(전개 지점 확정 후 2차 평가)"
+  },
+  "부산 초량동": {
+   "sido_scope": "부산광역시",
+   "scope_rows": 11207,
+   "scope_valid_latlon": 11207,
+   "window_radius_m": 500.0,
+   "seed_query": "부산 동구 초량동",
+   "within_window": 7,
+   "within_window_by_type_code": {
+    "5": 3,
+    "2": 2,
+    "6": 2
+   },
+   "geocoding_needed": 0,
+   "water_reach_status_default": "NOT_EVALUATED(전개 지점 확정 후 2차 평가)"
+  },
+  "대전 변동": {
+   "sido_scope": "대전광역시",
+   "scope_rows": 3422,
+   "scope_valid_latlon": 3422,
+   "window_radius_m": 500.0,
+   "seed_query": "대전 서구 변동",
+   "within_window": 11,
+   "within_window_by_type_code": {
+    "2": 6,
+    "1": 4,
+    "6": 1
+   },
+   "geocoding_needed": 0,
+   "water_reach_status_default": "NOT_EVALUATED(전개 지점 확정 후 2차 평가)"
+  },
+  "청주 내덕동": {
+   "sido_scope": "충청북도 · 시군구명⊃청주",
+   "scope_rows": 2413,
+   "scope_valid_latlon": 2413,
+   "window_radius_m": 500.0,
+   "seed_query": "청주 청원구 내덕동",
+   "within_window": 18,
+   "within_window_by_type_code": {
+    "1": 15,
+    "6": 2,
+    "2": 1
+   },
+   "geocoding_needed": 0,
+   "water_reach_status_default": "NOT_EVALUATED(전개 지점 확정 후 2차 평가)"
+  }
+ }
+}

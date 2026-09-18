@@ -1,0 +1,297 @@
+{
+ "rule_commit": "223da5e",
+ "sop_ref": "소방청, 재난현장 표준작전절차, 2026.5, SOP 200 제3장 3.1",
+ "source_type": "SYNTHETIC_EVENT",
+ "scenario_params_are_not_measurements": true,
+ "base_conditions": "2안과 같음(사람 확인 해제 2건)",
+ "released_turns": [
+  "1020003004:1020010702->1020011904",
+  "1020020003:1020009502->1020008801"
+ ],
+ "hydrant": {
+  "file": "서울시 소방재난본부_소방용수시설_20251231.csv",
+  "rows": 60171,
+  "coord_excluded": 139,
+  "within_1500m": 754,
+  "type_code_counts_within_1500m": {
+   "1": 574,
+   "2": 175,
+   "4": 4,
+   "3": 1
+  },
+  "usable_flag_all_blank": true
+ },
+ "candidates": {
+  "count": 16,
+  "hop_counts": {
+   "3": 10,
+   "2": 4,
+   "1": 2
+  }
+ },
+ "sop_conditions": [
+  {
+   "no": 1,
+   "clause": "회차에 용이한 장소(3.1.2.1)",
+   "status": "보류 D",
+   "used_as": "잠금 사유 기록(필터 아님)",
+   "data": "노드링크·폭 없음"
+  },
+  {
+   "no": 2,
+   "clause": "소화전 인근(3.1.2.1)",
+   "status": "판정",
+   "used_as": "순위 1",
+   "data": "서울 소방용수시설 2025-12-31"
+  },
+  {
+   "no": 3,
+   "clause": "선착대 퇴각에 장애 없음(3.1.2.1)",
+   "status": "판정",
+   "used_as": "필터",
+   "data": "펌프차 경로·전개 링크"
+  },
+  {
+   "no": 4,
+   "clause": "특수 소방차량 진입에 장애 없음(3.1.2.1)",
+   "status": "부분 C",
+   "used_as": "필터(잔여 차로 ≥ 1)",
+   "data": "LANES·폭 없음"
+  },
+  {
+   "no": 5,
+   "clause": "후착대 배치 공간 고려(3.1.1.1)",
+   "status": "부분 C",
+   "used_as": "필터",
+   "data": "경로·차로수"
+  }
+ ],
+ "pump": {
+  "status": "확정",
+  "slot": 2,
+  "delay_min": 10,
+  "deploy_link": "1020009603",
+  "reason": null
+ },
+ "pump_entry_change": {
+  "arm2_slot": 5,
+  "arm2_delay_min": 40,
+  "arm3_slot": 2,
+  "arm3_delay_min": 10
+ },
+ "ambulances": {
+  "placed": 3,
+  "unplaced": 0,
+  "delay_distribution_min": [
+   10,
+   20,
+   20
+  ],
+  "staging": [
+   {
+    "slot": 2,
+    "staging_link": "1020011201",
+    "wait_slots": 4,
+    "wait_min": 40,
+    "hydrant_dist_m": 17.3,
+    "hop": 2,
+    "route_links": 9,
+    "sop_locks": [
+     "SOP 3.1.2.1 회차에 용이한 장소: 판정 보류(D) — 가용 폭 부재, 지휘관 확인 필요"
+    ],
+    "status": "조건부 권고(지휘관 확인)"
+   },
+   {
+    "slot": 3,
+    "staging_link": "1020011105",
+    "wait_slots": 3,
+    "wait_min": 30,
+    "hydrant_dist_m": 20.0,
+    "hop": 3,
+    "route_links": 27,
+    "sop_locks": [
+     "SOP 3.1.2.1 회차에 용이한 장소: 판정 보류(D) — 가용 폭 부재, 지휘관 확인 필요"
+    ],
+    "status": "조건부 권고(지휘관 확인)"
+   },
+   {
+    "slot": 3,
+    "staging_link": "1020010801",
+    "wait_slots": 3,
+    "wait_min": 30,
+    "hydrant_dist_m": 25.5,
+    "hop": 2,
+    "route_links": 8,
+    "sop_locks": [
+     "SOP 3.1.2.1 회차에 용이한 장소: 판정 보류(D) — 가용 폭 부재, 지휘관 확인 필요"
+    ],
+    "status": "조건부 권고(지휘관 확인)"
+   }
+  ]
+ },
+ "general": [
+  {
+   "actor": "일반차량 1",
+   "status": "미해소",
+   "slot": null,
+   "delay_min": null,
+   "crosses_staging": [
+    "1020010801",
+    "1020011201"
+   ],
+   "reason": "뒤 칸 2칸 이내 불가 — 조건부 카드",
+   "blocked_cells": {
+    "t0": [
+     {
+      "link_id": "1020010702",
+      "cause": "대피 점유",
+      "lanes": 2,
+      "occupied": 0
+     },
+     {
+      "link_id": "1020011904",
+      "cause": "대피 점유",
+      "lanes": 2,
+      "occupied": 0
+     }
+    ],
+    "t1": [
+     {
+      "link_id": "1020010702",
+      "cause": "대피 점유",
+      "lanes": 2,
+      "occupied": 0
+     },
+     {
+      "link_id": "1020011904",
+      "cause": "대피 점유",
+      "lanes": 2,
+      "occupied": 0
+     }
+    ],
+    "t2": [
+     {
+      "link_id": "1020010702",
+      "cause": "긴급차량 진입 통행",
+      "lanes": 2,
+      "occupied": 2
+     },
+     {
+      "link_id": "1020011904",
+      "cause": "긴급차량 진입 통행",
+      "lanes": 2,
+      "occupied": 2
+     },
+     {
+      "link_id": "1020010802",
+      "cause": "긴급차량 진입 통행",
+      "lanes": 2,
+      "occupied": 2
+     },
+     {
+      "link_id": "1020010800",
+      "cause": "긴급차량 진입 통행",
+      "lanes": 2,
+      "occupied": 2
+     },
+     {
+      "link_id": "1020010805",
+      "cause": "긴급차량 진입 통행",
+      "lanes": 2,
+      "occupied": 2
+     },
+     {
+      "link_id": "1020010806",
+      "cause": "긴급차량 진입 통행",
+      "lanes": 2,
+      "occupied": 2
+     },
+     {
+      "link_id": "1020010808",
+      "cause": "긴급차량 진입 통행",
+      "lanes": 2,
+      "occupied": 2
+     },
+     {
+      "link_id": "1020010804",
+      "cause": "긴급차량 진입 통행",
+      "lanes": 2,
+      "occupied": 2
+     }
+    ]
+   }
+  },
+  {
+   "actor": "일반차량 2",
+   "status": "미해소",
+   "slot": null,
+   "delay_min": null,
+   "crosses_staging": null,
+   "reason": "경로 없음",
+   "blocked_cells": null
+  }
+ ],
+ "general_effect_vs_arm2": {
+  "일반차량 1": {
+   "arm2_slot": 2,
+   "arm2_delay_min": 20,
+   "arm3_slot": null,
+   "arm3_delay_min": null,
+   "route_crosses_staging": [
+    "1020010801",
+    "1020011201"
+   ]
+  }
+ },
+ "delay_min": {
+  "total": 60,
+  "by_kind": {
+   "대피": 0,
+   "긴급(펌프+구급)": 60,
+   "일반": 0
+  },
+  "max_individual": 20
+ },
+ "arm2_delay_min": {
+  "total": 120,
+  "by_kind": {
+   "evac": 0,
+   "emergency": 100,
+   "general": 20
+  },
+  "max_individual": 40
+ },
+ "unresolved": [
+  "일반차량 1",
+  "일반차량 2"
+ ],
+ "cards": [
+  {
+   "actor": "일반차량 1",
+   "card": "역방향 차로 일시 전용 또는 대피 경로 분산 검토",
+   "auto_execute": false
+  }
+ ],
+ "decision_records": 4,
+ "recompute": {
+  "trigger": {
+   "slot": 2,
+   "link_id": "1020007502"
+  },
+  "two_hop_links": 12,
+  "records_in_scope": [
+   "펌프차",
+   "대기 1020011105"
+  ],
+  "records_out_of_scope_locked": 2,
+  "records_using_closed_link_after_t2": [
+   "대기 1020011105"
+  ],
+  "next_decision_version": 2
+ },
+ "observed_inputs": {
+  "stage": "arm3"
+ },
+ "evac_slots": 2,
+ "general_demand_is_scenario_parameter": true
+}

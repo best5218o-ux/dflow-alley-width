@@ -1,0 +1,718 @@
+{
+ "rule_commit": "8a58784",
+ "height": {
+  "layer": "lt_l_c5heightbarrier(높이장애물)",
+  "pieces": 37,
+  "query_errors": 0,
+  "pieces_with_features_in_box": 3,
+  "sites_with_feature_within_100m": [],
+  "rows": [
+   {
+    "연번": 1,
+    "piece": "계족로330번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 1,
+    "piece": "계족로336번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 2,
+    "piece": "동대전로110번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 3,
+    "piece": "역전시장길7",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 3,
+    "piece": "역전시장길75",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 5,
+    "piece": "목척3길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 5,
+    "piece": "목척5길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 6,
+    "piece": "진수길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 6,
+    "piece": "진보길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 6,
+    "piece": "수양길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 7,
+    "piece": "대종로601번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 9,
+    "piece": "대전천북로116번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 10,
+    "piece": "갈마중로28번길",
+    "error": null,
+    "in_box": 1,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 10,
+    "piece": "갈마중로30번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 10,
+    "piece": "갈마중로46번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 11,
+    "piece": "문정로170번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 12,
+    "piece": "문정로112번안길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 12,
+    "piece": "남선로9번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 14,
+    "piece": "계족산로5번안길 22",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 14,
+    "piece": "계족로608번길 30",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 15,
+    "piece": "대전로1375번길 22-14",
+    "error": null,
+    "in_box": 3,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 16,
+    "piece": "대전로1397번길 50",
+    "error": null,
+    "in_box": 6,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 17,
+    "piece": "청자마을길 28",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 18,
+    "piece": "태양마을길 28",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 19,
+    "piece": "동심9길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 20,
+    "piece": "늘봄2길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 23,
+    "piece": "동춘당로31번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 27,
+    "piece": "도솔로175번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 28,
+    "piece": "변정1길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 28,
+    "piece": "변정7길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 29,
+    "piece": "당디로124번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 31,
+    "piece": "충무로68번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 32,
+    "piece": "보문산공원로530번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 33,
+    "piece": "대둔산로414번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 35,
+    "piece": "보문산로122번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 35,
+    "piece": "대둔산로386번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   },
+   {
+    "연번": 36,
+    "piece": "계백로1158번길",
+    "error": null,
+    "in_box": 0,
+    "within_100m": 0,
+    "sample_props": []
+   }
+  ]
+ },
+ "surface": {
+  "layers": [
+   "lt_c_b3surfacemark(노면표시)",
+   "lt_l_b2surfacelinemark(노면선표시)"
+  ],
+  "note": "노면 표시 — 포장·노면 상태 속성 아님",
+  "pieces_with_any": 6,
+  "rows": [
+   {
+    "연번": 1,
+    "piece": "계족로330번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 1,
+    "piece": "계족로336번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 2,
+    "piece": "동대전로110번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 3,
+    "piece": "역전시장길7",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 12,
+    "sample_props": {
+     "id": "B2227J420360",
+     "admincode": "183",
+     "type": "111",
+     "kind": "501",
+     "r_linkid": "A2227J420585",
+     "l_linkid": null,
+     "maker": null,
+     "updatedate": "20220715",
+     "version": "2020",
+     "remark": null,
+     "histtype": null,
+     "histremark": null,
+     "prmname": "PRM",
+     "secseq": "001",
+     "secname": "UTMK_2505"
+    }
+   },
+   {
+    "연번": 3,
+    "piece": "역전시장길75",
+    "surfacemark_in_box": 5,
+    "surfacelinemark_in_box": 19,
+    "sample_props": {
+     "id": "B3227J420331",
+     "admincode": "183",
+     "type": "5",
+     "kind": "5321",
+     "linkid": "A2227J420598",
+     "maker": null,
+     "updatedate": "20220715",
+     "version": "2020",
+     "remark": null,
+     "histtype": null,
+     "histremark": null,
+     "prmname": "PRM",
+     "secseq": "001",
+     "secname": "UTMK_2505"
+    }
+   },
+   {
+    "연번": 5,
+    "piece": "목척3길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 5,
+    "piece": "목척5길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 6,
+    "piece": "진수길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 6,
+    "piece": "진보길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 6,
+    "piece": "수양길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 7,
+    "piece": "대종로601번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 9,
+    "piece": "대전천북로116번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 10,
+    "piece": "갈마중로28번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 10,
+    "piece": "갈마중로30번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 10,
+    "piece": "갈마중로46번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 11,
+    "piece": "문정로170번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 12,
+    "piece": "문정로112번안길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 12,
+    "piece": "남선로9번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 14,
+    "piece": "계족산로5번안길 22",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 14,
+    "piece": "계족로608번길 30",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 15,
+    "piece": "대전로1375번길 22-14",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 1,
+    "sample_props": {
+     "id": "B2227J421935",
+     "admincode": "187",
+     "type": "121",
+     "kind": "515",
+     "r_linkid": null,
+     "l_linkid": "A2227J420391",
+     "maker": null,
+     "updatedate": "20220715",
+     "version": "2020",
+     "remark": null,
+     "histtype": null,
+     "histremark": null,
+     "prmname": "PRM",
+     "secseq": "001",
+     "secname": "UTMK_2505"
+    }
+   },
+   {
+    "연번": 16,
+    "piece": "대전로1397번길 50",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 17,
+    "piece": "청자마을길 28",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 18,
+    "piece": "태양마을길 28",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 19,
+    "piece": "동심9길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 20,
+    "piece": "늘봄2길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 23,
+    "piece": "동춘당로31번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 27,
+    "piece": "도솔로175번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 28,
+    "piece": "변정1길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 28,
+    "piece": "변정7길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 29,
+    "piece": "당디로124번길",
+    "surfacemark_in_box": 2,
+    "surfacelinemark_in_box": 14,
+    "sample_props": {
+     "id": "B3231F310447",
+     "admincode": "184",
+     "type": "1",
+     "kind": "5373",
+     "linkid": "A2231F310629",
+     "maker": null,
+     "updatedate": "20230126",
+     "version": "2020",
+     "remark": null,
+     "histtype": null,
+     "histremark": null,
+     "prmname": "PRM",
+     "secseq": "001",
+     "secname": "UTMK_2505"
+    }
+   },
+   {
+    "연번": 31,
+    "piece": "충무로68번길",
+    "surfacemark_in_box": 2,
+    "surfacelinemark_in_box": 14,
+    "sample_props": {
+     "id": "B3229I031197",
+     "admincode": "184",
+     "type": "1",
+     "kind": "5381",
+     "linkid": "A2229I030387",
+     "maker": null,
+     "updatedate": "20201015",
+     "version": "2020",
+     "remark": null,
+     "histtype": null,
+     "histremark": null,
+     "prmname": "PRM",
+     "secseq": "001",
+     "secname": "UTMK_2505"
+    }
+   },
+   {
+    "연번": 32,
+    "piece": "보문산공원로530번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 33,
+    "piece": "대둔산로414번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 35,
+    "piece": "보문산로122번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   },
+   {
+    "연번": 35,
+    "piece": "대둔산로386번길",
+    "surfacemark_in_box": 8,
+    "surfacelinemark_in_box": 34,
+    "sample_props": {
+     "id": "B322BF310091",
+     "admincode": "184",
+     "type": "1",
+     "kind": "5373",
+     "linkid": "A222BF310038",
+     "maker": null,
+     "updatedate": "20220727",
+     "version": "2020",
+     "remark": null,
+     "histtype": null,
+     "histremark": null,
+     "prmname": "PRM",
+     "secseq": "001",
+     "secname": "UTMK_2505"
+    }
+   },
+   {
+    "연번": 36,
+    "piece": "계백로1158번길",
+    "surfacemark_in_box": 0,
+    "surfacelinemark_in_box": 0,
+    "sample_props": null
+   }
+  ]
+ },
+ "site37": {
+  "세부현황": "문화로 133 ~ 134번길, 당디로 36번길(문화육교 인근 주거밀집지역)",
+  "시군구": "중구",
+  "관할서": "서부",
+  "pieces": [
+   {
+    "piece": "문화로 133",
+    "refined": "대전광역시 중구 문화로 133 (유천동)",
+    "error": null,
+    "containing_polygons": [
+     {
+      "ward_id": "3005101",
+      "ward_nm": "복수119안전센터",
+      "cat_cde": "CAT000",
+      "cat_nam": "소방서관할구역"
+     }
+    ],
+    "features_in_box": 2
+   },
+   {
+    "piece": "문화로134번길",
+    "refined": "대전광역시 중구 문화로134번길 10-1 (문화동)",
+    "error": null,
+    "containing_polygons": [
+     {
+      "ward_id": "3002107",
+      "ward_nm": "산성119안전센터",
+      "cat_cde": "CAT000",
+      "cat_nam": "소방서관할구역"
+     }
+    ],
+    "features_in_box": 1
+   },
+   {
+    "piece": "당디로36번길",
+    "refined": "대전광역시 중구 당디로36번길 109-11 (문화동)",
+    "error": null,
+    "containing_polygons": [
+     {
+      "ward_id": "3002107",
+      "ward_nm": "산성119안전센터",
+      "cat_cde": "CAT000",
+      "cat_nam": "소방서관할구역"
+     }
+    ],
+    "features_in_box": 1
+   }
+  ]
+ }
+}

@@ -1,0 +1,390 @@
+{
+ "bridge": {
+  "file": "국토교통부_전국교량표준데이터_20251231.csv",
+  "scopes": {
+   "전국": {
+    "rows": 35593,
+    "하부통과제한높이": {
+     "null": 29859,
+     "null_pct": 83.9,
+     "zero": 704,
+     "non_numeric": 0
+    },
+    "교량높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 11942,
+     "non_numeric": 0
+    },
+    "교량폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 67,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 48,
+     "non_numeric": 0
+    },
+    "허용통행하중": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 804,
+     "non_numeric": 0
+    }
+   },
+   "서울특별시": {
+    "rows": 596,
+    "하부통과제한높이": {
+     "null": 486,
+     "null_pct": 81.5,
+     "zero": 18,
+     "non_numeric": 0
+    },
+    "교량높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 101,
+     "non_numeric": 0
+    },
+    "교량폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 8,
+     "non_numeric": 0
+    },
+    "허용통행하중": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 24,
+     "non_numeric": 0
+    }
+   },
+   "서울 용산구": {
+    "rows": 28,
+    "하부통과제한높이": {
+     "null": 16,
+     "null_pct": 57.1,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "교량높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 3,
+     "non_numeric": 0
+    },
+    "교량폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "허용통행하중": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    }
+   },
+   "부산광역시": {
+    "rows": 428,
+    "하부통과제한높이": {
+     "null": 350,
+     "null_pct": 81.8,
+     "zero": 15,
+     "non_numeric": 0
+    },
+    "교량높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 177,
+     "non_numeric": 0
+    },
+    "교량폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 2,
+     "non_numeric": 0
+    },
+    "허용통행하중": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 33,
+     "non_numeric": 0
+    }
+   },
+   "충북 청주시": {
+    "rows": 482,
+    "하부통과제한높이": {
+     "null": 392,
+     "null_pct": 81.3,
+     "zero": 4,
+     "non_numeric": 0
+    },
+    "교량높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 104,
+     "non_numeric": 0
+    },
+    "교량폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 1,
+     "non_numeric": 0
+    },
+    "허용통행하중": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 39,
+     "non_numeric": 0
+    }
+   },
+   "대전광역시": {
+    "rows": 485,
+    "하부통과제한높이": {
+     "null": 402,
+     "null_pct": 82.9,
+     "zero": 3,
+     "non_numeric": 0
+    },
+    "교량높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 177,
+     "non_numeric": 0
+    },
+    "교량폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 1,
+     "non_numeric": 0
+    },
+    "허용통행하중": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 9,
+     "non_numeric": 0
+    }
+   },
+   "대전 서구": {
+    "rows": 71,
+    "하부통과제한높이": {
+     "null": 46,
+     "null_pct": 64.8,
+     "zero": 2,
+     "non_numeric": 0
+    },
+    "교량높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 16,
+     "non_numeric": 0
+    },
+    "교량폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "허용통행하중": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 1,
+     "non_numeric": 0
+    }
+   }
+  }
+ },
+ "tunnel": {
+  "file": "국토교통부_전국도로터널정보표준데이터_20251231.csv",
+  "scopes": {
+   "전국": {
+    "rows": 3840,
+    "터널높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 130,
+     "non_numeric": 0
+    },
+    "터널폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 26,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    }
+   },
+   "서울특별시": {
+    "rows": 254,
+    "터널높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 25,
+     "non_numeric": 0
+    },
+    "터널폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 11,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    }
+   },
+   "서울 용산구": {
+    "rows": 11,
+    "터널높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 1,
+     "non_numeric": 0
+    },
+    "터널폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    }
+   },
+   "부산광역시": {
+    "rows": 90,
+    "터널높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 4,
+     "non_numeric": 0
+    },
+    "터널폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 2,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    }
+   },
+   "충북 청주시": {
+    "rows": 29,
+    "터널높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 2,
+     "non_numeric": 0
+    },
+    "터널폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    }
+   },
+   "대전광역시": {
+    "rows": 80,
+    "터널높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 1,
+     "non_numeric": 0
+    },
+    "터널폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    }
+   },
+   "대전 서구": {
+    "rows": 20,
+    "터널높이": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "터널폭": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    },
+    "차로수": {
+     "null": 0,
+     "null_pct": 0.0,
+     "zero": 0,
+     "non_numeric": 0
+    }
+   }
+  }
+ }
+}

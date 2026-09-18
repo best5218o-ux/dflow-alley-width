@@ -1,0 +1,68 @@
+{
+ "rule_doc": "docs/vworld/회전기하_판정기준.md §16",
+ "rule_commit": "8a58784",
+ "nodelink": {
+  "links": 1562356,
+  "road_name_missing": 0,
+  "road_name_missing_rate": 0.0,
+  "named_links": 1562356,
+  "tiers": {
+   "대로": {
+    "n": 72306,
+    "share_named": 0.0463
+   },
+   "로": {
+    "n": 889941,
+    "share_named": 0.5696
+   },
+   "길": {
+    "n": 367597,
+    "share_named": 0.2353
+   },
+   "번길": {
+    "n": 159541,
+    "share_named": 0.1021
+   },
+   "기타": {
+    "n": 72971,
+    "share_named": 0.0467
+   }
+  },
+  "beongil_share_of_all_links": 0.1021
+ },
+ "sprd": {
+  "segments": 875892,
+  "rn_missing": 0,
+  "named": 875892,
+  "tiers": {
+   "대로": {
+    "n": 9573,
+    "share_named": 0.0109
+   },
+   "로": {
+    "n": 197937,
+    "share_named": 0.226
+   },
+   "길": {
+    "n": 506497,
+    "share_named": 0.5783
+   },
+   "번길": {
+    "n": 161568,
+    "share_named": 0.1845
+   },
+   "기타": {
+    "n": 317,
+    "share_named": 0.0004
+   }
+  },
+  "beongil_share_of_all_segments": 0.1845
+ },
+ "limits": "구간 수(도로명주소도로)와 링크 수(표준노드링크, 방향별 링크 포함)는 단위가 다르다 — 원천 안 구성비만 비교",
+ "sido_join": {
+  "polygons": 0,
+  "error": "URLError",
+  "unjoined_links": null
+ },
+ "by_sido": {}
+}

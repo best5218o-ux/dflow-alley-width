@@ -1,0 +1,52 @@
+{
+ "src": "tmp062.hwpx",
+ "hwpx(기준)": {
+  "hwp_pagecount": 20,
+  "pdf_pages": 20,
+  "seosik2_start": 2,
+  "seosik2_end": 16,
+  "seosik2_pages": 15,
+  "slack_mm": 1.6,
+  "last_page_used_mm": 255.4
+ },
+ "hwp(바이너리)": {
+  "저장": "SaveAs(HWP, '') = True",
+  "hwp_pagecount": 20,
+  "pdf_pages": 20,
+  "seosik2_start": 2,
+  "seosik2_end": 16,
+  "seosik2_pages": 15,
+  "slack_mm": 1.6,
+  "last_page_used_mm": 255.4
+ },
+ "hwp(이전 버전 호환 인자 시도)": {
+  "저장": "SaveAs(HWP, 'compatibility:true') = True",
+  "hwp_pagecount": 20,
+  "pdf_pages": 20,
+  "seosik2_start": 2,
+  "seosik2_end": 16,
+  "seosik2_pages": 15,
+  "slack_mm": 1.6,
+  "last_page_used_mm": 255.4
+ },
+ "휴먼명조→함초롬바탕(치환 7곳)": {
+  "hwp_pagecount": 20,
+  "pdf_pages": 20,
+  "seosik2_start": 2,
+  "seosik2_end": 16,
+  "seosik2_pages": 15,
+  "slack_mm": 2.4,
+  "last_page_used_mm": 254.6
+ },
+ "편차": {
+  "형식 편차_mm": 0.0,
+  "형식별 서식2 쪽수": [
+   15
+  ],
+  "글꼴 편차_mm": 0.0,
+  "글꼴 치환 서식2 쪽수": 15
+ },
+ "필요 마진_mm(max+2)": 2.0,
+ "현재 slack_mm": 1.6,
+ "발송 가능": false
+}

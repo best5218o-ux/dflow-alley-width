@@ -1,0 +1,2008 @@
+{
+ "describe_center": {
+  "error": null,
+  "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><xsd:schema xmlns:gml=\"http://www.opengis.net/gml\" xmlns:sop=\"https://www.vworld.kr\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" elementFormDefault=\"qualified\" targetNamespace=\"https://www.vworld.kr\">\n  <xsd:import namespace=\"http://www.opengis.net/gml\" schemaLocation=\"http://10.10.21.6:8080/geoserver/schemas/gml/3.1.1/base/gml.xsd\"/>\n  <xsd:complexType name=\"lt_l_n3a0020000Type\">\n    <xsd:complexContent>\n      <xsd:extension base=\"gml:AbstractFeatureType\">\n        <xsd:sequence>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"ufid\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>UFID</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"rdnu\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>도로번호</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"rddv\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>도로구분</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"stpt\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>시점</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"edpt\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>종점</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"pvqt\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>포장재질</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"dvyn\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>분리대 유․무</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"rdln\" nillable=\"true\" type=\"xsd:decimal\">\n            <xsd:annotation>\n              <xsd:documentation>차로수</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"rvwd\" nillable=\"true\" type=\"xsd:decimal\">\n            <xsd:annotation>\n              <xsd:documentation>도로폭</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"onsd\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>일방통행</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"rest\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>기타</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"rdnm\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>도로명</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"scls\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>통합코드</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"fmta\" nillable=\"true\" type=\"xsd:string\">\n            <xsd:annotation>\n              <xsd:documentation>제작정보</xsd:documentation>\n            </xsd:annotation>\n          </xsd:element>\n          <xsd:element maxOccurs=\"1\" minOccurs=\"0\" name=\"ag_geom\" nillable=\"true\" type=\"gml:MultiLineStringPropertyType\""
+ },
+ "candidate_typenames": {
+  "lt_a_n3a0010000": {
+   "features": null,
+   "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><ows:ExceptionReport xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:ows=\"http://www.opengis.net/ows\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" vers"
+  },
+  "lt_l_n3a0010000": {
+   "features": null,
+   "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><ows:ExceptionReport xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:ows=\"http://www.opengis.net/ows\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" vers"
+  },
+  "lt_c_n3a0010000": {
+   "features": 89,
+   "error": null
+  },
+  "lt_a_n3a0020000": {
+   "features": null,
+   "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><ows:ExceptionReport xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:ows=\"http://www.opengis.net/ows\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" vers"
+  },
+  "lt_l_n3b0020000": {
+   "features": 4,
+   "error": null
+  },
+  "lt_l_n3f0040000": {
+   "features": 1,
+   "error": null
+  },
+  "lt_a_n3c0390000": {
+   "features": null,
+   "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><ows:ExceptionReport xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:ows=\"http://www.opengis.net/ows\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" vers"
+  },
+  "lt_c_n3c0390000": {
+   "features": 0,
+   "error": null
+  },
+  "lt_l_n3l_a0010000": {
+   "features": null,
+   "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><ows:ExceptionReport xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:ows=\"http://www.opengis.net/ows\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" vers"
+  },
+  "lt_a_n3a_a0010000": {
+   "features": null,
+   "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><ows:ExceptionReport xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:ows=\"http://www.opengis.net/ows\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" vers"
+  }
+ },
+ "sites_pieces": [
+  {
+   "site": null,
+   "piece": "계족로330번길",
+   "road_name": "계족로330번길",
+   "point": [
+    127.43661386364867,
+    36.34212882827492
+   ],
+   "center_n": 53,
+   "center_nearest": [
+    {
+     "d": 17.7,
+     "rvwd": 4.5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 23.3,
+     "rvwd": 4.5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 24.1,
+     "rvwd": 4.5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 8,
+   "center_within_30m": 8,
+   "bound_n": 35,
+   "bound_nearest_m": 15.4,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001d50067f6069d41f1",
+    "dycd": "36710068"
+   },
+   "wall": 0,
+   "retw": 1,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "계족로336번길",
+   "road_name": "계족로336번길",
+   "point": [
+    127.43568877310105,
+    36.342796915843394
+   ],
+   "center_n": 70,
+   "center_nearest": [
+    {
+     "d": 6.1,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 14.3,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 19.4,
+     "rvwd": 7.7,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 13,
+   "center_within_30m": 13,
+   "bound_n": 41,
+   "bound_nearest_m": 3.6,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "1000000013c2c86fc1bb54b3a",
+    "dycd": "36710068"
+   },
+   "wall": 0,
+   "retw": 1,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "동대전로110번길",
+   "road_name": "동대전로110번길",
+   "point": [
+    127.44486304348214,
+    36.332153942387826
+   ],
+   "center_n": 67,
+   "center_nearest": [
+    {
+     "d": 6.4,
+     "rvwd": 7.6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 8.6,
+     "rvwd": 7.6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 17.5,
+     "rvwd": 22.3,
+     "rddv": "RDD000",
+     "scls": "A0023214",
+     "rdnm": null,
+     "rdln": 4,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 6,
+   "center_within_30m": 6,
+   "bound_n": 40,
+   "bound_nearest_m": 2.5,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "1000000018d486b74f39a4fa8",
+    "dycd": "36710068"
+   },
+   "wall": 3,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "역전시장길7",
+   "road_name": "역전시장길",
+   "point": [
+    127.43387471315823,
+    36.33103525837262
+   ],
+   "center_n": 23,
+   "center_nearest": [
+    {
+     "d": 18.7,
+     "rvwd": 5.9,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 19.1,
+     "rvwd": 13.5,
+     "rddv": "RDD000",
+     "scls": "A0023214",
+     "rdnm": null,
+     "rdln": 2,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 19.5,
+     "rvwd": 13.5,
+     "rddv": "RDD000",
+     "scls": "A0023214",
+     "rdnm": null,
+     "rdln": 2,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 6,
+   "center_within_30m": 6,
+   "bound_n": 15,
+   "bound_nearest_m": 14.0,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001e7f37bce40844f85",
+    "dycd": "36710068"
+   },
+   "wall": 1,
+   "retw": 1,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "역전시장길75",
+   "road_name": "역전시장길",
+   "point": [
+    127.43493834154471,
+    36.328875174103246
+   ],
+   "center_n": 48,
+   "center_nearest": [
+    {
+     "d": 17.3,
+     "rvwd": 6.9,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 22.5,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 26.1,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 6,
+   "center_within_30m": 6,
+   "bound_n": 27,
+   "bound_nearest_m": 14.1,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001ba9129dcab034677",
+    "dycd": "36710068"
+   },
+   "wall": 4,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "목척3길",
+   "road_name": "목척3길",
+   "point": [
+    127.42484495894416,
+    36.33069103663696
+   ],
+   "center_n": 71,
+   "center_nearest": [
+    {
+     "d": 9.6,
+     "rvwd": 8.2,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 21.3,
+     "rvwd": 8.2,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 22.3,
+     "rvwd": 8.2,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 12,
+   "center_within_30m": 12,
+   "bound_n": 39,
+   "bound_nearest_m": 6.7,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "10000000119579e8f99a84c9e",
+    "dycd": "36710067"
+   },
+   "wall": 0,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "목척5길",
+   "road_name": "목척5길",
+   "point": [
+    127.42427615297548,
+    36.33168253279153
+   ],
+   "center_n": 57,
+   "center_nearest": [
+    {
+     "d": 11.6,
+     "rvwd": 5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 12.0,
+     "rvwd": 1.5,
+     "rddv": "RDD009",
+     "scls": "A0023119",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ005"
+    },
+    {
+     "d": 12.0,
+     "rvwd": 5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 11,
+   "center_within_30m": 11,
+   "bound_n": 35,
+   "bound_nearest_m": 9.1,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001cde1c5b088e9457c",
+    "dycd": "36710067"
+   },
+   "wall": 4,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "진수길",
+   "road_name": "진수길",
+   "point": [
+    127.43977724658217,
+    36.33507940251525
+   ],
+   "center_n": 30,
+   "center_nearest": [
+    {
+     "d": 7.7,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 7.8,
+     "rvwd": 2,
+     "rddv": "RDD008",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 7.8,
+     "rvwd": 2,
+     "rddv": "RDD008",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 3,
+   "center_within_30m": 3,
+   "bound_n": 13,
+   "bound_nearest_m": 6.2,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "10000000195534916d3c24569",
+    "dycd": "36710068"
+   },
+   "wall": 0,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "진보길",
+   "road_name": "진보길",
+   "point": [
+    127.43944431165573,
+    36.3361254018607
+   ],
+   "center_n": 58,
+   "center_nearest": [
+    {
+     "d": 30.6,
+     "rvwd": 3.5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 36.7,
+     "rvwd": 1.6,
+     "rddv": "RDD008",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 37.4,
+     "rvwd": 1.6,
+     "rddv": "RDD008",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 0,
+   "center_within_30m": 0,
+   "bound_n": 25,
+   "bound_nearest_m": 21.7,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "10000000168228b8df56c480e",
+    "dycd": "36710068"
+   },
+   "wall": 0,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "수양길",
+   "road_name": "수양길",
+   "point": [
+    127.4413931054391,
+    36.33523708030265
+   ],
+   "center_n": 51,
+   "center_nearest": [
+    {
+     "d": 8.7,
+     "rvwd": 2.5,
+     "rddv": "RDD008",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 16.2,
+     "rvwd": 2.5,
+     "rddv": "RDD008",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 30.6,
+     "rvwd": 5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 2,
+   "center_within_30m": 2,
+   "bound_n": 22,
+   "bound_nearest_m": 28.2,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001b4493c15335d46ea",
+    "dycd": "36710068"
+   },
+   "wall": 0,
+   "retw": 2,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "대종로601번길",
+   "road_name": "대종로601번길",
+   "point": [
+    127.4169242246692,
+    36.33477949788951
+   ],
+   "center_n": 59,
+   "center_nearest": [
+    {
+     "d": 14.7,
+     "rvwd": 6.6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 29.4,
+     "rvwd": 7.9,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 29.9,
+     "rvwd": 6.6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 3,
+   "center_within_30m": 3,
+   "bound_n": 35,
+   "bound_nearest_m": 10.8,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "1000000016c25cb5f0ba049f3",
+    "dycd": "36710067"
+   },
+   "wall": 0,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "대전천북로116번길",
+   "road_name": "대전천북로116번길",
+   "point": [
+    127.41646339785575,
+    36.340019048109454
+   ],
+   "center_n": 65,
+   "center_nearest": [
+    {
+     "d": 9.7,
+     "rvwd": 4.7,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 11.1,
+     "rvwd": 4.7,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 15.7,
+     "rvwd": 15.6,
+     "rddv": "RDD000",
+     "scls": "A0023214",
+     "rdnm": null,
+     "rdln": 2,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 6,
+   "center_within_30m": 6,
+   "bound_n": 39,
+   "bound_nearest_m": 7.1,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001d6d9b7ba689b43b1",
+    "dycd": "36710067"
+   },
+   "wall": 0,
+   "retw": 3,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "갈마중로28번길",
+   "road_name": "갈마중로28번길",
+   "point": [
+    127.37306627703245,
+    36.34740010307924
+   ],
+   "center_n": 103,
+   "center_nearest": [
+    {
+     "d": 11.2,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 26.0,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023214",
+     "rdnm": null,
+     "rdln": 2,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 26.6,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023214",
+     "rdnm": null,
+     "rdln": 2,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 8,
+   "center_within_30m": 8,
+   "bound_n": 62,
+   "bound_nearest_m": 9.2,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001dd45925ebc5e4cf8",
+    "dycd": "36710065"
+   },
+   "wall": 1,
+   "retw": 4,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "갈마중로30번길",
+   "road_name": "갈마중로30번길",
+   "point": [
+    127.3725468209473,
+    36.34723474776059
+   ],
+   "center_n": 93,
+   "center_nearest": [
+    {
+     "d": 7.6,
+     "rvwd": 6.7,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 13.8,
+     "rvwd": 6.7,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 13.9,
+     "rvwd": 6.1,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 14,
+   "center_within_30m": 14,
+   "bound_n": 56,
+   "bound_nearest_m": 4.6,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "1000000012c636106651048b7",
+    "dycd": "36710065"
+   },
+   "wall": 3,
+   "retw": 4,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "갈마중로46번길",
+   "road_name": "갈마중로46번길",
+   "point": [
+    127.37396784951632,
+    36.34689220743677
+   ],
+   "center_n": 84,
+   "center_nearest": [
+    {
+     "d": 10.1,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 23.6,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 36.9,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 2,
+   "center_within_30m": 2,
+   "bound_n": 60,
+   "bound_nearest_m": 7.1,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "1000000017969176f17304f31",
+    "dycd": "36710065"
+   },
+   "wall": 4,
+   "retw": 1,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "문정로170번길",
+   "road_name": "문정로170번길",
+   "point": [
+    127.39642609306074,
+    36.349359573688716
+   ],
+   "center_n": 77,
+   "center_nearest": [
+    {
+     "d": 12.2,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 13.8,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 17.3,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 11,
+   "center_within_30m": 11,
+   "bound_n": 52,
+   "bound_nearest_m": 8.3,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "10000000158881d118cf243df",
+    "dycd": "36710066"
+   },
+   "wall": 2,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "문정로112번안길",
+   "road_name": "문정로112번안길",
+   "point": [
+    127.39218719553594,
+    36.345691118963956
+   ],
+   "center_n": 62,
+   "center_nearest": [
+    {
+     "d": 10.6,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 10.9,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 12.0,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 10,
+   "center_within_30m": 10,
+   "bound_n": 44,
+   "bound_nearest_m": 6.4,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001eb7270bb545f4c63",
+    "dycd": "36710066"
+   },
+   "wall": 4,
+   "retw": 4,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "남선로9번길",
+   "road_name": "남선로9번길",
+   "point": [
+    127.39538141777365,
+    36.34433182264431
+   ],
+   "center_n": 54,
+   "center_nearest": [
+    {
+     "d": 9.9,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 15.5,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 21.6,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 10,
+   "center_within_30m": 10,
+   "bound_n": 31,
+   "bound_nearest_m": 7.0,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001ac3646a24b3343b2",
+    "dycd": "36710066"
+   },
+   "wall": 7,
+   "retw": 6,
+   "stair": 1
+  },
+  {
+   "site": null,
+   "piece": "계족산로5번안길 22",
+   "road_name": "계족산로5번안길",
+   "point": [
+    127.43174736360696,
+    36.367074631968705
+   ],
+   "center_n": 67,
+   "center_nearest": [
+    {
+     "d": 14.2,
+     "rvwd": 15,
+     "rddv": "RDD000",
+     "scls": "A0023214",
+     "rdnm": null,
+     "rdln": 2,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 15.4,
+     "rvwd": 12,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 2,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 15.7,
+     "rvwd": 12,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 2,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 11,
+   "center_within_30m": 11,
+   "bound_n": 41,
+   "bound_nearest_m": 6.7,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001a2510000ac724f94",
+    "dycd": "36710058"
+   },
+   "wall": 5,
+   "retw": 1,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "계족로608번길 30",
+   "road_name": "계족로608번길",
+   "point": [
+    127.43202395382974,
+    36.36609364344889
+   ],
+   "center_n": 65,
+   "center_nearest": [
+    {
+     "d": 12.0,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 12.6,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 13.9,
+     "rvwd": 15,
+     "rddv": "RDD000",
+     "scls": "A0023214",
+     "rdnm": null,
+     "rdln": 2,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 14,
+   "center_within_30m": 14,
+   "bound_n": 40,
+   "bound_nearest_m": 6.4,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001e3acabb617214bcb",
+    "dycd": "36710058"
+   },
+   "wall": 5,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "대전로1375번길 22-14",
+   "road_name": "대전로1375번길",
+   "point": [
+    127.41991047179016,
+    36.37727336676534
+   ],
+   "center_n": 66,
+   "center_nearest": [
+    {
+     "d": 9.8,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 14.6,
+     "rvwd": 2.5,
+     "rddv": "RDD008",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 25.6,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 8,
+   "center_within_30m": 8,
+   "bound_n": 38,
+   "bound_nearest_m": 8.7,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "1000000013a5f6ebf13b24e5f",
+    "dycd": "36710047"
+   },
+   "wall": 6,
+   "retw": 3,
+   "stair": 1
+  },
+  {
+   "site": null,
+   "piece": "대전로1397번길 50",
+   "road_name": "대전로1397번길",
+   "point": [
+    127.41987951190373,
+    36.379569310060376
+   ],
+   "center_n": 49,
+   "center_nearest": [
+    {
+     "d": 6.9,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 7.8,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 7.9,
+     "rvwd": 7,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 16,
+   "center_within_30m": 16,
+   "bound_n": 28,
+   "bound_nearest_m": 3.9,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "1000000017a0ab4227cb24f4c",
+    "dycd": "36710047"
+   },
+   "wall": 2,
+   "retw": 2,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "청자마을길 28",
+   "road_name": "청자마을길",
+   "point": [
+    127.43745793661071,
+    36.437201042251644
+   ],
+   "center_n": 29,
+   "center_nearest": [
+    {
+     "d": 8.2,
+     "rvwd": 3.5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 22.2,
+     "rvwd": 3.5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 23.3,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 6,
+   "center_within_30m": 6,
+   "bound_n": 15,
+   "bound_nearest_m": 6.4,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "10000000178ab189532264613",
+    "dycd": "36710028"
+   },
+   "wall": 0,
+   "retw": 1,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "태양마을길 28",
+   "road_name": "태양마을길",
+   "point": [
+    127.43511341825487,
+    36.438165502849756
+   ],
+   "center_n": 37,
+   "center_nearest": [
+    {
+     "d": 5.6,
+     "rvwd": 1.5,
+     "rddv": "RDD009",
+     "scls": "A0023119",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ005"
+    },
+    {
+     "d": 8.7,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 9.2,
+     "rvwd": 1.5,
+     "rddv": "RDD009",
+     "scls": "A0023119",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ005"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 8,
+   "center_within_30m": 8,
+   "bound_n": 10,
+   "bound_nearest_m": 7.2,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001e375e44ef12c445e",
+    "dycd": "36710028"
+   },
+   "wall": 5,
+   "retw": 3,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "동심9길",
+   "road_name": "동심9길",
+   "point": [
+    127.4116626437189,
+    36.36467503320276
+   ],
+   "center_n": 127,
+   "center_nearest": [
+    {
+     "d": 5.7,
+     "rvwd": 3.5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 10.9,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 13.3,
+     "rvwd": 3.5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 6,
+   "center_within_30m": 6,
+   "bound_n": 65,
+   "bound_nearest_m": 4.5,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001d07e498a8a0b41a5",
+    "dycd": "36710057"
+   },
+   "wall": 1,
+   "retw": 2,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "늘봄2길",
+   "road_name": "늘봄2길",
+   "point": [
+    127.41462407036015,
+    36.36468177764039
+   ],
+   "center_n": 103,
+   "center_nearest": [
+    {
+     "d": 6.6,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 20.1,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 21.1,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023214",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 15,
+   "center_within_30m": 15,
+   "bound_n": 41,
+   "bound_nearest_m": 4.6,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "1000000011d64c8c5d88d4118",
+    "dycd": "36710057"
+   },
+   "wall": 0,
+   "retw": 5,
+   "stair": 1
+  },
+  {
+   "site": null,
+   "piece": "동춘당로31번길",
+   "road_name": "동춘당로31번길",
+   "point": [
+    127.443761712321,
+    36.35819869222357
+   ],
+   "center_n": 40,
+   "center_nearest": [
+    {
+     "d": 10.5,
+     "rvwd": 7.3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 25.3,
+     "rvwd": 7.3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 25.7,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 6,
+   "center_within_30m": 6,
+   "bound_n": 26,
+   "bound_nearest_m": 6.5,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001502268c5ea1845ca",
+    "dycd": "36710058"
+   },
+   "wall": 0,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "도솔로175번길",
+   "road_name": "도솔로175번길",
+   "point": [
+    127.37344441641086,
+    36.32639348051394
+   ],
+   "center_n": 61,
+   "center_nearest": [
+    {
+     "d": 10.4,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 22.9,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 22.9,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 12,
+   "center_within_30m": 12,
+   "bound_n": 36,
+   "bound_nearest_m": 7.5,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001e0b159870123430e",
+    "dycd": "36710065"
+   },
+   "wall": 5,
+   "retw": 3,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "변정1길",
+   "road_name": "변정1길",
+   "point": [
+    127.37969763738275,
+    36.32486227980577
+   ],
+   "center_n": 82,
+   "center_nearest": [
+    {
+     "d": 21.8,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 34.3,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 37.8,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 1,
+   "center_within_30m": 1,
+   "bound_n": 55,
+   "bound_nearest_m": 18.8,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001741e18af9f814e5a",
+    "dycd": "36710076"
+   },
+   "wall": 2,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "변정7길",
+   "road_name": "변정7길",
+   "point": [
+    127.37967861112826,
+    36.322481062495065
+   ],
+   "center_n": 87,
+   "center_nearest": [
+    {
+     "d": 8.7,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 24.7,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 26.0,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 8,
+   "center_within_30m": 8,
+   "bound_n": 54,
+   "bound_nearest_m": 7.2,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "10000000118d9fa6de1f74646",
+    "dycd": "36710076"
+   },
+   "wall": 0,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "당디로124번길",
+   "road_name": "당디로124번길",
+   "point": [
+    127.39152213837576,
+    36.315797099222166
+   ],
+   "center_n": 41,
+   "center_nearest": [
+    {
+     "d": 12.4,
+     "rvwd": 6.1,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 16.4,
+     "rvwd": 6.1,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 17.8,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 7,
+   "center_within_30m": 7,
+   "bound_n": 25,
+   "bound_nearest_m": 9.4,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "10000000186bcd7ef15e34cf7",
+    "dycd": "36710076"
+   },
+   "wall": 0,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "충무로68번길",
+   "road_name": "충무로68번길",
+   "point": [
+    127.42449960092145,
+    36.31692278758278
+   ],
+   "center_n": 57,
+   "center_nearest": [
+    {
+     "d": 9.5,
+     "rvwd": 5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 10.0,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 10.3,
+     "rvwd": 5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 6,
+   "center_within_30m": 6,
+   "bound_n": 32,
+   "bound_nearest_m": 7.0,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001814166c40e2d4692",
+    "dycd": "36710077"
+   },
+   "wall": 0,
+   "retw": 5,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "보문산공원로530번길",
+   "road_name": "보문산공원로530번길",
+   "point": [
+    127.42480050428122,
+    36.31462315265068
+   ],
+   "center_n": 65,
+   "center_nearest": [
+    {
+     "d": 14.0,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 14.3,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 15.1,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 12,
+   "center_within_30m": 12,
+   "bound_n": 31,
+   "bound_nearest_m": 12.0,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001fc7286016b194b6d",
+    "dycd": "36710077"
+   },
+   "wall": 1,
+   "retw": 1,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "대둔산로414번길",
+   "road_name": "대둔산로414번길",
+   "point": [
+    127.39264277343587,
+    36.30693840915551
+   ],
+   "center_n": 42,
+   "center_nearest": [
+    {
+     "d": 7.7,
+     "rvwd": 3.5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 23.7,
+     "rvwd": 3.5,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 27.1,
+     "rvwd": 8.4,
+     "rddv": "RDD000",
+     "scls": "A0023214",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 7,
+   "center_within_30m": 7,
+   "bound_n": 28,
+   "bound_nearest_m": 6.0,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "100000001bd125a7639b149cc",
+    "dycd": "36710076"
+   },
+   "wall": 1,
+   "retw": 0,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "보문산로122번길",
+   "road_name": "보문산로122번길",
+   "point": [
+    127.39399747653158,
+    36.30466951744687
+   ],
+   "center_n": 40,
+   "center_nearest": [
+    {
+     "d": 9.5,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 9.8,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 9.8,
+     "rvwd": 4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 11,
+   "center_within_30m": 11,
+   "bound_n": 27,
+   "bound_nearest_m": 7.6,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "10000000115c373a002e2466a",
+    "dycd": "36710076"
+   },
+   "wall": 3,
+   "retw": 3,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "대둔산로386번길",
+   "road_name": "대둔산로386번길",
+   "point": [
+    127.38685197650355,
+    36.3035801609869
+   ],
+   "center_n": 56,
+   "center_nearest": [
+    {
+     "d": 10.3,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 12.3,
+     "rvwd": 3,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 12.9,
+     "rvwd": 5.4,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 15,
+   "center_within_30m": 15,
+   "bound_n": 35,
+   "bound_nearest_m": 8.4,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "10000000194b9b6c045a54cb3",
+    "dycd": "36710076"
+   },
+   "wall": 1,
+   "retw": 1,
+   "stair": 0
+  },
+  {
+   "site": null,
+   "piece": "계백로1158번길",
+   "road_name": "계백로1158번길",
+   "point": [
+    127.35397536276068,
+    36.30054358180325
+   ],
+   "center_n": 59,
+   "center_nearest": [
+    {
+     "d": 8.0,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 13.3,
+     "rvwd": 8,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    },
+    {
+     "d": 17.1,
+     "rvwd": 6,
+     "rddv": "RDD000",
+     "scls": "A0023217",
+     "rdnm": null,
+     "rdln": 1,
+     "pvqt": "RDQ006"
+    }
+   ],
+   "center_rvwd_filled_within_30m": 14,
+   "center_within_30m": 14,
+   "bound_n": 43,
+   "bound_nearest_m": 3.4,
+   "bound_contains_point": false,
+   "bound_props_nearest": {
+    "id": "1000000018ee2480d8da440ac",
+    "dycd": "36710075"
+   },
+   "wall": 3,
+   "retw": 0,
+   "stair": 2
+  }
+ ],
+ "fill": {
+  "cells": 40,
+  "cell_half_m": 250,
+  "errors": [],
+  "by_rddv_scls": {
+   "RDD000|A0023214": {
+    "n": 526,
+    "rvwd_filled": 526,
+    "vals": [],
+    "min": 3.0,
+    "max": 50.0,
+    "median": 15.0
+   },
+   "RDD008|A0023217": {
+    "n": 134,
+    "rvwd_filled": 134,
+    "vals": [],
+    "min": 1.6,
+    "max": 2.6,
+    "median": 2.5
+   },
+   "RDD009|A0023119": {
+    "n": 107,
+    "rvwd_filled": 107,
+    "vals": [],
+    "min": 1.5,
+    "max": 1.5,
+    "median": 1.5
+   },
+   "RDD000|A0023217": {
+    "n": 1859,
+    "rvwd_filled": 1859,
+    "vals": [],
+    "min": 3.0,
+    "max": 16.5,
+    "median": 6.0
+   },
+   "RDD000|A0023210": {
+    "n": 82,
+    "rvwd_filled": 82,
+    "vals": [],
+    "min": 6.0,
+    "max": 18.3,
+    "median": 8.0
+   },
+   "RDD002|A0023212": {
+    "n": 34,
+    "rvwd_filled": 34,
+    "vals": [],
+    "min": 33.9,
+    "max": 44.4,
+    "median": 33.9
+   },
+   "RDD001|A0023211": {
+    "n": 13,
+    "rvwd_filled": 13,
+    "vals": [],
+    "min": 10.0,
+    "max": 28.0,
+    "median": 13.2
+   },
+   "RDD003|A0023213": {
+    "n": 8,
+    "rvwd_filled": 8,
+    "vals": [],
+    "min": 29.5,
+    "max": 33.5,
+    "median": 29.5
+   }
+  }
+ }
+}

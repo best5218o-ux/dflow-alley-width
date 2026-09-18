@@ -19,6 +19,8 @@ import time
 import urllib.request
 from pathlib import Path
 
+from _rawio import open_raw, raw_exists  # 2026-09-18: .jsonl 없으면 .jsonl.gz
+
 import cv2
 import numpy as np
 import shapely.wkt
@@ -65,7 +67,7 @@ def gpx(lon, lat):
 def tile(x, y):
     p = CACHE / f"sat_{Z}_{x}_{y}.jpg"
     if not p.exists() or p.stat().st_size == 0:
-        key = os.environ["VWORLD_APIKEY"]
+        key = os.environ["VWORLD_APIKEY"].strip()
         url = f"https://api.vworld.kr/req/wmts/1.0.0/{key}/Satellite/{Z}/{y}/{x}.jpeg"
         for _ in range(3):
             try:
@@ -93,7 +95,7 @@ def mosaic(gx, gy, half):
 
 def load_roads():
     idx = {}
-    with (ROOT / "data/vworld/national/raw/daejeon_sprd_geom.jsonl").open(encoding="utf-8") as f:
+    with open_raw(ROOT / "data/vworld/national/raw/daejeon_sprd_geom.jsonl") as f:
         for ln in f:
             r = json.loads(ln)
             idx.setdefault(norm(r.get("rn")), []).append(r)

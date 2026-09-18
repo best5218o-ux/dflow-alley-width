@@ -19,6 +19,8 @@ import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from _rawio import open_raw, raw_exists  # 2026-09-18: .jsonl 없으면 .jsonl.gz
+
 import numpy as np
 import pyogrio
 import shapely
@@ -31,7 +33,9 @@ RAW = ROOT / "data/vworld/national/raw/road_bt_national_cells.jsonl"
 LINK = ROOT / "data/vworld/national/raw/NODELINKDATA_20260914/MOCT_LINK.shp"
 DER = ROOT / "data/vworld/national/derived"
 DELIV = ROOT / "deliverables"
-KEY = os.environ.get("VWORLD_APIKEY", "")
+KEY = os.environ.get("VWORLD_APIKEY", "").strip()
+# 2026-09-18: 개발키는 발급 시 등록한 도메인이 같이 가야 한다(없으면 ServiceExceptionReport). 앞뒤 공백도 걷어낸다.
+DOMAIN = os.environ.get("VWORLD_DOMAIN", "localhost")
 TIERS = ["대로", "로", "길", "번길", "기타"]
 BEONGIL = re.compile(r"\d+번안?길$")
 SPRD_SIDO = {"11": "서울", "12": "광주·전남", "26": "부산", "27": "대구", "28": "인천", "29": "광주·전남", "30": "대전", "31": "울산",
@@ -69,7 +73,7 @@ def sido_polygons():
     x0, y0 = t.transform(124.0, 32.8)
     x1, y1 = t.transform(132.2, 38.9)
     q = {"SERVICE": "WFS", "REQUEST": "GetFeature", "VERSION": "1.1.0", "TYPENAME": "lt_c_adsido", "OUTPUT": "application/json",
-         "MAXFEATURES": "100", "SRSNAME": "EPSG:900913", "BBOX": f"{x0},{y0},{x1},{y1},EPSG:900913", "key": KEY}
+         "MAXFEATURES": "100", "SRSNAME": "EPSG:900913", "BBOX": f"{x0},{y0},{x1},{y1},EPSG:900913", "key": KEY, "domain": DOMAIN}
     url = "https://api.vworld.kr/req/wfs?" + urllib.parse.urlencode(q)
     j = json.loads(urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "D-FLOW contest"}), timeout=300).read())
     t35 = Transformer.from_crs(3857, 5186, always_xy=True)
@@ -85,7 +89,7 @@ def sido_polygons():
 def main():
     # 도로명주소도로
     seen, sprd = set(), []
-    for line in RAW.open(encoding="utf-8"):
+    for line in open_raw(RAW):
         for p in json.loads(line)["rows"]:
             k = (str(p.get("sig_cd")), str(p.get("rds_man_no")))
             if k in seen:

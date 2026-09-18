@@ -1,0 +1,419 @@
+{
+ "rule_doc": "docs/vworld/회전기하_판정기준.md §19",
+ "rule_commit": "561d235",
+ "unit": "(시군구, 정규화 도로명) · 위계 길·번길",
+ "link_stats": {
+  "daejeon_links": 25471,
+  "no_name_links(-·빈값)": 803,
+  "links_unassigned_gu": 18,
+  "adsigg_polygons": 5,
+  "adsigg_props": [
+   [
+    "cat_cde",
+    "cat_nam",
+    "full_nm",
+    "sig_cd",
+    "sig_eng_nm",
+    "sig_kor_nm"
+   ]
+  ]
+ },
+ "treatment_A": {
+  "names": 42,
+  "included": 1,
+  "not_included": 41,
+  "not_included_rate": 0.9762,
+  "not_included_ci95": [
+   0.8768,
+   0.9958
+  ],
+  "S1_daejeon_wide_not_included_rate": 0.9762,
+  "S2_not_included_but_edit1_match": 7,
+  "pieces_without_lt_l_sprd": 0,
+  "names_not_in_control_population": []
+ },
+ "treatment_B_reference_26_selection_circular": {
+  "names": 36,
+  "included": 0,
+  "not_included": 36,
+  "not_included_rate": 1.0,
+  "not_included_ci95": [
+   0.9036,
+   1.0
+  ],
+  "S1_daejeon_wide_not_included_rate": 1.0,
+  "S2_not_included_but_edit1_match": 5
+ },
+ "control": {
+  "names": 2922,
+  "included": 610,
+  "not_included": 2312,
+  "not_included_rate": 0.7912,
+  "not_included_ci95": [
+   0.7761,
+   0.8056
+  ],
+  "S1_daejeon_wide_not_included_rate": 0.7909,
+  "S2_not_included_but_edit1_match": 374
+ },
+ "difference_A_minus_control": 0.185,
+ "fisher_one_sided": {
+  "table": [
+   [
+    41,
+    1
+   ],
+   [
+    2312,
+    610
+   ]
+  ],
+  "p_treat_higher": 0.00069,
+  "p_treat_lower": 0.999943
+ },
+ "verdict": "처리군 미포함률이 높다",
+ "by_gu": {
+  "동구": {
+   "treatA": {
+    "names": 8,
+    "included": 0,
+    "not_included": 8,
+    "not_included_rate": 1.0,
+    "not_included_ci95": [
+     0.6756,
+     1.0
+    ],
+    "S1_daejeon_wide_not_included_rate": 1.0,
+    "S2_not_included_but_edit1_match": 2
+   },
+   "control": {
+    "names": 564,
+    "included": 63,
+    "not_included": 501,
+    "not_included_rate": 0.8883,
+    "not_included_ci95": [
+     0.8596,
+     0.9117
+    ],
+    "S1_daejeon_wide_not_included_rate": 0.8883,
+    "S2_not_included_but_edit1_match": 63
+   }
+  },
+  "중구": {
+   "treatA": {
+    "names": 12,
+    "included": 0,
+    "not_included": 12,
+    "not_included_rate": 1.0,
+    "not_included_ci95": [
+     0.7575,
+     1.0
+    ],
+    "S1_daejeon_wide_not_included_rate": 1.0,
+    "S2_not_included_but_edit1_match": 2
+   },
+   "control": {
+    "names": 607,
+    "included": 54,
+    "not_included": 553,
+    "not_included_rate": 0.911,
+    "not_included_ci95": [
+     0.8857,
+     0.9312
+    ],
+    "S1_daejeon_wide_not_included_rate": 0.911,
+    "S2_not_included_but_edit1_match": 54
+   }
+  },
+  "서구": {
+   "treatA": {
+    "names": 11,
+    "included": 1,
+    "not_included": 10,
+    "not_included_rate": 0.9091,
+    "not_included_ci95": [
+     0.6226,
+     0.9838
+    ],
+    "S1_daejeon_wide_not_included_rate": 0.9091,
+    "S2_not_included_but_edit1_match": 2
+   },
+   "control": {
+    "names": 633,
+    "included": 138,
+    "not_included": 495,
+    "not_included_rate": 0.782,
+    "not_included_ci95": [
+     0.7482,
+     0.8124
+    ],
+    "S1_daejeon_wide_not_included_rate": 0.782,
+    "S2_not_included_but_edit1_match": 112
+   }
+  },
+  "유성구": {
+   "treatA": {
+    "names": 1,
+    "included": 0,
+    "not_included": 1,
+    "not_included_rate": 1.0,
+    "not_included_ci95": [
+     0.2065,
+     1.0
+    ],
+    "S1_daejeon_wide_not_included_rate": 1.0,
+    "S2_not_included_but_edit1_match": 0
+   },
+   "control": {
+    "names": 603,
+    "included": 225,
+    "not_included": 378,
+    "not_included_rate": 0.6269,
+    "not_included_ci95": [
+     0.5876,
+     0.6646
+    ],
+    "S1_daejeon_wide_not_included_rate": 0.6252,
+    "S2_not_included_but_edit1_match": 83
+   }
+  },
+  "대덕구": {
+   "treatA": {
+    "names": 10,
+    "included": 0,
+    "not_included": 10,
+    "not_included_rate": 1.0,
+    "not_included_ci95": [
+     0.7225,
+     1.0
+    ],
+    "S1_daejeon_wide_not_included_rate": 1.0,
+    "S2_not_included_but_edit1_match": 1
+   },
+   "control": {
+    "names": 515,
+    "included": 130,
+    "not_included": 385,
+    "not_included_rate": 0.7476,
+    "not_included_ci95": [
+     0.7083,
+     0.7832
+    ],
+    "S1_daejeon_wide_not_included_rate": 0.7476,
+    "S2_not_included_but_edit1_match": 62
+   }
+  }
+ },
+ "treatment_A_names": [
+  {
+   "sig_cd": "30110",
+   "name": "계족로330번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30110",
+   "name": "계족로336번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30110",
+   "name": "대전천북로116번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30110",
+   "name": "동대전로110번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30110",
+   "name": "수양길",
+   "included": false
+  },
+  {
+   "sig_cd": "30110",
+   "name": "역전시장길",
+   "included": false
+  },
+  {
+   "sig_cd": "30110",
+   "name": "진보길",
+   "included": false
+  },
+  {
+   "sig_cd": "30110",
+   "name": "진수길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "당디로124번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "당디로36번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "대둔산로386번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "대둔산로414번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "대종로601번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "목척3길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "목척5길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "문창로10번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "문화로134번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "보문산공원로530번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "보문산로122번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30140",
+   "name": "충무로68번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30170",
+   "name": "갈마중로28번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30170",
+   "name": "갈마중로30번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30170",
+   "name": "갈마중로46번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30170",
+   "name": "계백로1158번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30170",
+   "name": "남선로9번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30170",
+   "name": "도마5길",
+   "included": true
+  },
+  {
+   "sig_cd": "30170",
+   "name": "도솔로175번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30170",
+   "name": "문정로112번안길",
+   "included": false
+  },
+  {
+   "sig_cd": "30170",
+   "name": "문정로170번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30170",
+   "name": "변정1길",
+   "included": false
+  },
+  {
+   "sig_cd": "30170",
+   "name": "변정7길",
+   "included": false
+  },
+  {
+   "sig_cd": "30200",
+   "name": "유성대로718번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30230",
+   "name": "계족로608번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30230",
+   "name": "계족산로5번안길",
+   "included": false
+  },
+  {
+   "sig_cd": "30230",
+   "name": "늘봄2길",
+   "included": false
+  },
+  {
+   "sig_cd": "30230",
+   "name": "대전로1375번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30230",
+   "name": "대전로1397번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30230",
+   "name": "동심9길",
+   "included": false
+  },
+  {
+   "sig_cd": "30230",
+   "name": "동춘당로31번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30230",
+   "name": "중리로64번길",
+   "included": false
+  },
+  {
+   "sig_cd": "30230",
+   "name": "청자마을길",
+   "included": false
+  },
+  {
+   "sig_cd": "30230",
+   "name": "태양마을길",
+   "included": false
+  }
+ ]
+}

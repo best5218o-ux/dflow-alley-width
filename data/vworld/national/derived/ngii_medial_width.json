@@ -1,0 +1,1343 @@
+{
+ "rule_doc": "docs/vworld/회전기하_판정기준.md §29",
+ "rule_commit": "d182518",
+ "name": "도로경계 면 내접폭 · 장애물 차감폭 (「통과가능폭」 아님)",
+ "boundary_definition": "미확인 — 브이월드 제공 속성 id·dycd 뿐(설명서상 SCLS 미제공). 포장 경계인지 도로구역 경계인지 확인하지 못했다",
+ "attribution_limit": "축선 귀속은 거리 기반(도로중심선 rdnm 비어 있음) — 「차이」가 값 오차인지 귀속 오차인지 구분되지 않는다",
+ "params": {
+  "bbox_half_m": 200.0,
+  "step_m": 1.0,
+  "trim_m": 2.0,
+  "min_inside_len_m": 10.0,
+  "min_points": 8
+ },
+ "pieces": [
+  {
+   "site": null,
+   "sigg": "동구",
+   "piece": "계족로330번길",
+   "road_name": "계족로330번길",
+   "road_bt_ref": [
+    3,
+    4,
+    3
+   ],
+   "point": [
+    127.43661386364867,
+    36.34212882827492
+   ],
+   "axis": {
+    "d_to_piece_m": 17.7,
+    "rvwd": 4.5,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 56.0,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 56.0,
+   "samples": 53,
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 2,
+    "stair": 0
+   },
+   "inscribed_min_m": 4.5,
+   "inscribed_p10_m": 4.5,
+   "inscribed_median_m": 4.5,
+   "deducted_min_m": 4.5,
+   "deducted_median_m": 4.5,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 4.5
+  },
+  {
+   "site": null,
+   "sigg": "동구",
+   "piece": "계족로336번길",
+   "road_name": "계족로336번길",
+   "road_bt_ref": [
+    4,
+    3,
+    3,
+    4,
+    3
+   ],
+   "point": [
+    127.43568877310105,
+    36.342796915843394
+   ],
+   "axis": {
+    "d_to_piece_m": 6.1,
+    "rvwd": 6,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 38.0,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 38.0,
+   "samples": 35,
+   "obstacle_counts": {
+    "wall": 0,
+    "retaining": 6,
+    "stair": 0
+   },
+   "inscribed_min_m": 2.42,
+   "inscribed_p10_m": 2.8,
+   "inscribed_median_m": 3.75,
+   "deducted_min_m": 2.42,
+   "deducted_median_m": 3.75,
+   "band": "BLOCKED",
+   "band_deducted": "BLOCKED",
+   "rvwd_nearest": 6
+  },
+  {
+   "site": null,
+   "sigg": "동구",
+   "piece": "동대전로110번길",
+   "road_name": "동대전로110번길",
+   "road_bt_ref": [
+    4
+   ],
+   "point": [
+    127.44486304348214,
+    36.332153942387826
+   ],
+   "axis": {
+    "d_to_piece_m": 6.4,
+    "rvwd": 7.6,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 42.3,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 42.3,
+   "samples": 39,
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 2,
+    "stair": 0
+   },
+   "inscribed_min_m": 7.43,
+   "inscribed_p10_m": 7.44,
+   "inscribed_median_m": 7.49,
+   "deducted_min_m": 7.43,
+   "deducted_median_m": 7.49,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 7.6
+  },
+  {
+   "site": null,
+   "sigg": "동구",
+   "piece": "역전시장길7",
+   "road_name": "역전시장길",
+   "road_bt_ref": [
+    3
+   ],
+   "point": [
+    127.43387471315823,
+    36.33103525837262
+   ],
+   "axis": {
+    "d_to_piece_m": 18.7,
+    "rvwd": 5.9,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 19.8,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 19.8,
+   "samples": 16,
+   "obstacle_counts": {
+    "wall": 5,
+    "retaining": 5,
+    "stair": 0
+   },
+   "inscribed_min_m": 2.54,
+   "inscribed_p10_m": 2.54,
+   "inscribed_median_m": 5.12,
+   "deducted_min_m": 2.54,
+   "deducted_median_m": 5.12,
+   "band": "CONDITIONAL_C",
+   "band_deducted": "CONDITIONAL_C",
+   "rvwd_nearest": 5.9
+  },
+  {
+   "site": null,
+   "sigg": "동구",
+   "piece": "역전시장길75",
+   "road_name": "역전시장길",
+   "road_bt_ref": [
+    3
+   ],
+   "point": [
+    127.43493834154471,
+    36.328875174103246
+   ],
+   "axis": {
+    "d_to_piece_m": 17.3,
+    "rvwd": 6.9,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 44.6,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 44.6,
+   "samples": 41,
+   "obstacle_counts": {
+    "wall": 11,
+    "retaining": 0,
+    "stair": 0
+   },
+   "inscribed_min_m": 5.82,
+   "inscribed_p10_m": 6.07,
+   "inscribed_median_m": 6.85,
+   "deducted_min_m": 5.82,
+   "deducted_median_m": 6.85,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 6.9
+  },
+  {
+   "site": null,
+   "sigg": "중구",
+   "piece": "목척3길",
+   "road_name": "목척3길",
+   "road_bt_ref": [
+    8
+   ],
+   "point": [
+    127.42484495894416,
+    36.33069103663696
+   ],
+   "axis": {
+    "d_to_piece_m": 9.6,
+    "rvwd": 8.2,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 37.8,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 37.8,
+   "samples": 34,
+   "obstacle_counts": {
+    "wall": 2,
+    "retaining": 0,
+    "stair": 1
+   },
+   "inscribed_min_m": 5.03,
+   "inscribed_p10_m": 5.09,
+   "inscribed_median_m": 5.94,
+   "deducted_min_m": 5.03,
+   "deducted_median_m": 5.94,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 8.2
+  },
+  {
+   "site": null,
+   "sigg": "중구",
+   "piece": "목척5길",
+   "road_name": "목척5길",
+   "road_bt_ref": [
+    4,
+    6,
+    6,
+    2,
+    6,
+    2,
+    2,
+    6,
+    6,
+    6
+   ],
+   "point": [
+    127.42427615297548,
+    36.33168253279153
+   ],
+   "axis": {
+    "d_to_piece_m": 11.6,
+    "rvwd": 5,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 18.3,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 18.3,
+   "samples": 15,
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 1,
+    "stair": 0
+   },
+   "inscribed_min_m": 5.0,
+   "inscribed_p10_m": 5.0,
+   "inscribed_median_m": 5.0,
+   "deducted_min_m": 5.0,
+   "deducted_median_m": 5.0,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 5
+  },
+  {
+   "site": null,
+   "sigg": "동구",
+   "piece": "진수길",
+   "road_name": "진수길",
+   "road_bt_ref": [
+    3
+   ],
+   "point": [
+    127.43977724658217,
+    36.33507940251525
+   ],
+   "axis": {
+    "d_to_piece_m": 7.7,
+    "rvwd": 3,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 78.7,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 78.7,
+   "samples": 75,
+   "obstacle_counts": {
+    "wall": 0,
+    "retaining": 1,
+    "stair": 0
+   },
+   "inscribed_min_m": 1.35,
+   "inscribed_p10_m": 1.82,
+   "inscribed_median_m": 3.0,
+   "deducted_min_m": 1.35,
+   "deducted_median_m": 3.0,
+   "band": "BLOCKED",
+   "band_deducted": "BLOCKED",
+   "rvwd_nearest": 3
+  },
+  {
+   "site": null,
+   "sigg": "동구",
+   "piece": "진보길",
+   "road_name": "진보길",
+   "road_bt_ref": [
+    3
+   ],
+   "point": [
+    127.43944431165573,
+    36.3361254018607
+   ],
+   "axis": {
+    "d_to_piece_m": 30.6,
+    "rvwd": 3.5,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 64.2,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 64.2,
+   "samples": 61,
+   "obstacle_counts": {
+    "wall": 2,
+    "retaining": 2,
+    "stair": 0
+   },
+   "inscribed_min_m": 1.91,
+   "inscribed_p10_m": 2.39,
+   "inscribed_median_m": 3.5,
+   "deducted_min_m": 1.91,
+   "deducted_median_m": 3.5,
+   "band": "BLOCKED",
+   "band_deducted": "BLOCKED",
+   "rvwd_nearest": 3.5
+  },
+  {
+   "site": null,
+   "sigg": "동구",
+   "piece": "수양길",
+   "road_name": "수양길",
+   "road_bt_ref": [
+    3
+   ],
+   "point": [
+    127.4413931054391,
+    36.33523708030265
+   ],
+   "axis": {
+    "d_to_piece_m": 8.7,
+    "rvwd": 2.5,
+    "rddv": "RDD008",
+    "rdnm": null,
+    "len_m": 81.6,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "error": "축선이 도로경계 면 안에 들어가지 않음",
+   "rvwd_nearest": 2.5
+  },
+  {
+   "site": null,
+   "sigg": "중구",
+   "piece": "대종로601번길",
+   "road_name": "대종로601번길",
+   "road_bt_ref": [
+    8,
+    8
+   ],
+   "point": [
+    127.4169242246692,
+    36.33477949788951
+   ],
+   "axis": {
+    "d_to_piece_m": 14.7,
+    "rvwd": 6.6,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 86.1,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 86.1,
+   "samples": 83,
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 1,
+    "stair": 0
+   },
+   "inscribed_min_m": 5.48,
+   "inscribed_p10_m": 5.72,
+   "inscribed_median_m": 6.44,
+   "deducted_min_m": 5.48,
+   "deducted_median_m": 6.44,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 6.6
+  },
+  {
+   "site": null,
+   "sigg": "동구",
+   "piece": "대전천북로116번길",
+   "road_name": "대전천북로116번길",
+   "road_bt_ref": [
+    4
+   ],
+   "point": [
+    127.41646339785575,
+    36.340019048109454
+   ],
+   "axis": {
+    "d_to_piece_m": 9.7,
+    "rvwd": 4.7,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 80.6,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 80.6,
+   "samples": 77,
+   "obstacle_counts": {
+    "wall": 1,
+    "retaining": 5,
+    "stair": 0
+   },
+   "inscribed_min_m": 4.18,
+   "inscribed_p10_m": 4.27,
+   "inscribed_median_m": 4.73,
+   "deducted_min_m": 4.18,
+   "deducted_median_m": 4.73,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 4.7
+  },
+  {
+   "site": null,
+   "sigg": "서구",
+   "piece": "갈마중로28번길",
+   "road_name": "갈마중로28번길",
+   "road_bt_ref": [
+    6,
+    6
+   ],
+   "point": [
+    127.37306627703245,
+    36.34740010307924
+   ],
+   "axis": {
+    "d_to_piece_m": 11.2,
+    "rvwd": 4,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 63.1,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 63.1,
+   "samples": 60,
+   "obstacle_counts": {
+    "wall": 11,
+    "retaining": 7,
+    "stair": 0
+   },
+   "inscribed_min_m": 4.0,
+   "inscribed_p10_m": 4.0,
+   "inscribed_median_m": 4.0,
+   "deducted_min_m": 4.0,
+   "deducted_median_m": 4.0,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 4
+  },
+  {
+   "site": null,
+   "sigg": "서구",
+   "piece": "갈마중로30번길",
+   "road_name": "갈마중로30번길",
+   "road_bt_ref": [
+    6,
+    6
+   ],
+   "point": [
+    127.3725468209473,
+    36.34723474776059
+   ],
+   "axis": {
+    "d_to_piece_m": 7.6,
+    "rvwd": 6.7,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 28.2,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 28.2,
+   "samples": 25,
+   "obstacle_counts": {
+    "wall": 10,
+    "retaining": 7,
+    "stair": 0
+   },
+   "inscribed_min_m": 3.79,
+   "inscribed_p10_m": 4.0,
+   "inscribed_median_m": 5.66,
+   "deducted_min_m": 3.79,
+   "deducted_median_m": 5.66,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 6.7
+  },
+  {
+   "site": null,
+   "sigg": "서구",
+   "piece": "갈마중로46번길",
+   "road_name": "갈마중로46번길",
+   "road_bt_ref": [
+    6
+   ],
+   "point": [
+    127.37396784951632,
+    36.34689220743677
+   ],
+   "axis": {
+    "d_to_piece_m": 10.1,
+    "rvwd": 6,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 71.3,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 71.3,
+   "samples": 68,
+   "obstacle_counts": {
+    "wall": 7,
+    "retaining": 2,
+    "stair": 0
+   },
+   "inscribed_min_m": 5.91,
+   "inscribed_p10_m": 5.93,
+   "inscribed_median_m": 6.04,
+   "deducted_min_m": 5.91,
+   "deducted_median_m": 6.04,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 6
+  },
+  {
+   "site": null,
+   "sigg": "서구",
+   "piece": "문정로170번길",
+   "road_name": "문정로170번길",
+   "road_bt_ref": [
+    6,
+    6
+   ],
+   "point": [
+    127.39642609306074,
+    36.349359573688716
+   ],
+   "axis": {
+    "d_to_piece_m": 12.2,
+    "rvwd": 8,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 18.7,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 18.7,
+   "samples": 15,
+   "obstacle_counts": {
+    "wall": 11,
+    "retaining": 0,
+    "stair": 0
+   },
+   "inscribed_min_m": 7.73,
+   "inscribed_p10_m": 7.73,
+   "inscribed_median_m": 7.82,
+   "deducted_min_m": 7.73,
+   "deducted_median_m": 7.82,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 8
+  },
+  {
+   "site": null,
+   "sigg": "서구",
+   "piece": "문정로112번안길",
+   "road_name": "문정로112번안길",
+   "road_bt_ref": [
+    6,
+    6,
+    6
+   ],
+   "point": [
+    127.39218719553594,
+    36.345691118963956
+   ],
+   "axis": {
+    "d_to_piece_m": 10.6,
+    "rvwd": 8,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 52.4,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 52.4,
+   "samples": 49,
+   "obstacle_counts": {
+    "wall": 10,
+    "retaining": 9,
+    "stair": 0
+   },
+   "inscribed_min_m": 5.93,
+   "inscribed_p10_m": 5.93,
+   "inscribed_median_m": 5.94,
+   "deducted_min_m": 5.93,
+   "deducted_median_m": 5.94,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 8
+  },
+  {
+   "site": null,
+   "sigg": "서구",
+   "piece": "남선로9번길",
+   "road_name": "남선로9번길",
+   "road_bt_ref": [
+    6
+   ],
+   "point": [
+    127.39538141777365,
+    36.34433182264431
+   ],
+   "axis": {
+    "d_to_piece_m": 9.9,
+    "rvwd": 6,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 34.6,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 34.6,
+   "samples": 31,
+   "obstacle_counts": {
+    "wall": 11,
+    "retaining": 9,
+    "stair": 1
+   },
+   "inscribed_min_m": 5.78,
+   "inscribed_p10_m": 5.79,
+   "inscribed_median_m": 5.85,
+   "deducted_min_m": 5.78,
+   "deducted_median_m": 5.85,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 6
+  },
+  {
+   "site": null,
+   "sigg": "대덕구",
+   "piece": "계족산로5번안길 22",
+   "road_name": "계족산로5번안길",
+   "road_bt_ref": [
+    8
+   ],
+   "point": [
+    127.43174736360696,
+    36.367074631968705
+   ],
+   "axis": {
+    "d_to_piece_m": 14.2,
+    "rvwd": 15,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 105.0,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 105.0,
+   "samples": 102,
+   "obstacle_counts": {
+    "wall": 7,
+    "retaining": 7,
+    "stair": 0
+   },
+   "inscribed_min_m": 14.99,
+   "inscribed_p10_m": 14.99,
+   "inscribed_median_m": 15.0,
+   "deducted_min_m": 14.99,
+   "deducted_median_m": 15.0,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 15
+  },
+  {
+   "site": null,
+   "sigg": "대덕구",
+   "piece": "계족로608번길 30",
+   "road_name": "계족로608번길",
+   "road_bt_ref": [
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "point": [
+    127.43202395382974,
+    36.36609364344889
+   ],
+   "axis": {
+    "d_to_piece_m": 12.0,
+    "rvwd": 8,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 22.2,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 22.2,
+   "samples": 19,
+   "obstacle_counts": {
+    "wall": 9,
+    "retaining": 3,
+    "stair": 0
+   },
+   "inscribed_min_m": 7.99,
+   "inscribed_p10_m": 7.99,
+   "inscribed_median_m": 8.0,
+   "deducted_min_m": 7.99,
+   "deducted_median_m": 8.0,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 8
+  },
+  {
+   "site": null,
+   "sigg": "대덕구",
+   "piece": "대전로1375번길 22-14",
+   "road_name": "대전로1375번길",
+   "road_bt_ref": [
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "point": [
+    127.41991047179016,
+    36.37727336676534
+   ],
+   "axis": {
+    "d_to_piece_m": 9.8,
+    "rvwd": 3,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 28.0,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 28.0,
+   "samples": 25,
+   "obstacle_counts": {
+    "wall": 10,
+    "retaining": 4,
+    "stair": 1
+   },
+   "inscribed_min_m": 1.81,
+   "inscribed_p10_m": 1.95,
+   "inscribed_median_m": 2.59,
+   "deducted_min_m": 1.81,
+   "deducted_median_m": 2.59,
+   "band": "BLOCKED",
+   "band_deducted": "BLOCKED",
+   "rvwd_nearest": 3
+  },
+  {
+   "site": null,
+   "sigg": "대덕구",
+   "piece": "대전로1397번길 50",
+   "road_name": "대전로1397번길",
+   "road_bt_ref": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "point": [
+    127.41987951190373,
+    36.379569310060376
+   ],
+   "axis": {
+    "d_to_piece_m": 6.9,
+    "rvwd": 6,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 9.1,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 9.1,
+   "band": "UNKNOWN_FAIL_CLOSED",
+   "reason": "면 안 축선 9.1 m < 14.0 m",
+   "rvwd_nearest": 6
+  },
+  {
+   "site": null,
+   "sigg": "대덕구",
+   "piece": "청자마을길 28",
+   "road_name": "청자마을길",
+   "road_bt_ref": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "point": [
+    127.43745793661071,
+    36.437201042251644
+   ],
+   "axis": {
+    "d_to_piece_m": 8.2,
+    "rvwd": 3.5,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 55.6,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 55.6,
+   "samples": 52,
+   "obstacle_counts": {
+    "wall": 2,
+    "retaining": 3,
+    "stair": 0
+   },
+   "inscribed_min_m": 3.49,
+   "inscribed_p10_m": 3.49,
+   "inscribed_median_m": 3.5,
+   "deducted_min_m": 3.49,
+   "deducted_median_m": 3.5,
+   "band": "CONDITIONAL_C",
+   "band_deducted": "CONDITIONAL_C",
+   "rvwd_nearest": 3.5
+  },
+  {
+   "site": null,
+   "sigg": "대덕구",
+   "piece": "태양마을길 28",
+   "road_name": "태양마을길",
+   "road_bt_ref": [
+    5
+   ],
+   "point": [
+    127.43511341825487,
+    36.438165502849756
+   ],
+   "axis": {
+    "d_to_piece_m": 5.6,
+    "rvwd": 1.5,
+    "rddv": "RDD009",
+    "rdnm": null,
+    "len_m": 14.7,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "error": "축선이 도로경계 면 안에 들어가지 않음",
+   "rvwd_nearest": 1.5
+  },
+  {
+   "site": null,
+   "sigg": "대덕구",
+   "piece": "동심9길",
+   "road_name": "동심9길",
+   "road_bt_ref": [
+    3,
+    1.4
+   ],
+   "point": [
+    127.4116626437189,
+    36.36467503320276
+   ],
+   "axis": {
+    "d_to_piece_m": 5.7,
+    "rvwd": 3.5,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 61.3,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 61.3,
+   "samples": 58,
+   "obstacle_counts": {
+    "wall": 11,
+    "retaining": 3,
+    "stair": 0
+   },
+   "inscribed_min_m": 2.02,
+   "inscribed_p10_m": 2.15,
+   "inscribed_median_m": 2.54,
+   "deducted_min_m": 2.02,
+   "deducted_median_m": 2.54,
+   "band": "BLOCKED",
+   "band_deducted": "BLOCKED",
+   "rvwd_nearest": 3.5
+  },
+  {
+   "site": null,
+   "sigg": "대덕구",
+   "piece": "늘봄2길",
+   "road_name": "늘봄2길",
+   "road_bt_ref": [
+    4
+   ],
+   "point": [
+    127.41462407036015,
+    36.36468177764039
+   ],
+   "axis": {
+    "d_to_piece_m": 6.6,
+    "rvwd": 4,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 73.7,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 73.7,
+   "samples": 70,
+   "obstacle_counts": {
+    "wall": 2,
+    "retaining": 6,
+    "stair": 1
+   },
+   "inscribed_min_m": 4.0,
+   "inscribed_p10_m": 4.0,
+   "inscribed_median_m": 4.0,
+   "deducted_min_m": 4.0,
+   "deducted_median_m": 4.0,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 4
+  },
+  {
+   "site": null,
+   "sigg": "대덕구",
+   "piece": "동춘당로31번길",
+   "road_name": "동춘당로31번길",
+   "road_bt_ref": [
+    3
+   ],
+   "point": [
+    127.443761712321,
+    36.35819869222357
+   ],
+   "axis": {
+    "d_to_piece_m": 10.5,
+    "rvwd": 7.3,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 81.8,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 81.8,
+   "samples": 78,
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 2,
+    "stair": 0
+   },
+   "inscribed_min_m": 5.02,
+   "inscribed_p10_m": 5.27,
+   "inscribed_median_m": 6.61,
+   "deducted_min_m": 5.02,
+   "deducted_median_m": 6.61,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 7.3
+  },
+  {
+   "site": null,
+   "sigg": "서구",
+   "piece": "도솔로175번길",
+   "road_name": "도솔로175번길",
+   "road_bt_ref": [
+    6
+   ],
+   "point": [
+    127.37344441641086,
+    36.32639348051394
+   ],
+   "axis": {
+    "d_to_piece_m": 10.4,
+    "rvwd": 6,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 58.1,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 58.1,
+   "samples": 55,
+   "obstacle_counts": {
+    "wall": 16,
+    "retaining": 11,
+    "stair": 2
+   },
+   "inscribed_min_m": 5.18,
+   "inscribed_p10_m": 5.24,
+   "inscribed_median_m": 5.56,
+   "deducted_min_m": 5.18,
+   "deducted_median_m": 5.56,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 6
+  },
+  {
+   "site": null,
+   "sigg": "서구",
+   "piece": "변정1길",
+   "road_name": "변정1길",
+   "road_bt_ref": [
+    6
+   ],
+   "point": [
+    127.37969763738275,
+    36.32486227980577
+   ],
+   "axis": {
+    "d_to_piece_m": 21.8,
+    "rvwd": 6,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 65.1,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 65.1,
+   "samples": 62,
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 3,
+    "stair": 0
+   },
+   "inscribed_min_m": 5.61,
+   "inscribed_p10_m": 5.7,
+   "inscribed_median_m": 6.0,
+   "deducted_min_m": 5.61,
+   "deducted_median_m": 6.0,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 6
+  },
+  {
+   "site": null,
+   "sigg": "서구",
+   "piece": "변정7길",
+   "road_name": "변정7길",
+   "road_bt_ref": [
+    6
+   ],
+   "point": [
+    127.37967861112826,
+    36.322481062495065
+   ],
+   "axis": {
+    "d_to_piece_m": 8.7,
+    "rvwd": 3,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 26.0,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 26.0,
+   "samples": 23,
+   "obstacle_counts": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "inscribed_min_m": 2.99,
+   "inscribed_p10_m": 2.99,
+   "inscribed_median_m": 3.0,
+   "deducted_min_m": 2.99,
+   "deducted_median_m": 3.0,
+   "band": "CONDITIONAL_C",
+   "band_deducted": "CONDITIONAL_C",
+   "rvwd_nearest": 3
+  },
+  {
+   "site": null,
+   "sigg": "중구",
+   "piece": "당디로124번길",
+   "road_name": "당디로124번길",
+   "road_bt_ref": [
+    8
+   ],
+   "point": [
+    127.39152213837576,
+    36.315797099222166
+   ],
+   "axis": {
+    "d_to_piece_m": 12.4,
+    "rvwd": 6.1,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 36.4,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 36.4,
+   "samples": 33,
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 3,
+    "stair": 0
+   },
+   "inscribed_min_m": 5.76,
+   "inscribed_p10_m": 5.8,
+   "inscribed_median_m": 5.96,
+   "deducted_min_m": 5.76,
+   "deducted_median_m": 5.96,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 6.1
+  },
+  {
+   "site": null,
+   "sigg": "중구",
+   "piece": "충무로68번길",
+   "road_name": "충무로68번길",
+   "road_bt_ref": [
+    6
+   ],
+   "point": [
+    127.42449960092145,
+    36.31692278758278
+   ],
+   "axis": {
+    "d_to_piece_m": 9.5,
+    "rvwd": 5,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 46.2,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 46.2,
+   "samples": 43,
+   "obstacle_counts": {
+    "wall": 3,
+    "retaining": 7,
+    "stair": 0
+   },
+   "inscribed_min_m": 4.56,
+   "inscribed_p10_m": 4.62,
+   "inscribed_median_m": 4.95,
+   "deducted_min_m": 4.56,
+   "deducted_median_m": 4.95,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 5
+  },
+  {
+   "site": null,
+   "sigg": "중구",
+   "piece": "보문산공원로530번길",
+   "road_name": "보문산공원로530번길",
+   "road_bt_ref": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "point": [
+    127.42480050428122,
+    36.31462315265068
+   ],
+   "axis": {
+    "d_to_piece_m": 14.0,
+    "rvwd": 4,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 14.4,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 14.4,
+   "samples": 11,
+   "obstacle_counts": {
+    "wall": 1,
+    "retaining": 2,
+    "stair": 0
+   },
+   "inscribed_min_m": 3.97,
+   "inscribed_p10_m": 3.97,
+   "inscribed_median_m": 4.0,
+   "deducted_min_m": 3.97,
+   "deducted_median_m": 4.0,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 4
+  },
+  {
+   "site": null,
+   "sigg": "중구",
+   "piece": "대둔산로414번길",
+   "road_name": "대둔산로414번길",
+   "road_bt_ref": [
+    6
+   ],
+   "point": [
+    127.39264277343587,
+    36.30693840915551
+   ],
+   "axis": {
+    "d_to_piece_m": 7.7,
+    "rvwd": 3.5,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 135.2,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 135.2,
+   "samples": 132,
+   "obstacle_counts": {
+    "wall": 6,
+    "retaining": 3,
+    "stair": 0
+   },
+   "inscribed_min_m": 3.5,
+   "inscribed_p10_m": 3.5,
+   "inscribed_median_m": 3.5,
+   "deducted_min_m": 3.5,
+   "deducted_median_m": 3.5,
+   "band": "CONDITIONAL_C",
+   "band_deducted": "CONDITIONAL_C",
+   "rvwd_nearest": 3.5
+  },
+  {
+   "site": null,
+   "sigg": "중구",
+   "piece": "보문산로122번길",
+   "road_name": "보문산로122번길",
+   "road_bt_ref": [
+    6,
+    5
+   ],
+   "point": [
+    127.39399747653158,
+    36.30466951744687
+   ],
+   "axis": {
+    "d_to_piece_m": 9.5,
+    "rvwd": 4,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 4.6,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 4.6,
+   "band": "UNKNOWN_FAIL_CLOSED",
+   "reason": "면 안 축선 4.6 m < 14.0 m",
+   "rvwd_nearest": 4
+  },
+  {
+   "site": null,
+   "sigg": "중구",
+   "piece": "대둔산로386번길",
+   "road_name": "대둔산로386번길",
+   "road_bt_ref": [
+    4,
+    4
+   ],
+   "point": [
+    127.38685197650355,
+    36.3035801609869
+   ],
+   "axis": {
+    "d_to_piece_m": 10.3,
+    "rvwd": 3,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 20.8,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 20.8,
+   "samples": 17,
+   "obstacle_counts": {
+    "wall": 3,
+    "retaining": 2,
+    "stair": 0
+   },
+   "inscribed_min_m": 2.15,
+   "inscribed_p10_m": 2.15,
+   "inscribed_median_m": 2.24,
+   "deducted_min_m": 2.15,
+   "deducted_median_m": 2.24,
+   "band": "BLOCKED",
+   "band_deducted": "BLOCKED",
+   "rvwd_nearest": 3
+  },
+  {
+   "site": null,
+   "sigg": "서구",
+   "piece": "계백로1158번길",
+   "road_name": "계백로1158번길",
+   "road_bt_ref": [
+    8,
+    8
+   ],
+   "point": [
+    127.35397536276068,
+    36.30054358180325
+   ],
+   "axis": {
+    "d_to_piece_m": 8.0,
+    "rvwd": 8,
+    "rddv": "RDD000",
+    "rdnm": null,
+    "len_m": 160.0,
+    "귀속": "이름 아님 — 거리 기반(도로중심선 rdnm 비어 있음)"
+   },
+   "inside_len_m": 160.0,
+   "samples": 156,
+   "obstacle_counts": {
+    "wall": 8,
+    "retaining": 5,
+    "stair": 6
+   },
+   "inscribed_min_m": 6.71,
+   "inscribed_p10_m": 6.84,
+   "inscribed_median_m": 7.91,
+   "deducted_min_m": 6.71,
+   "deducted_median_m": 7.91,
+   "band": "폭축_통과후보",
+   "band_deducted": "폭축_통과후보",
+   "rvwd_nearest": 8
+  }
+ ]
+}

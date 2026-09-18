@@ -1,0 +1,349 @@
+{
+ "inputs": {
+  "nodelink": "MOCT_LINK.shp",
+  "structures": {
+   "bridge": {
+    "rows": 35593,
+    "bad_coords_excluded": 0
+   },
+   "tunnel": {
+    "rows": 3840,
+    "bad_coords_excluded": 0
+   }
+  },
+  "buffer_m": 15.0,
+  "window_radius_m": 500.0
+ },
+ "scopes": {
+  "전국": {
+   "level": "national",
+   "prefixes": null,
+   "links": 1562356,
+   "l1_links": 1133588,
+   "l1_share_pct": 72.56,
+   "l1_length_km": 150356.1,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.01,
+   "l1_rest_h_pos_pct": 1.81,
+   "l1_rest_h_zero_pct": 98.19,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 62608,
+   "l1_near_bridge_with_clear_h": 12284,
+   "l1_near_tunnel": 5793,
+   "l1_height_evidence_pct": 2.64,
+   "l2plus_rest_h_pos_pct": 4.58
+  },
+  "서울특별시": {
+   "level": "city",
+   "prefixes": [
+    "100",
+    "101",
+    "102",
+    "103",
+    "104",
+    "105",
+    "106",
+    "107",
+    "108",
+    "109",
+    "110",
+    "111",
+    "112",
+    "113",
+    "114",
+    "115",
+    "116",
+    "117",
+    "118",
+    "119",
+    "120",
+    "121",
+    "122",
+    "123",
+    "124"
+   ],
+   "links": 63383,
+   "l1_links": 34388,
+   "l1_share_pct": 54.25,
+   "l1_length_km": 2932.2,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.0,
+   "l1_rest_h_pos_pct": 2.72,
+   "l1_rest_h_zero_pct": 97.28,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 1402,
+   "l1_near_bridge_with_clear_h": 409,
+   "l1_near_tunnel": 791,
+   "l1_height_evidence_pct": 3.57,
+   "l2plus_rest_h_pos_pct": 6.5
+  },
+  "부산광역시": {
+   "level": "city",
+   "prefixes": [
+    "130",
+    "131",
+    "132",
+    "133",
+    "134",
+    "135",
+    "136",
+    "137",
+    "138",
+    "139",
+    "140",
+    "141",
+    "142",
+    "143",
+    "144",
+    "145"
+   ],
+   "links": 42916,
+   "l1_links": 25137,
+   "l1_share_pct": 58.57,
+   "l1_length_km": 2279.1,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.02,
+   "l1_rest_h_pos_pct": 1.73,
+   "l1_rest_h_zero_pct": 98.27,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 619,
+   "l1_near_bridge_with_clear_h": 151,
+   "l1_near_tunnel": 124,
+   "l1_height_evidence_pct": 2.27,
+   "l2plus_rest_h_pos_pct": 6.33
+  },
+  "대전광역시": {
+   "level": "city",
+   "prefixes": [
+    "183",
+    "184",
+    "185",
+    "186",
+    "187"
+   ],
+   "links": 25471,
+   "l1_links": 14232,
+   "l1_share_pct": 55.88,
+   "l1_length_km": 1333.1,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.03,
+   "l1_rest_h_pos_pct": 1.74,
+   "l1_rest_h_zero_pct": 98.26,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 796,
+   "l1_near_bridge_with_clear_h": 219,
+   "l1_near_tunnel": 205,
+   "l1_height_evidence_pct": 3.04,
+   "l2plus_rest_h_pos_pct": 4.19
+  },
+  "청주시": {
+   "level": "city",
+   "prefixes": [
+    "270",
+    "271",
+    "283",
+    "284"
+   ],
+   "links": 28832,
+   "l1_links": 19619,
+   "l1_share_pct": 68.05,
+   "l1_length_km": 2070.1,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.11,
+   "l1_rest_h_pos_pct": 2.33,
+   "l1_rest_h_zero_pct": 97.67,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 915,
+   "l1_near_bridge_with_clear_h": 200,
+   "l1_near_tunnel": 62,
+   "l1_height_evidence_pct": 3.08,
+   "l2plus_rest_h_pos_pct": 3.77
+  },
+  "서울 용산구": {
+   "level": "district",
+   "prefixes": [
+    "102"
+   ],
+   "links": 1978,
+   "l1_links": 1011,
+   "l1_share_pct": 51.11,
+   "l1_length_km": 102.5,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.0,
+   "l1_rest_h_pos_pct": 5.64,
+   "l1_rest_h_zero_pct": 94.36,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 89,
+   "l1_near_bridge_with_clear_h": 55,
+   "l1_near_tunnel": 50,
+   "l1_height_evidence_pct": 10.39,
+   "l2plus_rest_h_pos_pct": 13.34
+  },
+  "부산 동구": {
+   "level": "district",
+   "prefixes": [
+    "132"
+   ],
+   "links": 951,
+   "l1_links": 595,
+   "l1_share_pct": 62.57,
+   "l1_length_km": 53.2,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.0,
+   "l1_rest_h_pos_pct": 2.69,
+   "l1_rest_h_zero_pct": 97.31,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 12,
+   "l1_near_bridge_with_clear_h": 9,
+   "l1_near_tunnel": 19,
+   "l1_height_evidence_pct": 4.2,
+   "l2plus_rest_h_pos_pct": 7.3
+  },
+  "대전 서구": {
+   "level": "district",
+   "prefixes": [
+    "185"
+   ],
+   "links": 5642,
+   "l1_links": 2939,
+   "l1_share_pct": 52.09,
+   "l1_length_km": 258.1,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.0,
+   "l1_rest_h_pos_pct": 0.71,
+   "l1_rest_h_zero_pct": 99.29,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 123,
+   "l1_near_bridge_with_clear_h": 48,
+   "l1_near_tunnel": 68,
+   "l1_height_evidence_pct": 2.28,
+   "l2plus_rest_h_pos_pct": 4.85
+  },
+  "청주 청원구": {
+   "level": "district",
+   "prefixes": [
+    "284"
+   ],
+   "links": 7487,
+   "l1_links": 4947,
+   "l1_share_pct": 66.07,
+   "l1_length_km": 525.5,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.04,
+   "l1_rest_h_pos_pct": 2.85,
+   "l1_rest_h_zero_pct": 97.15,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 255,
+   "l1_near_bridge_with_clear_h": 70,
+   "l1_near_tunnel": 19,
+   "l1_height_evidence_pct": 3.48,
+   "l2plus_rest_h_pos_pct": 5.0
+  }
+ },
+ "targets": {
+  "서울 이태원동": {
+   "seed_source": "브이월드 검색 API type=district 동 대표점",
+   "seed_title": "서울특별시 용산구 이태원동",
+   "seed_lonlat": [
+    126.9950627,
+    37.53251464
+   ],
+   "seed_5186": [
+    199563.6,
+    548112.8
+   ],
+   "links": 123,
+   "l1_links": 96,
+   "l1_share_pct": 78.05,
+   "l1_length_km": 7.7,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.0,
+   "l1_rest_h_pos_pct": 4.17,
+   "l1_rest_h_zero_pct": 95.83,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 0,
+   "l1_near_bridge_with_clear_h": 0,
+   "l1_near_tunnel": 4,
+   "l1_height_evidence_pct": 4.17,
+   "l2plus_rest_h_pos_pct": 7.41
+  },
+  "부산 초량동": {
+   "seed_source": "브이월드 검색 API type=district 동 대표점",
+   "seed_title": "부산광역시 동구 초량동",
+   "seed_lonlat": [
+    129.0369625,
+    35.11393599
+   ],
+   "seed_5186": [
+    385705.8,
+    281634.4
+   ],
+   "links": 169,
+   "l1_links": 127,
+   "l1_share_pct": 75.15,
+   "l1_length_km": 9.8,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.0,
+   "l1_rest_h_pos_pct": 0.0,
+   "l1_rest_h_zero_pct": 100.0,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 9,
+   "l1_near_bridge_with_clear_h": 9,
+   "l1_near_tunnel": 2,
+   "l1_height_evidence_pct": 7.09,
+   "l2plus_rest_h_pos_pct": 14.29
+  },
+  "대전 변동": {
+   "seed_source": "브이월드 검색 API type=district 동 대표점",
+   "seed_title": "대전광역시 서구 변동",
+   "seed_lonlat": [
+    127.3867477,
+    36.32581829
+   ],
+   "seed_5186": [
+    234726.7,
+    414267.5
+   ],
+   "links": 102,
+   "l1_links": 39,
+   "l1_share_pct": 38.24,
+   "l1_length_km": 2.0,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.0,
+   "l1_rest_h_pos_pct": 0.0,
+   "l1_rest_h_zero_pct": 100.0,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 1,
+   "l1_near_bridge_with_clear_h": 1,
+   "l1_near_tunnel": 0,
+   "l1_height_evidence_pct": 2.56,
+   "l2plus_rest_h_pos_pct": 6.35
+  },
+  "청주 내덕동": {
+   "seed_source": "브이월드 검색 API type=district 동 대표점",
+   "seed_title": "충청북도 청주시 청원구 내덕동",
+   "seed_lonlat": [
+    127.4826598,
+    36.65836046
+   ],
+   "seed_5186": [
+    243154.0,
+    451208.2
+   ],
+   "links": 157,
+   "l1_links": 60,
+   "l1_share_pct": 38.22,
+   "l1_length_km": 3.6,
+   "l1_width_attr_pct": 0.0,
+   "l1_rest_w_pos_pct": 0.0,
+   "l1_rest_h_pos_pct": 0.0,
+   "l1_rest_h_zero_pct": 100.0,
+   "l1_rest_h_null_pct": 0.0,
+   "l1_near_bridge": 0,
+   "l1_near_bridge_with_clear_h": 0,
+   "l1_near_tunnel": 0,
+   "l1_height_evidence_pct": 0.0,
+   "l2plus_rest_h_pos_pct": 0.0
+  }
+ }
+}

@@ -1,0 +1,1207 @@
+{
+ "rule_doc": "docs/vworld/회전기하_판정기준.md §8",
+ "rule_commit": "ab6e651",
+ "layer": "lt_l_sprd(도로명주소도로)",
+ "sites_total": 26,
+ "site_counts": {
+  "있음": 26
+ },
+ "piece_counts": {
+  "있음": 37,
+  "대조 대상 아님(지번)": 1
+ },
+ "ref_road_bt_on_matched": {
+  "values": [
+   3,
+   4,
+   3,
+   4,
+   3,
+   3,
+   4,
+   3,
+   4,
+   3,
+   3,
+   8,
+   4,
+   6,
+   6,
+   2,
+   6,
+   2,
+   2,
+   6,
+   6,
+   6,
+   3,
+   3,
+   3,
+   8,
+   8,
+   4,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   3,
+   3,
+   3,
+   3,
+   3,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   3,
+   1.4,
+   4,
+   3,
+   6,
+   6,
+   6,
+   8,
+   6,
+   5,
+   5,
+   5,
+   5,
+   5,
+   6,
+   6,
+   5,
+   4,
+   4,
+   8,
+   8
+  ],
+  "non_null": 80,
+  "n": 80
+ },
+ "sites": [
+  {
+   "연번": 1,
+   "시군구": "동구",
+   "세부현황": "계족로330번길~계족로336번길(성남동 주거밀집)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "계족로330번길",
+     "type": "road",
+     "point": [
+      127.43661386364867,
+      36.34212882827492
+     ],
+     "road_name": "계족로330번길",
+     "result": "있음",
+     "features_in_bbox": 46,
+     "same_name_features": 6,
+     "nearest_same_name_m": 17.6,
+     "ref_road_bt": [
+      3,
+      4,
+      3
+     ],
+     "ref_road_lt": [
+      177,
+      254,
+      122
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 390
+    },
+    {
+     "piece": "계족로336번길",
+     "type": "road",
+     "point": [
+      127.43568877310105,
+      36.342796915843394
+     ],
+     "road_name": "계족로336번길",
+     "result": "있음",
+     "features_in_bbox": 52,
+     "same_name_features": 8,
+     "nearest_same_name_m": 5.9,
+     "ref_road_bt": [
+      4,
+      3,
+      3,
+      4,
+      3
+     ],
+     "ref_road_lt": [
+      370,
+      116,
+      145,
+      62.071,
+      43
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 429
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 2,
+   "시군구": "동구",
+   "세부현황": "동대전로 110번길/대동 산 1번지 일원(대동 고지대)",
+   "사유": "급경사 또는 급커브",
+   "pieces": [
+    {
+     "piece": "동대전로110번길",
+     "type": "road",
+     "point": [
+      127.44486304348214,
+      36.332153942387826
+     ],
+     "road_name": "동대전로110번길",
+     "result": "있음",
+     "features_in_bbox": 45,
+     "same_name_features": 1,
+     "nearest_same_name_m": 7.8,
+     "ref_road_bt": [
+      4
+     ],
+     "ref_road_lt": [
+      1340
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 337
+    },
+    {
+     "piece": "대동 산 1번지",
+     "type": "parcel",
+     "point": [
+      127.45155698534393,
+      36.33241542126697
+     ],
+     "result": "대조 대상 아님(지번)"
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 3,
+   "시군구": "동구",
+   "세부현황": "역전시장길7~역전시장길75(역전시장)",
+   "사유": "시장 내 장애물(이동식 좌판 등)",
+   "pieces": [
+    {
+     "piece": "역전시장길7",
+     "type": "road",
+     "point": [
+      127.43387471315823,
+      36.33103525837262
+     ],
+     "road_name": "역전시장길",
+     "result": "있음",
+     "features_in_bbox": 23,
+     "same_name_features": 1,
+     "nearest_same_name_m": 23.5,
+     "ref_road_bt": [
+      3
+     ],
+     "ref_road_lt": [
+      321
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 192
+    },
+    {
+     "piece": "역전시장길75",
+     "type": "road",
+     "point": [
+      127.43493834154471,
+      36.328875174103246
+     ],
+     "road_name": "역전시장길",
+     "result": "있음",
+     "features_in_bbox": 38,
+     "same_name_features": 1,
+     "nearest_same_name_m": 18.0,
+     "ref_road_bt": [
+      3
+     ],
+     "ref_road_lt": [
+      321
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 272
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 5,
+   "시군구": "중구",
+   "세부현황": "목척3길~목척5길(은행동 상업지역)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "목척3길",
+     "type": "road",
+     "point": [
+      127.42484495894416,
+      36.33069103663696
+     ],
+     "road_name": "목척3길",
+     "result": "있음",
+     "features_in_bbox": 56,
+     "same_name_features": 1,
+     "nearest_same_name_m": 9.0,
+     "ref_road_bt": [
+      8
+     ],
+     "ref_road_lt": [
+      279
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 297
+    },
+    {
+     "piece": "목척5길",
+     "type": "road",
+     "point": [
+      127.42427615297548,
+      36.33168253279153
+     ],
+     "road_name": "목척5길",
+     "result": "있음",
+     "features_in_bbox": 51,
+     "same_name_features": 10,
+     "nearest_same_name_m": 10.0,
+     "ref_road_bt": [
+      4,
+      6,
+      6,
+      2,
+      6,
+      2,
+      2,
+      6,
+      6,
+      6
+     ],
+     "ref_road_lt": [
+      85.32,
+      165,
+      73,
+      63.687,
+      45,
+      86.337,
+      86.135,
+      85.96,
+      31,
+      35
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 270
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 6,
+   "시군구": "동구",
+   "세부현황": "진수길, 진보길, 수양길(소제동 송자고택 인근)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "진수길",
+     "type": "road",
+     "point": [
+      127.43977724658217,
+      36.33507940251525
+     ],
+     "road_name": "진수길",
+     "result": "있음",
+     "features_in_bbox": 59,
+     "same_name_features": 1,
+     "nearest_same_name_m": 7.3,
+     "ref_road_bt": [
+      3
+     ],
+     "ref_road_lt": [
+      167
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 328
+    },
+    {
+     "piece": "진보길",
+     "type": "road",
+     "point": [
+      127.43944431165573,
+      36.3361254018607
+     ],
+     "road_name": "진보길",
+     "result": "있음",
+     "features_in_bbox": 56,
+     "same_name_features": 1,
+     "nearest_same_name_m": 29.2,
+     "ref_road_bt": [
+      3
+     ],
+     "ref_road_lt": [
+      198
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 292
+    },
+    {
+     "piece": "수양길",
+     "type": "road",
+     "point": [
+      127.4413931054391,
+      36.33523708030265
+     ],
+     "road_name": "수양길",
+     "result": "있음",
+     "features_in_bbox": 54,
+     "same_name_features": 1,
+     "nearest_same_name_m": 8.2,
+     "ref_road_bt": [
+      3
+     ],
+     "ref_road_lt": [
+      227
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 274
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 7,
+   "시군구": "중구",
+   "세부현황": "대종로 601번길(목동 3구역)일원",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "대종로601번길",
+     "type": "road",
+     "point": [
+      127.4169242246692,
+      36.33477949788951
+     ],
+     "road_name": "대종로601번길",
+     "result": "있음",
+     "features_in_bbox": 42,
+     "same_name_features": 4,
+     "nearest_same_name_m": 13.4,
+     "ref_road_bt": [
+      8,
+      8
+     ],
+     "ref_road_lt": [
+      312,
+      106
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 330
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 9,
+   "시군구": "동구",
+   "세부현황": "대전천북로 116번길",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "대전천북로116번길",
+     "type": "road",
+     "point": [
+      127.41646339785575,
+      36.340019048109454
+     ],
+     "road_name": "대전천북로116번길",
+     "result": "있음",
+     "features_in_bbox": 25,
+     "same_name_features": 1,
+     "nearest_same_name_m": 9.3,
+     "ref_road_bt": [
+      4
+     ],
+     "ref_road_lt": [
+      275
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 253
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 10,
+   "시군구": "서구",
+   "세부현황": "서구 갈마중로 28번길, 30번길, 46번길 일원",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "갈마중로28번길",
+     "type": "road",
+     "point": [
+      127.37306627703245,
+      36.34740010307924
+     ],
+     "road_name": "갈마중로28번길",
+     "result": "있음",
+     "features_in_bbox": 40,
+     "same_name_features": 3,
+     "nearest_same_name_m": 11.0,
+     "ref_road_bt": [
+      6,
+      6
+     ],
+     "ref_road_lt": [
+      108,
+      209
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 365
+    },
+    {
+     "piece": "갈마중로30번길",
+     "type": "road",
+     "point": [
+      127.3725468209473,
+      36.34723474776059
+     ],
+     "road_name": "갈마중로30번길",
+     "result": "있음",
+     "features_in_bbox": 43,
+     "same_name_features": 2,
+     "nearest_same_name_m": 13.6,
+     "ref_road_bt": [
+      6,
+      6
+     ],
+     "ref_road_lt": [
+      430,
+      52
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 396
+    },
+    {
+     "piece": "갈마중로46번길",
+     "type": "road",
+     "point": [
+      127.37396784951632,
+      36.34689220743677
+     ],
+     "road_name": "갈마중로46번길",
+     "result": "있음",
+     "features_in_bbox": 36,
+     "same_name_features": 1,
+     "nearest_same_name_m": 10.0,
+     "ref_road_bt": [
+      6
+     ],
+     "ref_road_lt": [
+      449
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 384
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 11,
+   "시군구": "서구",
+   "세부현황": "문정로 170번길 ~ 둔산남로",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "문정로170번길",
+     "type": "road",
+     "point": [
+      127.39642609306074,
+      36.349359573688716
+     ],
+     "road_name": "문정로170번길",
+     "result": "있음",
+     "features_in_bbox": 26,
+     "same_name_features": 3,
+     "nearest_same_name_m": 12.6,
+     "ref_road_bt": [
+      6,
+      6
+     ],
+     "ref_road_lt": [
+      1043,
+      71
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 260
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 12,
+   "시군구": "서구",
+   "세부현황": "서구 문정로 112번안길, 서구 남선로 9번길",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "문정로112번안길",
+     "type": "road",
+     "point": [
+      127.39218719553594,
+      36.345691118963956
+     ],
+     "road_name": "문정로112번안길",
+     "result": "있음",
+     "features_in_bbox": 25,
+     "same_name_features": 3,
+     "nearest_same_name_m": 10.7,
+     "ref_road_bt": [
+      6,
+      6,
+      6
+     ],
+     "ref_road_lt": [
+      62,
+      343,
+      73
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 265
+    },
+    {
+     "piece": "남선로9번길",
+     "type": "road",
+     "point": [
+      127.39538141777365,
+      36.34433182264431
+     ],
+     "road_name": "남선로9번길",
+     "result": "있음",
+     "features_in_bbox": 28,
+     "same_name_features": 4,
+     "nearest_same_name_m": 9.7,
+     "ref_road_bt": [
+      6
+     ],
+     "ref_road_lt": [
+      423
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 271
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 14,
+   "시군구": "대덕구",
+   "세부현황": "계족산로5번안길 22 ~ 계족로608번길 30(법동시장)",
+   "사유": "시장 내 장애물(이동식 좌판 등)",
+   "pieces": [
+    {
+     "piece": "계족산로5번안길 22",
+     "type": "road",
+     "point": [
+      127.43174736360696,
+      36.367074631968705
+     ],
+     "road_name": "계족산로5번안길",
+     "result": "있음",
+     "features_in_bbox": 28,
+     "same_name_features": 1,
+     "nearest_same_name_m": 14.0,
+     "ref_road_bt": [
+      8
+     ],
+     "ref_road_lt": [
+      301
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 225
+    },
+    {
+     "piece": "계족로608번길 30",
+     "type": "road",
+     "point": [
+      127.43202395382974,
+      36.36609364344889
+     ],
+     "road_name": "계족로608번길",
+     "result": "있음",
+     "features_in_bbox": 38,
+     "same_name_features": 5,
+     "nearest_same_name_m": 11.9,
+     "ref_road_bt": [
+      8,
+      8,
+      8,
+      8,
+      8
+     ],
+     "ref_road_lt": [
+      241,
+      114,
+      114,
+      114,
+      114
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 300
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 15,
+   "시군구": "대덕구",
+   "세부현황": "대전로1375번길 22-14(읍내동 신회덕 아파트 인근 고지대)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "대전로1375번길 22-14",
+     "type": "road",
+     "point": [
+      127.41991047179016,
+      36.37727336676534
+     ],
+     "road_name": "대전로1375번길",
+     "result": "있음",
+     "features_in_bbox": 44,
+     "same_name_features": 5,
+     "nearest_same_name_m": 8.3,
+     "ref_road_bt": [
+      3,
+      3,
+      3,
+      3,
+      3
+     ],
+     "ref_road_lt": [
+      78,
+      253,
+      48,
+      86,
+      28
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 308
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 16,
+   "시군구": "대덕구",
+   "세부현황": "대전로1397번길 50(읍내동 백송아파트 인근 고지대)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "대전로1397번길 50",
+     "type": "road",
+     "point": [
+      127.41987951190373,
+      36.379569310060376
+     ],
+     "road_name": "대전로1397번길",
+     "result": "있음",
+     "features_in_bbox": 18,
+     "same_name_features": 4,
+     "nearest_same_name_m": 7.9,
+     "ref_road_bt": [
+      5,
+      5,
+      5,
+      5
+     ],
+     "ref_road_lt": [
+      415,
+      117,
+      55,
+      30
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 160
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 17,
+   "시군구": "대덕구",
+   "세부현황": "청자마을길 28 일원(평촌동 청자마을)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "청자마을길 28",
+     "type": "road",
+     "point": [
+      127.43745793661071,
+      36.437201042251644
+     ],
+     "road_name": "청자마을길",
+     "result": "있음",
+     "features_in_bbox": 12,
+     "same_name_features": 4,
+     "nearest_same_name_m": 7.9,
+     "ref_road_bt": [
+      5,
+      5,
+      5,
+      5
+     ],
+     "ref_road_lt": [
+      90,
+      178,
+      57,
+      90
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 131
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 18,
+   "시군구": "대덕구",
+   "세부현황": "태양마을길 28 일원(평촌동 태양마을)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "태양마을길 28",
+     "type": "road",
+     "point": [
+      127.43511341825487,
+      36.438165502849756
+     ],
+     "road_name": "태양마을길",
+     "result": "있음",
+     "features_in_bbox": 16,
+     "same_name_features": 1,
+     "nearest_same_name_m": 8.9,
+     "ref_road_bt": [
+      5
+     ],
+     "ref_road_lt": [
+      349
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 164
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 19,
+   "시군구": "대덕구",
+   "세부현황": "동심9길 일원(대화동 주거밀집)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "동심9길",
+     "type": "road",
+     "point": [
+      127.4116626437189,
+      36.36467503320276
+     ],
+     "road_name": "동심9길",
+     "result": "있음",
+     "features_in_bbox": 36,
+     "same_name_features": 2,
+     "nearest_same_name_m": 7.3,
+     "ref_road_bt": [
+      3,
+      1.4
+     ],
+     "ref_road_lt": [
+      180,
+      7
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 302
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 20,
+   "시군구": "대덕구",
+   "세부현황": "늘봄2길 일원(대화동 한일병원 뒤 주거밀집)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "늘봄2길",
+     "type": "road",
+     "point": [
+      127.41462407036015,
+      36.36468177764039
+     ],
+     "road_name": "늘봄2길",
+     "result": "있음",
+     "features_in_bbox": 53,
+     "same_name_features": 1,
+     "nearest_same_name_m": 6.4,
+     "ref_road_bt": [
+      4
+     ],
+     "ref_road_lt": [
+      211
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 434
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 23,
+   "시군구": "대덕구",
+   "세부현황": "동춘당로31번길 일원(송촌동 주거밀집)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "동춘당로31번길",
+     "type": "road",
+     "point": [
+      127.443761712321,
+      36.35819869222357
+     ],
+     "road_name": "동춘당로31번길",
+     "result": "있음",
+     "features_in_bbox": 29,
+     "same_name_features": 4,
+     "nearest_same_name_m": 10.3,
+     "ref_road_bt": [
+      3
+     ],
+     "ref_road_lt": [
+      856
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 248
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 27,
+   "시군구": "서구",
+   "세부현황": "도솔로175번길 일대(도마초 주변 주거밀집 지역)",
+   "사유": "상습 불법 주정차",
+   "pieces": [
+    {
+     "piece": "도솔로175번길",
+     "type": "road",
+     "point": [
+      127.37344441641086,
+      36.32639348051394
+     ],
+     "road_name": "도솔로175번길",
+     "result": "있음",
+     "features_in_bbox": 46,
+     "same_name_features": 1,
+     "nearest_same_name_m": 10.6,
+     "ref_road_bt": [
+      6
+     ],
+     "ref_road_lt": [
+      283
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 335
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 28,
+   "시군구": "서구",
+   "세부현황": "변정1길~변정7길(변동 주거밀집)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "변정1길",
+     "type": "road",
+     "point": [
+      127.37969763738275,
+      36.32486227980577
+     ],
+     "road_name": "변정1길",
+     "result": "있음",
+     "features_in_bbox": 56,
+     "same_name_features": 1,
+     "nearest_same_name_m": 22.3,
+     "ref_road_bt": [
+      6
+     ],
+     "ref_road_lt": [
+      352
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 417
+    },
+    {
+     "piece": "변정7길",
+     "type": "road",
+     "point": [
+      127.37967861112826,
+      36.322481062495065
+     ],
+     "road_name": "변정7길",
+     "result": "있음",
+     "features_in_bbox": 57,
+     "same_name_features": 2,
+     "nearest_same_name_m": 25.7,
+     "ref_road_bt": [
+      6
+     ],
+     "ref_road_lt": [
+      432
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 482
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 29,
+   "시군구": "중구",
+   "세부현황": "당디로 124번길(유천시장)",
+   "사유": "시장 내 장애물(이동식 좌판 등)",
+   "pieces": [
+    {
+     "piece": "당디로124번길",
+     "type": "road",
+     "point": [
+      127.39152213837576,
+      36.315797099222166
+     ],
+     "road_name": "당디로124번길",
+     "result": "있음",
+     "features_in_bbox": 38,
+     "same_name_features": 1,
+     "nearest_same_name_m": 12.4,
+     "ref_road_bt": [
+      8
+     ],
+     "ref_road_lt": [
+      505
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 280
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 31,
+   "시군구": "중구",
+   "세부현황": "충무로68번길일원(대사동 주거밀집)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "충무로68번길",
+     "type": "road",
+     "point": [
+      127.42449960092145,
+      36.31692278758278
+     ],
+     "road_name": "충무로68번길",
+     "result": "있음",
+     "features_in_bbox": 55,
+     "same_name_features": 2,
+     "nearest_same_name_m": 9.2,
+     "ref_road_bt": [
+      6
+     ],
+     "ref_road_lt": [
+      462
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 340
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 32,
+   "시군구": "중구",
+   "세부현황": "보문산공원로530번길일원(보문산 주변 주거밀집)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "보문산공원로530번길",
+     "type": "road",
+     "point": [
+      127.42480050428122,
+      36.31462315265068
+     ],
+     "road_name": "보문산공원로530번길",
+     "result": "있음",
+     "features_in_bbox": 48,
+     "same_name_features": 5,
+     "nearest_same_name_m": 12.4,
+     "ref_road_bt": [
+      5,
+      5,
+      5,
+      5,
+      5
+     ],
+     "ref_road_lt": [
+      735,
+      118,
+      139,
+      28.672,
+      52
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 265
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 33,
+   "시군구": "중구",
+   "세부현황": "대둔산로 414번길~대둔산로 416번길(산성동 주거밀집)",
+   "사유": "상습 불법 주정차",
+   "pieces": [
+    {
+     "piece": "대둔산로414번길",
+     "type": "road",
+     "point": [
+      127.39264277343587,
+      36.30693840915551
+     ],
+     "road_name": "대둔산로414번길",
+     "result": "있음",
+     "features_in_bbox": 30,
+     "same_name_features": 1,
+     "nearest_same_name_m": 7.4,
+     "ref_road_bt": [
+      6
+     ],
+     "ref_road_lt": [
+      662
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 273
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 35,
+   "시군구": "중구",
+   "세부현황": "보문산로 122번길 ~ 대둔산로 386번길(산성동 삼창아파트 인근 주거밀집)",
+   "사유": "도로협소",
+   "pieces": [
+    {
+     "piece": "보문산로122번길",
+     "type": "road",
+     "point": [
+      127.39399747653158,
+      36.30466951744687
+     ],
+     "road_name": "보문산로122번길",
+     "result": "있음",
+     "features_in_bbox": 26,
+     "same_name_features": 2,
+     "nearest_same_name_m": 10.1,
+     "ref_road_bt": [
+      6,
+      5
+     ],
+     "ref_road_lt": [
+      160,
+      17
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 207
+    },
+    {
+     "piece": "대둔산로386번길",
+     "type": "road",
+     "point": [
+      127.38685197650355,
+      36.3035801609869
+     ],
+     "road_name": "대둔산로386번길",
+     "result": "있음",
+     "features_in_bbox": 43,
+     "same_name_features": 3,
+     "nearest_same_name_m": 12.4,
+     "ref_road_bt": [
+      4,
+      4
+     ],
+     "ref_road_lt": [
+      734,
+      96
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 335
+    }
+   ],
+   "site_result": "있음"
+  },
+  {
+   "연번": 36,
+   "시군구": "서구",
+   "세부현황": "계백로1158번길(가수원동 은아아파트 인근 주거밀집)",
+   "사유": "상습 불법 주정차",
+   "pieces": [
+    {
+     "piece": "계백로1158번길",
+     "type": "road",
+     "point": [
+      127.35397536276068,
+      36.30054358180325
+     ],
+     "road_name": "계백로1158번길",
+     "result": "있음",
+     "features_in_bbox": 26,
+     "same_name_features": 2,
+     "nearest_same_name_m": 7.7,
+     "ref_road_bt": [
+      8,
+      8
+     ],
+     "ref_road_lt": [
+      876,
+      75
+     ],
+     "ref_centerline_rdnm_match": false,
+     "ref_centerline_features_in_bbox": 241
+    }
+   ],
+   "site_result": "있음"
+  }
+ ]
+}

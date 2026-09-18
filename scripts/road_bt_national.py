@@ -20,13 +20,17 @@ from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+from _rawio import open_raw, raw_exists  # 2026-09-18: .jsonl 없으면 .jsonl.gz
+
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]   # 저장소 루트(scripts/ 한 단계 위)
 RAW = ROOT / "data/vworld/national/raw/road_bt_national_cells.jsonl"
 FAIL = ROOT / "data/vworld/national/raw/road_bt_national_failed.jsonl"
 DER = ROOT / "data/vworld/national/derived"
-KEY = os.environ.get("VWORLD_APIKEY", "")
+KEY = os.environ.get("VWORLD_APIKEY", "").strip()
+# 2026-09-18: 개발키는 발급 시 등록한 도메인이 같이 가야 한다(없으면 ServiceExceptionReport). 앞뒤 공백도 걷어낸다.
+DOMAIN = os.environ.get("VWORLD_DOMAIN", "localhost")
 CAP = 1000
 SIDO = {"11": "서울", "26": "부산", "27": "대구", "28": "인천", "29": "광주", "30": "대전", "31": "울산", "36": "세종", "41": "경기",
         "42": "강원(42)", "51": "강원특별자치도(51)", "43": "충북", "44": "충남", "45": "전북(45)", "52": "전북특별자치도(52)",
@@ -42,7 +46,7 @@ def fetch_box(c):
     x0, y0, x1, y1 = c
     q = {"SERVICE": "WFS", "REQUEST": "GetFeature", "VERSION": "1.1.0", "TYPENAME": "lt_l_sprd", "OUTPUT": "application/json",
          "MAXFEATURES": str(CAP), "SRSNAME": "EPSG:900913", "PROPERTYNAME": "rn,road_bt,sig_cd,rds_man_no",
-         "BBOX": f"{x0},{y0},{x1},{y1},EPSG:900913", "key": KEY}
+         "BBOX": f"{x0},{y0},{x1},{y1},EPSG:900913", "key": KEY, "domain": DOMAIN}
     url = "https://api.vworld.kr/req/wfs?" + urllib.parse.urlencode(q)
     err = None
     for attempt in range(3):
@@ -68,8 +72,8 @@ def fetch():
     X1, Y1 = t.transform(132.0, 38.7)
     STEP = 20000.0
     done = set()
-    if RAW.exists():
-        for line in RAW.open(encoding="utf-8"):
+    if raw_exists(RAW):
+        for line in open_raw(RAW):
             done.add(json.loads(line)["cell"])
     if FAIL.exists():
         FAIL.unlink()  # 실패 칸은 재시도
@@ -145,7 +149,7 @@ def summarize(rows):
 def agg():
     seen, rows, conflicts, dup_rows, no_id = {}, [], 0, 0, 0
     cells = 0
-    for line in RAW.open(encoding="utf-8"):
+    for line in open_raw(RAW):
         rec = json.loads(line)
         cells += 1
         for p in rec["rows"]:

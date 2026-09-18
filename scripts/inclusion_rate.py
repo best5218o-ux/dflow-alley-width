@@ -21,6 +21,8 @@ import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from _rawio import open_raw, raw_exists  # 2026-09-18: .jsonl 없으면 .jsonl.gz
+
 import pandas as pd
 import pyogrio
 import shapely
@@ -36,7 +38,9 @@ DER = ROOT / "data/vworld/national/derived"
 DELIV = ROOT / "deliverables"
 RAW = ROOT / "data/vworld/national/raw/road_bt_national_cells.jsonl"
 LINK = ROOT / "data/vworld/national/raw/NODELINKDATA_20260914/MOCT_LINK.shp"
-KEY = os.environ.get("VWORLD_APIKEY", "")
+KEY = os.environ.get("VWORLD_APIKEY", "").strip()
+# 2026-09-18: 개발키는 발급 시 등록한 도메인이 같이 가야 한다(없으면 ServiceExceptionReport). 앞뒤 공백도 걷어낸다.
+DOMAIN = os.environ.get("VWORLD_DOMAIN", "localhost")
 GU = {"30110": "동구", "30140": "중구", "30170": "서구", "30200": "유성구", "30230": "대덕구"}
 RULE = "561d235"
 
@@ -99,7 +103,7 @@ def adsigg_polys():
     x0, y0 = t.transform(127.22, 36.17)
     x1, y1 = t.transform(127.58, 36.51)
     q = {"SERVICE": "WFS", "REQUEST": "GetFeature", "VERSION": "1.1.0", "TYPENAME": "lt_c_adsigg", "OUTPUT": "application/json",
-         "MAXFEATURES": "1000", "SRSNAME": "EPSG:900913", "BBOX": f"{x0},{y0},{x1},{y1},EPSG:900913", "key": KEY}
+         "MAXFEATURES": "1000", "SRSNAME": "EPSG:900913", "BBOX": f"{x0},{y0},{x1},{y1},EPSG:900913", "key": KEY, "domain": DOMAIN}
     url = "https://api.vworld.kr/req/wfs?" + urllib.parse.urlencode(q)
     j = json.loads(urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "D-FLOW contest"}), timeout=180).read())
     t35 = Transformer.from_crs(3857, 5186, always_xy=True)
@@ -115,7 +119,7 @@ def adsigg_polys():
 def main():
     # 대조군 모집단: 도로명주소도로 대전 길·번길 이름
     seen, pop = set(), defaultdict(set)
-    for line in RAW.open(encoding="utf-8"):
+    for line in open_raw(RAW):
         for p in json.loads(line)["rows"]:
             sc = str(p.get("sig_cd"))
             if sc not in GU:

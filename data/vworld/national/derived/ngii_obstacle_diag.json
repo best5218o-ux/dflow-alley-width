@@ -1,0 +1,555 @@
+{
+ "note": "값이 0보다 크면 그 표본점에서 장애물이 도로경계보다 멀다 = 차감이 일어나지 않는다",
+ "pieces": [
+  {
+   "piece": "계족로330번길",
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 2,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 1,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 33.86,
+   "median_obstacle_dist_minus_boundary_m": 50.12
+  },
+  {
+   "piece": "계족로336번길",
+   "obstacle_counts": {
+    "wall": 0,
+    "retaining": 6,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 85.18,
+   "median_obstacle_dist_minus_boundary_m": 99.95
+  },
+  {
+   "piece": "동대전로110번길",
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 2,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 74.07,
+   "median_obstacle_dist_minus_boundary_m": 93.01
+  },
+  {
+   "piece": "역전시장길7",
+   "obstacle_counts": {
+    "wall": 5,
+    "retaining": 5,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 1,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 0.57,
+   "median_obstacle_dist_minus_boundary_m": 3.48
+  },
+  {
+   "piece": "역전시장길75",
+   "obstacle_counts": {
+    "wall": 11,
+    "retaining": 0,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 35.74,
+   "median_obstacle_dist_minus_boundary_m": 44.31
+  },
+  {
+   "piece": "목척3길",
+   "obstacle_counts": {
+    "wall": 2,
+    "retaining": 0,
+    "stair": 1
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 100.49,
+   "median_obstacle_dist_minus_boundary_m": 116.88
+  },
+  {
+   "piece": "목척5길",
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 1,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 52.03,
+   "median_obstacle_dist_minus_boundary_m": 52.56
+  },
+  {
+   "piece": "진수길",
+   "obstacle_counts": {
+    "wall": 0,
+    "retaining": 1,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 123.53,
+   "median_obstacle_dist_minus_boundary_m": 154.37
+  },
+  {
+   "piece": "진보길",
+   "obstacle_counts": {
+    "wall": 2,
+    "retaining": 2,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 119.26,
+   "median_obstacle_dist_minus_boundary_m": 131.04
+  },
+  {
+   "piece": "수양길",
+   "obstacle_counts": {
+    "wall": 5,
+    "retaining": 3,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   }
+  },
+  {
+   "piece": "대종로601번길",
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 1,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 178.67,
+   "median_obstacle_dist_minus_boundary_m": 179.42
+  },
+  {
+   "piece": "대전천북로116번길",
+   "obstacle_counts": {
+    "wall": 1,
+    "retaining": 5,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 1,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 24.6,
+   "median_obstacle_dist_minus_boundary_m": 54.58
+  },
+  {
+   "piece": "갈마중로28번길",
+   "obstacle_counts": {
+    "wall": 11,
+    "retaining": 7,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 41.98,
+   "median_obstacle_dist_minus_boundary_m": 55.94
+  },
+  {
+   "piece": "갈마중로30번길",
+   "obstacle_counts": {
+    "wall": 10,
+    "retaining": 7,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 1,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 6.79,
+   "median_obstacle_dist_minus_boundary_m": 17.85
+  },
+  {
+   "piece": "갈마중로46번길",
+   "obstacle_counts": {
+    "wall": 7,
+    "retaining": 2,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 9.96,
+   "median_obstacle_dist_minus_boundary_m": 43.41
+  },
+  {
+   "piece": "문정로170번길",
+   "obstacle_counts": {
+    "wall": 11,
+    "retaining": 0,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 72.5,
+   "median_obstacle_dist_minus_boundary_m": 72.64
+  },
+  {
+   "piece": "문정로112번안길",
+   "obstacle_counts": {
+    "wall": 10,
+    "retaining": 9,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 7.72,
+   "median_obstacle_dist_minus_boundary_m": 32.21
+  },
+  {
+   "piece": "남선로9번길",
+   "obstacle_counts": {
+    "wall": 11,
+    "retaining": 9,
+    "stair": 1
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 2,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 0.96,
+   "median_obstacle_dist_minus_boundary_m": 7.89
+  },
+  {
+   "piece": "계족산로5번안길 22",
+   "obstacle_counts": {
+    "wall": 7,
+    "retaining": 7,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 7.4,
+   "median_obstacle_dist_minus_boundary_m": 54.51
+  },
+  {
+   "piece": "계족로608번길 30",
+   "obstacle_counts": {
+    "wall": 9,
+    "retaining": 3,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 17.91,
+   "median_obstacle_dist_minus_boundary_m": 26.5
+  },
+  {
+   "piece": "대전로1375번길 22-14",
+   "obstacle_counts": {
+    "wall": 10,
+    "retaining": 4,
+    "stair": 1
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 2,
+    "retaining": 0,
+    "stair": 1
+   },
+   "min_obstacle_minus_boundary_m": 21.6,
+   "median_obstacle_dist_minus_boundary_m": 32.26
+  },
+  {
+   "piece": "대전로1397번길 50",
+   "obstacle_counts": {
+    "wall": 10,
+    "retaining": 4,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 59.11,
+   "median_obstacle_dist_minus_boundary_m": 62.04
+  },
+  {
+   "piece": "청자마을길 28",
+   "obstacle_counts": {
+    "wall": 2,
+    "retaining": 3,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 31.44,
+   "median_obstacle_dist_minus_boundary_m": 45.48
+  },
+  {
+   "piece": "태양마을길 28",
+   "obstacle_counts": {
+    "wall": 14,
+    "retaining": 6,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   }
+  },
+  {
+   "piece": "동심9길",
+   "obstacle_counts": {
+    "wall": 11,
+    "retaining": 3,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 0.31,
+   "median_obstacle_dist_minus_boundary_m": 12.33
+  },
+  {
+   "piece": "늘봄2길",
+   "obstacle_counts": {
+    "wall": 2,
+    "retaining": 6,
+    "stair": 1
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 61.95,
+   "median_obstacle_dist_minus_boundary_m": 75.43
+  },
+  {
+   "piece": "동춘당로31번길",
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 2,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 1,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 111.14,
+   "median_obstacle_dist_minus_boundary_m": 112.57
+  },
+  {
+   "piece": "도솔로175번길",
+   "obstacle_counts": {
+    "wall": 16,
+    "retaining": 11,
+    "stair": 2
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 1,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 7.7,
+   "median_obstacle_dist_minus_boundary_m": 31.5
+  },
+  {
+   "piece": "변정1길",
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 3,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 14.26,
+   "median_obstacle_dist_minus_boundary_m": 16.6
+  },
+  {
+   "piece": "변정7길",
+   "obstacle_counts": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   }
+  },
+  {
+   "piece": "당디로124번길",
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 3,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 121.12,
+   "median_obstacle_dist_minus_boundary_m": 128.49
+  },
+  {
+   "piece": "충무로68번길",
+   "obstacle_counts": {
+    "wall": 3,
+    "retaining": 7,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 1,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 4.31,
+   "median_obstacle_dist_minus_boundary_m": 25.1
+  },
+  {
+   "piece": "보문산공원로530번길",
+   "obstacle_counts": {
+    "wall": 1,
+    "retaining": 2,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 61.06,
+   "median_obstacle_dist_minus_boundary_m": 64.36
+  },
+  {
+   "piece": "대둔산로414번길",
+   "obstacle_counts": {
+    "wall": 6,
+    "retaining": 3,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 1,
+    "retaining": 1,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 30.74,
+   "median_obstacle_dist_minus_boundary_m": 83.79
+  },
+  {
+   "piece": "보문산로122번길",
+   "obstacle_counts": {
+    "wall": 4,
+    "retaining": 7,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 30.37,
+   "median_obstacle_dist_minus_boundary_m": 30.37
+  },
+  {
+   "piece": "대둔산로386번길",
+   "obstacle_counts": {
+    "wall": 3,
+    "retaining": 2,
+    "stair": 0
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 2,
+    "retaining": 0,
+    "stair": 0
+   },
+   "min_obstacle_minus_boundary_m": 8.48,
+   "median_obstacle_dist_minus_boundary_m": 16.48
+  },
+  {
+   "piece": "계백로1158번길",
+   "obstacle_counts": {
+    "wall": 8,
+    "retaining": 5,
+    "stair": 6
+   },
+   "obstacles_intersecting_road_area": {
+    "wall": 0,
+    "retaining": 0,
+    "stair": 4
+   },
+   "min_obstacle_minus_boundary_m": 0.21,
+   "median_obstacle_dist_minus_boundary_m": 24.9
+  }
+ ],
+ "obstacles_intersecting_road_area_total": 20
+}

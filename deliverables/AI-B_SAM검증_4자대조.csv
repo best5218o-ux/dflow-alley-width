@@ -1,0 +1,12 @@
+﻿연번,도로명,M_SAM폭m,M판정구간,M실패사유,G_건물간격m(기하·AI아님),G판정구간,road_bt(단위미확인),사람판독m(C),사람판정구간,M대사람,G대사람,road_bt대사람,판정구간일치(M=사람)
+1,계족로330번길,20.02,CONDITIONAL_C,,,UNKNOWN_FAIL_CLOSED,3,"[3, 4]",CONDITIONAL_C,차이,대조 불가,모순되지 않음,True
+1,계족로336번길,10.04,CONDITIONAL_C,,8.02,CONDITIONAL_C,4,"[3, 4]",CONDITIONAL_C,차이,차이,모순되지 않음,True
+5,목척3길,12.87,CONDITIONAL_C,,8.4,CONDITIONAL_C,8,"[5, 7]",CONDITIONAL_C,차이,차이,모순되지 않음,True
+5,목척5길,16.54,CONDITIONAL_C,,7.7,CONDITIONAL_C,4,"[3, 4]",CONDITIONAL_C,차이,차이,모순되지 않음,True
+10,갈마중로28번길,10.58,CONDITIONAL_C,,4.88,CONDITIONAL_C,6,"[4, 5]",CONDITIONAL_C,차이,모순되지 않음,모순되지 않음,True
+10,갈마중로30번길,14.31,CONDITIONAL_C,,12.21,CONDITIONAL_C,6,"[6, 7]",CONDITIONAL_C,차이,차이,모순되지 않음,True
+10,갈마중로46번길,,UNKNOWN_FAIL_CLOSED,열별 폭 변동계수 > 0.5,7.79,CONDITIONAL_C,6,"[5, 8]",CONDITIONAL_C,대조 불가,모순되지 않음,모순되지 않음,False
+15,대전로1375번길,3.31,CONDITIONAL_C,,,UNKNOWN_FAIL_CLOSED,3,,UNKNOWN_FAIL_CLOSED,대조 불가,대조 불가,대조 불가,False
+27,도솔로175번길,,UNKNOWN_FAIL_CLOSED,열별 폭 변동계수 > 0.5,10.3,CONDITIONAL_C,6,"[5, 7]",CONDITIONAL_C,대조 불가,차이,모순되지 않음,False
+28,변정1길,4.39,CONDITIONAL_C,,8.02,CONDITIONAL_C,6,"[5, 6]",CONDITIONAL_C,모순되지 않음,차이,모순되지 않음,True
+28,변정7길,2.1,BLOCKED_C,,,UNKNOWN_FAIL_CLOSED,6,"[6, 7]",CONDITIONAL_C,차이,대조 불가,모순되지 않음,False

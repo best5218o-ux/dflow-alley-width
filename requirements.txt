@@ -1,13 +1,26 @@
-# 2026-09-18 정정 — numpy 2.5.3 · pyproj 3.8.0 · scipy 1.18.1 은 PyPI 에 존재하지 않아 설치가 실패했다.
-# 실재하는 최신 버전으로 내린다. 산출에 쓴 API 는 모두 이 버전에서 동일하다.
-numpy==2.4.6
+# 원 실행 환경(예전 기록) — Windows · Python 3.13.12 venv · 2026-09-15~17 실행
+# 아래 고정 버전은 그 venv 의 site-packages(dist-info) 목록에서 옮긴 값이다.
+# 2026-09-18 정정: 어제 「numpy 2.5.3 · pyproj 3.8.0 · scipy 1.18.1 은 PyPI 에 없다」고 적고 낮춘 것은
+#   잘못이었다. 세 버전은 PyPI 에 있으며(cp313 wheel 확인 2026-09-18) Python 3.10 에서만 설치되지 않는다.
+#   → Python 3.11 이상(권장 3.13)을 쓰고 아래 버전을 그대로 설치한다.
+numpy==2.5.3
 shapely==2.1.2
-pyproj==3.7.2
+pyproj==3.8.0
 pillow==12.3.0
 opencv-python-headless==5.0.0.93
 pandas==3.0.5
 pyogrio==0.13.0
-scipy==1.17.1
+geopandas==1.1.4
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+matplotlib==3.11.2
+# AI 단계(scripts/sam_vehicle_width.py · determinism_check.py)만 필요 — CPU 판
+#   pip install torch==2.14.0 torchvision==0.29.0 --index-url https://download.pytorch.org/whl/cpu
 torch==2.14.0
 torchvision==0.29.0
 segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
+#
+# Python 3.10 호환 확인(2026-09-18, Linux VM · 3 GB RAM) — 검증기·시간축·민감도·집계 스크립트는
+#   numpy 2.2.6 · shapely 2.1.x · pyproj 3.7.x · pandas 2.x · scipy 1.15.3 · scikit-learn 1.7.2 에서도 실행됐다.
+#   (docs/재현로그_2026-09-18.md)

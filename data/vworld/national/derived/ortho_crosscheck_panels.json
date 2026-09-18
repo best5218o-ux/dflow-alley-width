@@ -1,0 +1,204 @@
+{
+ "rule_commit": "050decc",
+ "zoom": 19,
+ "panels": [
+  {
+   "연번": 1,
+   "piece": "계족로330번길",
+   "road_name": "계족로330번길",
+   "point": [
+    127.43661386364867,
+    36.34212882827492
+   ],
+   "roads_in_view": 7,
+   "buildings_in_view": 93,
+   "matched_features_in_view": 2,
+   "road_bt": 3,
+   "road_lt": 177,
+   "line_offset_from_point_m": 17.7,
+   "ref_building_gap_m": null,
+   "ref_building_left_m": null,
+   "ref_building_right_m": 3.4
+  },
+  {
+   "연번": 1,
+   "piece": "계족로336번길",
+   "road_name": "계족로336번길",
+   "point": [
+    127.43568877310105,
+    36.342796915843394
+   ],
+   "roads_in_view": 10,
+   "buildings_in_view": 85,
+   "matched_features_in_view": 4,
+   "road_bt": 4,
+   "road_lt": 370,
+   "line_offset_from_point_m": 5.9,
+   "ref_building_gap_m": 8.0,
+   "ref_building_left_m": 3.7,
+   "ref_building_right_m": 4.3
+  },
+  {
+   "연번": 5,
+   "piece": "목척3길",
+   "road_name": "목척3길",
+   "point": [
+    127.42484495894416,
+    36.33069103663696
+   ],
+   "roads_in_view": 16,
+   "buildings_in_view": 135,
+   "matched_features_in_view": 1,
+   "road_bt": 8,
+   "road_lt": 279,
+   "line_offset_from_point_m": 9.0,
+   "ref_building_gap_m": 8.4,
+   "ref_building_left_m": 4.0,
+   "ref_building_right_m": 4.4
+  },
+  {
+   "연번": 5,
+   "piece": "목척5길",
+   "road_name": "목척5길",
+   "point": [
+    127.42427615297548,
+    36.33168253279153
+   ],
+   "roads_in_view": 13,
+   "buildings_in_view": 144,
+   "matched_features_in_view": 10,
+   "road_bt": 4,
+   "road_lt": 85.32,
+   "line_offset_from_point_m": 10.0,
+   "ref_building_gap_m": 7.7,
+   "ref_building_left_m": 3.2,
+   "ref_building_right_m": 4.5
+  },
+  {
+   "연번": 10,
+   "piece": "갈마중로28번길",
+   "road_name": "갈마중로28번길",
+   "point": [
+    127.37306627703245,
+    36.34740010307924
+   ],
+   "roads_in_view": 13,
+   "buildings_in_view": 59,
+   "matched_features_in_view": 2,
+   "road_bt": 6,
+   "road_lt": 108,
+   "line_offset_from_point_m": 11.0,
+   "ref_building_gap_m": 4.9,
+   "ref_building_left_m": 2.2,
+   "ref_building_right_m": 2.7
+  },
+  {
+   "연번": 10,
+   "piece": "갈마중로30번길",
+   "road_name": "갈마중로30번길",
+   "point": [
+    127.3725468209473,
+    36.34723474776059
+   ],
+   "roads_in_view": 12,
+   "buildings_in_view": 54,
+   "matched_features_in_view": 2,
+   "road_bt": 6,
+   "road_lt": 430,
+   "line_offset_from_point_m": 13.6,
+   "ref_building_gap_m": 12.2,
+   "ref_building_left_m": 3.3,
+   "ref_building_right_m": 8.9
+  },
+  {
+   "연번": 10,
+   "piece": "갈마중로46번길",
+   "road_name": "갈마중로46번길",
+   "point": [
+    127.37396784951632,
+    36.34689220743677
+   ],
+   "roads_in_view": 10,
+   "buildings_in_view": 62,
+   "matched_features_in_view": 1,
+   "road_bt": 6,
+   "road_lt": 449,
+   "line_offset_from_point_m": 10.0,
+   "ref_building_gap_m": 7.8,
+   "ref_building_left_m": 4.0,
+   "ref_building_right_m": 3.7
+  },
+  {
+   "연번": 15,
+   "piece": "대전로1375번길 22-14",
+   "road_name": "대전로1375번길",
+   "point": [
+    127.41991047179016,
+    36.37727336676534
+   ],
+   "roads_in_view": 8,
+   "buildings_in_view": 79,
+   "matched_features_in_view": 3,
+   "road_bt": 3,
+   "road_lt": 78,
+   "line_offset_from_point_m": 8.3,
+   "ref_building_gap_m": null,
+   "ref_building_left_m": 4.6,
+   "ref_building_right_m": null
+  },
+  {
+   "연번": 27,
+   "piece": "도솔로175번길",
+   "road_name": "도솔로175번길",
+   "point": [
+    127.37344441641086,
+    36.32639348051394
+   ],
+   "roads_in_view": 7,
+   "buildings_in_view": 47,
+   "matched_features_in_view": 1,
+   "road_bt": 6,
+   "road_lt": 283,
+   "line_offset_from_point_m": 10.7,
+   "ref_building_gap_m": 10.3,
+   "ref_building_left_m": 6.2,
+   "ref_building_right_m": 4.1
+  },
+  {
+   "연번": 28,
+   "piece": "변정1길",
+   "road_name": "변정1길",
+   "point": [
+    127.37969763738275,
+    36.32486227980577
+   ],
+   "roads_in_view": 6,
+   "buildings_in_view": 41,
+   "matched_features_in_view": 1,
+   "road_bt": 6,
+   "road_lt": 352,
+   "line_offset_from_point_m": 22.3,
+   "ref_building_gap_m": 8.0,
+   "ref_building_left_m": 3.8,
+   "ref_building_right_m": 4.2
+  },
+  {
+   "연번": 28,
+   "piece": "변정7길",
+   "road_name": "변정7길",
+   "point": [
+    127.37967861112826,
+    36.322481062495065
+   ],
+   "roads_in_view": 5,
+   "buildings_in_view": 77,
+   "matched_features_in_view": 1,
+   "road_bt": 6,
+   "road_lt": 432,
+   "line_offset_from_point_m": 25.8,
+   "ref_building_gap_m": null,
+   "ref_building_left_m": 4.4,
+   "ref_building_right_m": null
+  }
+ ]
+}

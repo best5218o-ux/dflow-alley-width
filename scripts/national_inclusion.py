@@ -13,6 +13,8 @@ from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+from _rawio import open_raw, raw_exists  # 2026-09-18: .jsonl 없으면 .jsonl.gz
+
 import numpy as np
 import pyogrio
 import shapely
@@ -71,7 +73,7 @@ def sigg():
 def agg():
     # 모집단
     seen, pop = set(), defaultdict(set)
-    for line in RAW.open(encoding="utf-8"):
+    for line in open_raw(RAW):
         for p in json.loads(line)["rows"]:
             k = (str(p.get("sig_cd")), str(p.get("rds_man_no")))
             if k in seen:

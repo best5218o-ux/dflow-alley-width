@@ -1,0 +1,361 @@
+{
+ "rule_commit": [
+  "84d7943",
+  "9dc3be5"
+ ],
+ "source_type": "SYNTHETIC_EVENT",
+ "scenario_params_are_not_measurements": true,
+ "area": {
+  "radius_m": 700.0,
+  "links": 157,
+  "nodes": 131,
+  "boundary_nodes": 19,
+  "network_snapshot_id": "NS-719a41ac883d42ba"
+ },
+ "incident": {
+  "link": "1020009603",
+  "node": "1020157300"
+ },
+ "emergency_origin": "1020003001",
+ "evac_dest": "1020128100",
+ "arm": 2,
+ "locked_sharp_moves": 32,
+ "released_by_human_confirmation": [
+  {
+   "node_id": "1020020003",
+   "st_link": "1020009502",
+   "ed_link": "1020008801",
+   "theta": 104.9,
+   "evidence_grade": "D",
+   "status": "해제 — 지휘관 현장 확인(가정), 폭 값 없음, D 유지, RECOMMEND_ONLY",
+   "applies_to": "긴급차량"
+  },
+  {
+   "node_id": "1020003004",
+   "st_link": "1020010702",
+   "ed_link": "1020011904",
+   "theta": 140.7,
+   "evidence_grade": "D",
+   "status": "해제 — 지휘관 현장 확인(가정), 폭 값 없음, D 유지, RECOMMEND_ONLY",
+   "applies_to": "긴급차량"
+  }
+ ],
+ "width_axis": "전 링크 D(속성 부재)",
+ "emergency_baseline_would_use_locked_moves": {
+  "F1_pump": [],
+  "A1_amb": [],
+  "A2_amb": [],
+  "A3_amb": []
+ },
+ "routes": [
+  {
+   "actor": "E0_evac",
+   "route_links": 17
+  },
+  {
+   "actor": "G1_car",
+   "route_links": 19
+  },
+  {
+   "actor": "G2_car",
+   "route_links": null
+  },
+  {
+   "actor": "F1_pump",
+   "route_links": 16
+  },
+  {
+   "actor": "A1_amb",
+   "route_links": 16
+  },
+  {
+   "actor": "A2_amb",
+   "route_links": 16
+  },
+  {
+   "actor": "A3_amb",
+   "route_links": 16
+  }
+ ],
+ "overloads_before": 16,
+ "overload_cells_before": [
+  {
+   "link_id": "1020010702",
+   "slot": 1,
+   "demand": 5,
+   "lanes": 2,
+   "actors": "E0_evac,F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020011904",
+   "slot": 1,
+   "demand": 5,
+   "lanes": 2,
+   "actors": "E0_evac,F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020010802",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 2,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020010800",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 2,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020010805",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 2,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020010806",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 2,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020010808",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 2,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020010804",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 2,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020009500",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 1,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020009503",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 1,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020009502",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 1,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020008801",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 1,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020007604",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 1,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020009600",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 1,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020009602",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 1,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  },
+  {
+   "link_id": "1020009603",
+   "slot": 1,
+   "demand": 4,
+   "lanes": 1,
+   "actors": "F1_pump,A1_amb,A2_amb,A3_amb"
+  }
+ ],
+ "ledger": [
+  {
+   "id": "E0_evac",
+   "kind": "evac",
+   "status": "확정",
+   "slot": 0,
+   "delay_slots": 0,
+   "action": null,
+   "reason": null
+  },
+  {
+   "id": "A1_amb",
+   "kind": "emergency",
+   "status": "확정",
+   "slot": 2,
+   "delay_slots": 1,
+   "action": "칸 +1",
+   "reason": null
+  },
+  {
+   "id": "A2_amb",
+   "kind": "emergency",
+   "status": "확정",
+   "slot": 3,
+   "delay_slots": 2,
+   "action": "칸 +2",
+   "reason": null
+  },
+  {
+   "id": "A3_amb",
+   "kind": "emergency",
+   "status": "확정",
+   "slot": 4,
+   "delay_slots": 3,
+   "action": "칸 +3",
+   "reason": null
+  },
+  {
+   "id": "F1_pump",
+   "kind": "emergency",
+   "status": "확정",
+   "slot": 5,
+   "delay_slots": 4,
+   "action": "칸 +4",
+   "reason": null
+  },
+  {
+   "id": "G1_car",
+   "kind": "general",
+   "status": "확정",
+   "slot": 2,
+   "delay_slots": 2,
+   "action": "칸 +2",
+   "reason": null
+  },
+  {
+   "id": "G2_car",
+   "kind": "general",
+   "status": "미해소",
+   "slot": 0,
+   "delay_slots": null,
+   "action": null,
+   "reason": "경로 없음"
+  }
+ ],
+ "delay_min": {
+  "total": 120,
+  "by_kind": {
+   "evac": 0,
+   "emergency": 100,
+   "general": 20
+  },
+  "max_individual": 40,
+  "by_actor": {
+   "E0_evac": 0,
+   "A1_amb": 10,
+   "A2_amb": 20,
+   "A3_amb": 30,
+   "F1_pump": 40,
+   "G1_car": 20,
+   "G2_car": null
+  }
+ },
+ "unresolved": [
+  "G2_car"
+ ],
+ "cards": [],
+ "decision_records": [
+  {
+   "actor": "F1_pump",
+   "decision_version": 1
+  },
+  {
+   "actor": "A1_amb",
+   "decision_version": 1
+  },
+  {
+   "actor": "A2_amb",
+   "decision_version": 1
+  },
+  {
+   "actor": "A3_amb",
+   "decision_version": 1
+  }
+ ],
+ "decision_records_refused": [],
+ "gantt_top_links": [
+  "1020007604",
+  "1020008801",
+  "1020009600",
+  "1020009500"
+ ],
+ "recompute": {
+  "trigger": {
+   "slot": 2,
+   "link_id": "1020007604",
+   "event": "돌발 통제(용량 0)"
+  },
+  "two_hop_links": 12,
+  "records_total": 6,
+  "records_reassigned_in_scope": 4,
+  "records_locked_out_of_scope": 2,
+  "ledger_after": [
+   {
+    "id": "A1_amb",
+    "status": "미해소",
+    "slot": 2,
+    "delay_slots": null,
+    "action": null,
+    "reason": "대체 경로·칸 이동 모두 불가"
+   },
+   {
+    "id": "A2_amb",
+    "status": "미해소",
+    "slot": 3,
+    "delay_slots": null,
+    "action": null,
+    "reason": "대체 경로·칸 이동 모두 불가"
+   },
+   {
+    "id": "A3_amb",
+    "status": "미해소",
+    "slot": 4,
+    "delay_slots": null,
+    "action": null,
+    "reason": "대체 경로·칸 이동 모두 불가"
+   },
+   {
+    "id": "F1_pump",
+    "status": "미해소",
+    "slot": 5,
+    "delay_slots": null,
+    "action": null,
+    "reason": "대체 경로·칸 이동 모두 불가"
+   }
+  ],
+  "cards": [],
+  "next_decision_version": 2,
+  "parent_event": "EV0"
+ },
+ "capability_gap": [
+  "시간 칸 용량",
+  "충돌해소 고정 5단계",
+  "지연 장부",
+  "재계산 2-hop 범위 한정"
+ ]
+}

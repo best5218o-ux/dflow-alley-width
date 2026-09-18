@@ -52,6 +52,17 @@ def main():
         L = length.get(k)
         W = num(r["최종채택(m)"])
         if L is None or W is None:
+            # 2026-09-18: 조용히 건너뛰지 않는다. 입력이 빈 조각도 행으로 남기고 사유를 적는다(fail-closed).
+            miss = " · ".join(x for x in (("면안축선(m) 없음" if L is None else ""),
+                                          ("최종채택(m) 없음" if W is None else "")) if x)
+            rows.append({"조각": k, "도로명": r["도로명"],
+                         "링크길이 L(m)": "" if L is None else f"{L:.1f}",
+                         "최종채택 W(m)": "" if W is None else f"{W:.2f}",
+                         "판정(폭 축)": r["판정(최종채택)"], "분리방식(폭 축)": r["분리방식"],
+                         "보행 통과시간 T_ped(s)": "NOT_COMPUTED", "긴급+보행 동시통행": "UNKNOWN_FAIL_CLOSED",
+                         "긴급+일반 동시통행": "UNKNOWN_FAIL_CLOSED", "보행 선행 시 긴급차량 대기(s)": "NOT_COMPUTED",
+                         "속도근거": "", "폭근거": "", "근거등급": "",
+                         "미산출사유": f"입력 결측 — {miss}"})
             continue
         t_ped = L / V_PED                       # 보행자 1인이 조각을 통과하는 시간
         both_ped = W >= E + P                   # 긴급차량 + 보행자 동시 통행
@@ -70,19 +81,24 @@ def main():
             "속도근거": "v_ped=1.0 m/s 도로교통법 시행규칙 보행신호 산정",
             "폭근거": "E=2.5 KFS 0008 3.3 · P=1.2 편의증진법 별표1 · G=2.0 도로구조규칙 제5조",
             "근거등급": "A (전부 법정·공개)",
+            "미산출사유": "",
         })
 
     out = D / "슬롯시간_26개소.csv"
     with out.open("w", encoding="utf-8-sig", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w = csv.DictWriter(f, fieldnames=list(max(rows, key=lambda x: len(x)).keys()))
         w.writeheader(); w.writerows(rows)
 
-    n = len(rows)
-    blocked_ped = [r for r in rows if r["긴급+보행 동시통행"] == "불가"]
-    blocked_gen = [r for r in rows if r["긴급+일반 동시통행"] == "불가"]
-    waits = sorted(float(r["보행 선행 시 긴급차량 대기(s)"]) for r in rows)
+    calc = [r for r in rows if r["미산출사유"] == ""]
+    skipped = [r for r in rows if r["미산출사유"]]
+    n = len(calc)
+    blocked_ped = [r for r in calc if r["긴급+보행 동시통행"] == "불가"]
+    blocked_gen = [r for r in calc if r["긴급+일반 동시통행"] == "불가"]
+    waits = sorted(float(r["보행 선행 시 긴급차량 대기(s)"]) for r in calc)
 
-    print(f"산출: {out.name}  ({n}조각)")
+    print(f"산출: {out.name}  (전체 {len(rows)}조각 · 산출 {n} · 입력 결측 {len(skipped)})")
+    for r in skipped:
+        print(f"  결측 — {r['조각']}: {r['미산출사유']}")
     print()
     print("[동시 통행 판정 — 폭만으로 결정된다]")
     print(f"  긴급차량 + 보행자 동시 통행 불가 : {len(blocked_ped)}/{n} 조각  (W < E+P = {E+P} m)")

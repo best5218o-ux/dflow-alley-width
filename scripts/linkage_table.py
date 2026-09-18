@@ -12,6 +12,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import os
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -27,7 +28,13 @@ from shapely.ops import transform as shp_transform
 ROOT = Path(__file__).resolve().parents[1]   # 저장소 루트(scripts/ 한 단계 위)
 DER = ROOT / "data/vworld/national/derived"
 LINK = ROOT / "data/vworld/national/raw/NODELINKDATA_20260914/MOCT_LINK.shp"
-KEY = os.environ["VWORLD_APIKEY"]
+KEY = os.environ.get("VWORLD_APIKEY", "").strip()
+# 2026-09-18: 개발키는 발급 시 등록한 도메인이 같이 가야 한다(없으면 ServiceExceptionReport). 앞뒤 공백도 걷어낸다.
+DOMAIN = os.environ.get("VWORLD_DOMAIN", "localhost")
+if not KEY:
+    # 2026-09-18: 네트워크 단계(브이월드 WFS/WMS 조회)라 키 없이는 재수급할 수 없다. 원 실행(2026-09-15~16) 산출은
+    # data/vworld/national/derived/linkage_table.json · linkage_table.csv 에 있고, 검증은 scripts/verify_deliverables.py 로 한다.
+    sys.exit("VWORLD_APIKEY 없음 — 이 스크립트는 브이월드 API 조회 단계다. 원 실행 산출: data/vworld/national/derived/linkage_table.json · linkage_table.csv")
 RULE = "3a36588"
 T43 = Transformer.from_crs(4326, 3857, always_xy=True)
 T45 = Transformer.from_crs(4326, 5186, always_xy=True)
@@ -42,7 +49,7 @@ def norm(s):
 def wfs(lon, lat, half=300.0):
     x, y = T43.transform(lon, lat)
     q = {"SERVICE": "WFS", "REQUEST": "GetFeature", "VERSION": "1.1.0", "TYPENAME": "lt_l_sprd", "OUTPUT": "application/json",
-         "MAXFEATURES": "1000", "SRSNAME": "EPSG:900913", "BBOX": f"{x-half},{y-half},{x+half},{y+half},EPSG:900913", "key": KEY}
+         "MAXFEATURES": "1000", "SRSNAME": "EPSG:900913", "BBOX": f"{x-half},{y-half},{x+half},{y+half},EPSG:900913", "key": KEY, "domain": DOMAIN}
     url = "https://api.vworld.kr/req/wfs?" + urllib.parse.urlencode(q)
     err = None
     for attempt in range(3):

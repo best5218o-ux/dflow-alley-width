@@ -1,0 +1,14 @@
+{"rule_commit": "050decc", "reader": "구현자 영상 판독(사람 눈) — 증거등급 C", "imagery": "브이월드 WMTS Satellite z19 (촬영 시점 타일 미표기 — 미확인)",
+ "readings": [
+  {"연번": 1, "piece": "계족로330번길", "line": "일치", "width_read_m": [3, 4], "road_bt": 3, "compare": "부합", "parked_vehicles_seen": 0},
+  {"연번": 1, "piece": "계족로336번길", "line": "일치", "width_read_m": [3, 4], "road_bt": 4, "compare": "부합", "parked_vehicles_seen": 0},
+  {"연번": 5, "piece": "목척3길", "line": "일치", "width_read_m": [5, 7], "road_bt": 8, "compare": "부합(허용 경계 +1 m)", "parked_vehicles_seen": 0},
+  {"연번": 5, "piece": "목척5길", "line": "일치", "width_read_m": [3, 4], "road_bt": 4, "compare": "부합", "parked_vehicles_seen": 1},
+  {"연번": 10, "piece": "갈마중로28번길", "line": "일치", "width_read_m": [4, 5], "road_bt": 6, "compare": "부합(허용 경계 +1 m)", "parked_vehicles_seen": 0},
+  {"연번": 10, "piece": "갈마중로30번길", "line": "일치", "width_read_m": [6, 7], "road_bt": 6, "compare": "부합", "parked_vehicles_seen": 2},
+  {"연번": 10, "piece": "갈마중로46번길", "line": "일치", "width_read_m": [5, 8], "road_bt": 6, "compare": "부합(판독 신뢰 낮음 — 그림자·차량)", "parked_vehicles_seen": 2},
+  {"연번": 15, "piece": "대전로1375번길", "line": "일치(하단 구간 식별 — 횡단선 부근 수목)", "width_read_m": null, "road_bt": 3, "compare": "판독불가", "parked_vehicles_seen": null},
+  {"연번": 27, "piece": "도솔로175번길", "line": "일치", "width_read_m": [5, 7], "road_bt": 6, "compare": "부합", "parked_vehicles_seen": "화면 서측 가로변 여러 대"},
+  {"연번": 28, "piece": "변정1길", "line": "일치(노면 표시 식별)", "width_read_m": [5, 6], "road_bt": 6, "compare": "부합", "parked_vehicles_seen": 1},
+  {"연번": 28, "piece": "변정7길", "line": "일치", "width_read_m": [6, 7], "road_bt": 6, "compare": "부합", "parked_vehicles_seen": 3, "note": "가로변 주차 차량 줄을 빼면 남는 노면 약 3.5~4 m(판독)"}
+ ]}

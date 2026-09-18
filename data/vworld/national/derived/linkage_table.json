@@ -1,0 +1,40 @@
+{
+ "rule_doc": "docs/판정기준.md §14",
+ "rule_commit": "3a36588",
+ "date": "2026-09-18",
+ "nodelink": "MOCT_LINK 2026-09-14 대전 권역(LINK_ID 183~187)",
+ "nodelink_links": 25471,
+ "rows": 112,
+ "matched_rows": 18,
+ "confidence": {
+  "상": 13,
+  "중": 5
+ },
+ "unmatched_rows": 94,
+ "unmatched_by_reason": {
+  "U1": 91,
+  "U2": 2,
+  "U4": 1
+ },
+ "sites_with_any_match": 7,
+ "schema": [
+  "연번",
+  "piece",
+  "기준커밋",
+  "조회일",
+  "road_name",
+  "rds_man_no",
+  "sig_cd",
+  "road_bt_단위미확인",
+  "road_lt",
+  "ref_nearest_link_id",
+  "ref_nearest_link_road_name",
+  "ref_nearest_link_dist_m",
+  "unmatched_reason",
+  "link_id",
+  "link_road_name",
+  "dist_m",
+  "confidence",
+  "ref_same_name_link_dist_m"
+ ]
+}

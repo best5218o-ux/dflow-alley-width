@@ -1,0 +1,290 @@
+[
+ {
+  "node_id": "1020003002",
+  "st_link": "1020009003",
+  "ed_link": "1020010800",
+  "theta": 131.6,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020003102",
+  "st_link": "1020010801",
+  "ed_link": "1020009601",
+  "theta": 90.1,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020021402",
+  "st_link": "1020035801",
+  "ed_link": "1020037301",
+  "theta": 105.5,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020020004",
+  "st_link": "1020008701",
+  "ed_link": "1020009502",
+  "theta": 96.3,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020026204",
+  "st_link": "1020045505",
+  "ed_link": "1020041800",
+  "theta": 103.3,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020018104",
+  "st_link": "1020007603",
+  "ed_link": "1020035001",
+  "theta": 92.7,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020016601",
+  "st_link": "1020032201",
+  "ed_link": "1020007203",
+  "theta": 90.3,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020003002",
+  "st_link": "1020010802",
+  "ed_link": "1020009004",
+  "theta": 135.2,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020018104",
+  "st_link": "1020035000",
+  "ed_link": "1020007602",
+  "theta": 126.4,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020024202",
+  "st_link": "1020039802",
+  "ed_link": "1020011202",
+  "theta": 96.7,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020015404",
+  "st_link": "1020030801",
+  "ed_link": "1020006705",
+  "theta": 104.0,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020019601",
+  "st_link": "1020035102",
+  "ed_link": "1020035802",
+  "theta": 101.2,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020003102",
+  "st_link": "1020009604",
+  "ed_link": "1020011201",
+  "theta": 97.9,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020025302",
+  "st_link": "1020011204",
+  "ed_link": "1020010006",
+  "theta": 93.0,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020024202",
+  "st_link": "1020011203",
+  "ed_link": "1020039801",
+  "theta": 100.2,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020021402",
+  "st_link": "1020037300",
+  "ed_link": "1020035800",
+  "theta": 107.2,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020003103",
+  "st_link": "1020009501",
+  "ed_link": "1020010801",
+  "theta": 90.1,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020024204",
+  "st_link": "1020041802",
+  "ed_link": "1020011101",
+  "theta": 105.3,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020025303",
+  "st_link": "1020009906",
+  "ed_link": "1020011204",
+  "theta": 94.8,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020026201",
+  "st_link": "1020045601",
+  "ed_link": "1020044201",
+  "theta": 98.3,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020024204",
+  "st_link": "1020011104",
+  "ed_link": "1020041801",
+  "theta": 101.8,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020026204",
+  "st_link": "1020044201",
+  "ed_link": "1020045501",
+  "theta": 94.4,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020025302",
+  "st_link": "1020052500",
+  "ed_link": "1020013601",
+  "theta": 120.3,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020015403",
+  "st_link": "1020006705",
+  "ed_link": "1020030901",
+  "theta": 94.5,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020025302",
+  "st_link": "1020010004",
+  "ed_link": "1020013601",
+  "theta": 100.6,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020020003",
+  "st_link": "1020009502",
+  "ed_link": "1020008801",
+  "theta": 104.9,
+  "evidence_grade": "D",
+  "status": "해제 — 지휘관 현장 확인(가정), 폭 값 없음, D 유지, RECOMMEND_ONLY",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020016601",
+  "st_link": "1020007202",
+  "ed_link": "1020032200",
+  "theta": 157.5,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020020004",
+  "st_link": "1020009503",
+  "ed_link": "1020008700",
+  "theta": 107.7,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020003004",
+  "st_link": "1020010702",
+  "ed_link": "1020011904",
+  "theta": 140.7,
+  "evidence_grade": "D",
+  "status": "해제 — 지휘관 현장 확인(가정), 폭 값 없음, D 유지, RECOMMEND_ONLY",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020021404",
+  "st_link": "1020035701",
+  "ed_link": "1020039701",
+  "theta": 104.4,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020019602",
+  "st_link": "1020035702",
+  "ed_link": "1020035102",
+  "theta": 100.0,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ },
+ {
+  "node_id": "1020018101",
+  "st_link": "1020035101",
+  "ed_link": "1020007603",
+  "theta": 101.8,
+  "evidence_grade": "D",
+  "status": "판정 보류 — 가용 폭 부재",
+  "applies_to": "긴급차량"
+ }
+]

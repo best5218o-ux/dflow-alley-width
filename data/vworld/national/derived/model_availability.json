@@ -1,0 +1,38 @@
+{
+ "rule_commit": "cadef64",
+ "model": "Segment Anything (SAM) ViT-B",
+ "weights_url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth",
+ "license": "Apache-2.0(코드·가중치, Meta 공개 저장소 표기)",
+ "runtime": "PyTorch CPU",
+ "machine": {
+  "cpu": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+  "python": "3.13.12",
+  "gpu": "없음(내장 그래픽 — CUDA 미사용)"
+ },
+ "commercial_api_calls": 0,
+ "versions": {
+  "torch": "2.14.0+cpu",
+  "segment-anything": "1.0"
+ },
+ "weights_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+ "weights_bytes": 375042383,
+ "input": {
+  "source": "브이월드 WMTS Satellite z19 캐시 타일",
+  "shape": [
+   512,
+   512,
+   3
+  ],
+  "tiles": [
+   "sat_19_447642_205252.jpg",
+   "sat_19_447642_205253.jpg",
+   "sat_19_447642_205254.jpg",
+   "sat_19_447642_205255.jpg"
+  ]
+ },
+ "load_seconds": 1.0,
+ "inference_seconds": 39.2,
+ "masks": 64,
+ "mask_area_px_p50": 961,
+ "verdict": "가능"
+}

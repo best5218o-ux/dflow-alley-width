@@ -1,0 +1,663 @@
+{
+ "run_at": "2026-09-15T17:52:16+09:00",
+ "key_len": 36,
+ "items": {
+  "1_base_tms": {
+   "tile": [
+    17,
+    111773,
+    50772
+   ],
+   "a_none": {
+    "url": "https://api.vworld.kr/req/wmts/1.0.0/***/Base/17/50772/111773.png",
+    "referer": null,
+    "at": "2026-09-15T17:52:16+09:00",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 18237,
+    "elapsed_ms": 159,
+    "magic": "PNG"
+   },
+   "b_domain_param": {
+    "url": "https://api.vworld.kr/req/wmts/1.0.0/***/Base/17/50772/111773.png?domain=localhost",
+    "referer": null,
+    "at": "2026-09-15T17:52:16+09:00",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 18237,
+    "elapsed_ms": 47,
+    "magic": "PNG"
+   },
+   "c_referer_header": {
+    "url": "https://api.vworld.kr/req/wmts/1.0.0/***/Base/17/50772/111773.png",
+    "referer": "http://localhost/",
+    "at": "2026-09-15T17:52:16+09:00",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 18237,
+    "elapsed_ms": 53,
+    "magic": "PNG"
+   }
+  },
+  "5_satellite_tms": {
+   "tile": [
+    17,
+    111773,
+    50772
+   ],
+   "a_none": {
+    "url": "https://api.vworld.kr/req/wmts/1.0.0/***/Satellite/17/50772/111773.jpeg",
+    "referer": null,
+    "at": "2026-09-15T17:52:16+09:00",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 24224,
+    "elapsed_ms": 80,
+    "magic": "JPEG"
+   },
+   "b_domain_param": {
+    "url": "https://api.vworld.kr/req/wmts/1.0.0/***/Satellite/17/50772/111773.jpeg?domain=localhost",
+    "referer": null,
+    "at": "2026-09-15T17:52:16+09:00",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 24224,
+    "elapsed_ms": 52,
+    "magic": "JPEG"
+   },
+   "c_referer_header": {
+    "url": "https://api.vworld.kr/req/wmts/1.0.0/***/Satellite/17/50772/111773.jpeg",
+    "referer": "http://localhost/",
+    "at": "2026-09-15T17:52:16+09:00",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 24224,
+    "elapsed_ms": 54,
+    "magic": "JPEG"
+   }
+  },
+  "3a_wms_getmap": {
+   "a_none": {
+    "url": "https://api.vworld.kr/req/wms?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=lt_c_spbd&STYLES=lt_c_spbd&CRS=EPSG:4326&BBOX=37.5335,126.993,37.5355,126.996&WIDTH=512&HEIGHT=512&FORMAT=image/png&TRANSPARENT=true&KEY=***",
+    "referer": null,
+    "at": "2026-09-15T17:52:16+09:00",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 150320,
+    "elapsed_ms": 115,
+    "magic": "PNG"
+   },
+   "b_domain_param": {
+    "url": "https://api.vworld.kr/req/wms?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=lt_c_spbd&STYLES=lt_c_spbd&CRS=EPSG:4326&BBOX=37.5335,126.993,37.5355,126.996&WIDTH=512&HEIGHT=512&FORMAT=image/png&TRANSPARENT=true&KEY=***&DOMAIN=localhost",
+    "referer": null,
+    "at": "2026-09-15T17:52:16+09:00",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 150320,
+    "elapsed_ms": 104,
+    "magic": "PNG"
+   },
+   "c_referer_header": {
+    "url": "https://api.vworld.kr/req/wms?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=lt_c_spbd&STYLES=lt_c_spbd&CRS=EPSG:4326&BBOX=37.5335,126.993,37.5355,126.996&WIDTH=512&HEIGHT=512&FORMAT=image/png&TRANSPARENT=true&KEY=***",
+    "referer": "http://localhost/",
+    "at": "2026-09-15T17:52:16+09:00",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 150320,
+    "elapsed_ms": 110,
+    "magic": "PNG"
+   }
+  },
+  "3b_wfs_getfeature": {
+   "a_none": {
+    "url": "https://api.vworld.kr/req/wfs?SERVICE=WFS&REQUEST=GetFeature&VERSION=1.1.0&TYPENAME=lt_c_spbd&BBOX=37.5335,126.993,37.5355,126.996,EPSG:4326&SRSNAME=EPSG:4326&MAXFEATURES=1000&OUTPUT=application/json&KEY=***",
+    "referer": null,
+    "at": "2026-09-15T17:52:16+09:00",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 141012,
+    "elapsed_ms": 101,
+    "head": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"lt_c_spbd.1110147574\",\"geometry\":{\"type\":\"MultiPolygon\",\"coordinates\":[[[[126.99414935,37.53346668],[126.99406913,37.53345325],[126.99406279,37.53349199],[126.99407727,37.53349479],[126.99407207,37.53352515],[126.99412569,37.53353759],[",
+    "feature_count": 159,
+    "response_crs": "urn:ogc:def:crs:EPSG::4326"
+   },
+   "b_domain_param": {
+    "url": "https://api.vworld.kr/req/wfs?SERVICE=WFS&REQUEST=GetFeature&VERSION=1.1.0&TYPENAME=lt_c_spbd&BBOX=37.5335,126.993,37.5355,126.996,EPSG:4326&SRSNAME=EPSG:4326&MAXFEATURES=1000&OUTPUT=application/json&KEY=***&DOMAIN=localhost",
+    "referer": null,
+    "at": "2026-09-15T17:52:17+09:00",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 141012,
+    "elapsed_ms": 87,
+    "head": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"lt_c_spbd.1110147574\",\"geometry\":{\"type\":\"MultiPolygon\",\"coordinates\":[[[[126.99414935,37.53346668],[126.99406913,37.53345325],[126.99406279,37.53349199],[126.99407727,37.53349479],[126.99407207,37.53352515],[126.99412569,37.53353759],[",
+    "feature_count": 159,
+    "response_crs": "urn:ogc:def:crs:EPSG::4326"
+   },
+   "c_referer_header": {
+    "url": "https://api.vworld.kr/req/wfs?SERVICE=WFS&REQUEST=GetFeature&VERSION=1.1.0&TYPENAME=lt_c_spbd&BBOX=37.5335,126.993,37.5355,126.996,EPSG:4326&SRSNAME=EPSG:4326&MAXFEATURES=1000&OUTPUT=application/json&KEY=***",
+    "referer": "http://localhost/",
+    "at": "2026-09-15T17:52:17+09:00",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 141012,
+    "elapsed_ms": 85,
+    "head": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"id\":\"lt_c_spbd.1110147574\",\"geometry\":{\"type\":\"MultiPolygon\",\"coordinates\":[[[[126.99414935,37.53346668],[126.99406913,37.53345325],[126.99406279,37.53349199],[126.99407727,37.53349479],[126.99407207,37.53352515],[126.99412569,37.53353759],[",
+    "feature_count": 159,
+    "response_crs": "urn:ogc:def:crs:EPSG::4326"
+   }
+  },
+  "3c_data_api": {
+   "a_none": {
+    "url": "https://api.vworld.kr/req/data?service=data&request=GetFeature&version=2.0&data=LT_C_SPBD&format=json&size=1000&page=1&geometry=false&attribute=true&crs=EPSG:4326&geomFilter=BOX(126.993,37.5335,126.996,37.5355)&key=***",
+    "referer": null,
+    "at": "2026-09-15T17:52:17+09:00",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 44146,
+    "elapsed_ms": 212,
+    "head": "{\"response\" : {\"service\" : {\"name\" : \"data\", \"version\" : \"2.0\", \"operation\" : \"GetFeature\", \"time\" : \"35(ms)\"}, \"status\" : \"OK\", \"record\" : {\"total\" : \"159\", \"current\" : \"159\"}, \"page\" : {\"total\" : \"1\", \"current\" : \"1\", \"size\" : \"1000\"}, \"result\" : {\"featureCollection\" : {\"type\":\"FeatureCollection\",",
+    "api_status": "OK",
+    "record_total": "159",
+    "error_text": null
+   },
+   "b_domain_param": {
+    "url": "https://api.vworld.kr/req/data?service=data&request=GetFeature&version=2.0&data=LT_C_SPBD&format=json&size=1000&page=1&geometry=false&attribute=true&crs=EPSG:4326&geomFilter=BOX(126.993,37.5335,126.996,37.5355)&key=***&domain=localhost",
+    "referer": null,
+    "at": "2026-09-15T17:52:17+09:00",
+    "status": null,
+    "error": "TimeoutError: The read operation timed out",
+    "elapsed_ms": 30033,
+    "api_status": "OK",
+    "record_total": "159",
+    "error_text": null
+   },
+   "c_referer_header": {
+    "url": "https://api.vworld.kr/req/data?service=data&request=GetFeature&version=2.0&data=LT_C_SPBD&format=json&size=1000&page=1&geometry=false&attribute=true&crs=EPSG:4326&geomFilter=BOX(126.993,37.5335,126.996,37.5355)&key=***",
+    "referer": "http://localhost/",
+    "at": "2026-09-15T17:52:47+09:00",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 44146,
+    "elapsed_ms": 122,
+    "head": "{\"response\" : {\"service\" : {\"name\" : \"data\", \"version\" : \"2.0\", \"operation\" : \"GetFeature\", \"time\" : \"31(ms)\"}, \"status\" : \"OK\", \"record\" : {\"total\" : \"159\", \"current\" : \"159\"}, \"page\" : {\"total\" : \"1\", \"current\" : \"1\", \"size\" : \"1000\"}, \"result\" : {\"featureCollection\" : {\"type\":\"FeatureCollection\",",
+    "api_status": "OK",
+    "record_total": "159",
+    "error_text": null
+   },
+   "b_domain_param_retry": [
+    {
+     "status": 200,
+     "bytes": 3053,
+     "elapsed_ms": 106,
+     "error": null
+    }
+   ]
+  },
+  "2_webgl_3d_loader": {
+   "a_none": {
+    "url": "https://map.vworld.kr/js/webglMapInit.js.do?version=3.0&apiKey=***",
+    "referer": null,
+    "at": "2026-09-15T17:52:48+09:00",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 2121,
+    "elapsed_ms": 50,
+    "head": "\r\n\t\t\r\n\t\t\r\n\t\t<!-- version : 3.0  2023-01-03. 조현석 부장. -->\r\n\t\t<!-- 웹지엘 엔진 버젼 업그레이드 후 API 반영  -->\r\n\r\n\t\tvar v_protocol='';\r\n\t\tvar vworldUrl='';\r\n\t\tvar vworld2DCache='';\r\n\t\tvar vworldBaseMapUrl='';\r\n\t\tvar vworldStyledMapUrl='';\r\n\t\tvar isUserDomain = '';\r\n\t\tif ( isUs"
+   },
+   "b_domain_param": {
+    "url": "https://map.vworld.kr/js/webglMapInit.js.do?version=3.0&apiKey=***&domain=localhost",
+    "referer": null,
+    "at": "2026-09-15T17:52:48+09:00",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 2130,
+    "elapsed_ms": 59,
+    "head": "\r\n\t\t\r\n\t\t\r\n\t\t<!-- version : 3.0  2023-01-03. 조현석 부장. -->\r\n\t\t<!-- 웹지엘 엔진 버젼 업그레이드 후 API 반영  -->\r\n\r\n\t\tvar v_protocol='';\r\n\t\tvar vworldUrl='';\r\n\t\tvar vworld2DCache='';\r\n\t\tvar vworldBaseMapUrl='';\r\n\t\tvar vworldStyledMapUrl='';\r\n\t\tvar isUserDomain = 'localhost';\r\n\t\t"
+   },
+   "c_referer_header": {
+    "url": "https://map.vworld.kr/js/webglMapInit.js.do?version=3.0&apiKey=***",
+    "referer": "http://localhost/",
+    "at": "2026-09-15T17:52:48+09:00",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 2121,
+    "elapsed_ms": 98,
+    "head": "\r\n\t\t\r\n\t\t\r\n\t\t<!-- version : 3.0  2023-01-03. 조현석 부장. -->\r\n\t\t<!-- 웹지엘 엔진 버젼 업그레이드 후 API 반영  -->\r\n\r\n\t\tvar v_protocol='';\r\n\t\tvar vworldUrl='';\r\n\t\tvar vworld2DCache='';\r\n\t\tvar vworldBaseMapUrl='';\r\n\t\tvar vworldStyledMapUrl='';\r\n\t\tvar isUserDomain = '';\r\n\t\tif ( isUs"
+   },
+   "note": "JS 로더 응답까지만 확인. 3D 타일 렌더링은 스크립트로 미검증."
+  },
+  "4_geocoder": {
+   "address_api": {
+    "probe_parcel": {
+     "url": "https://api.vworld.kr/req/address?service=address&request=getcoord&version=2.0&crs=epsg:4326&address=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%9D%B4%ED%83%9C%EC%9B%90%EB%8F%99%2034-149&refine=true&simple=false&format=json&type=parcel&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:52:48+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 666,
+     "elapsed_ms": 15489,
+     "api_status": "OK",
+     "crs": "epsg:4326(요청값)",
+     "point": [
+      126.99096872286285,
+      37.53085542640653
+     ],
+     "refined": "서울특별시 용산구 이태원동 34-149",
+     "error_text": null
+    },
+    "서울 용산구 이태원동": {
+     "url": "https://api.vworld.kr/req/address?service=address&request=getcoord&version=2.0&crs=epsg:4326&address=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%9D%B4%ED%83%9C%EC%9B%90%EB%8F%99&refine=true&simple=false&format=json&type=parcel&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:03+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 654,
+     "elapsed_ms": 68,
+     "api_status": "OK",
+     "crs": "epsg:4326(요청값)",
+     "point": [
+      126.99597067355921,
+      37.541338656522726
+     ],
+     "refined": "서울특별시 용산구 이태원동 1-1",
+     "error_text": null
+    },
+    "부산 동구 초량동": {
+     "url": "https://api.vworld.kr/req/address?service=address&request=getcoord&version=2.0&crs=epsg:4326&address=%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EA%B5%AC%20%EC%B4%88%EB%9F%89%EB%8F%99&refine=true&simple=false&format=json&type=parcel&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 637,
+     "elapsed_ms": 73,
+     "api_status": "OK",
+     "crs": "epsg:4326(요청값)",
+     "point": [
+      129.040049948813,
+      35.122437671695366
+     ],
+     "refined": "부산광역시 동구 초량동 100-10",
+     "error_text": null
+    },
+    "부산 부산진구 전포동": {
+     "url": "https://api.vworld.kr/req/address?service=address&request=getcoord&version=2.0&crs=epsg:4326&address=%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%A0%84%ED%8F%AC%EB%8F%99&refine=true&simple=false&format=json&type=parcel&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 631,
+     "elapsed_ms": 60,
+     "api_status": "OK",
+     "crs": "epsg:4326(요청값)",
+     "point": [
+      129.07035946029958,
+      35.16645295520536
+     ],
+     "refined": "부산광역시 부산진구 전포동 10-17",
+     "error_text": null
+    },
+    "청주 상당구 수동": {
+     "url": "https://api.vworld.kr/req/address?service=address&request=getcoord&version=2.0&crs=epsg:4326&address=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EC%88%98%EB%8F%99&refine=true&simple=false&format=json&type=parcel&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 626,
+     "elapsed_ms": 79,
+     "api_status": "OK",
+     "crs": "epsg:4326(요청값)",
+     "point": [
+      127.50139016354416,
+      36.64531663225364
+     ],
+     "refined": "충청북도 청주시 상당구 수동 1",
+     "error_text": null
+    },
+    "청주 서원구 모충동": {
+     "url": "https://api.vworld.kr/req/address?service=address&request=getcoord&version=2.0&crs=epsg:4326&address=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%84%9C%EC%9B%90%EA%B5%AC%20%EB%AA%A8%EC%B6%A9%EB%8F%99&refine=true&simple=false&format=json&type=parcel&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 662,
+     "elapsed_ms": 63,
+     "api_status": "OK",
+     "crs": "epsg:4326(요청값)",
+     "point": [
+      127.48835660436193,
+      36.62136474505089
+     ],
+     "refined": "충청북도 청주시 서원구 모충동 101-1",
+     "error_text": null
+    },
+    "청주 청원구 내덕동": {
+     "url": "https://api.vworld.kr/req/address?service=address&request=getcoord&version=2.0&crs=epsg:4326&address=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%B2%AD%EC%9B%90%EA%B5%AC%20%EB%82%B4%EB%8D%95%EB%8F%99&refine=true&simple=false&format=json&type=parcel&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 638,
+     "elapsed_ms": 70,
+     "api_status": "OK",
+     "crs": "epsg:4326(요청값)",
+     "point": [
+      127.49918390093191,
+      36.658694886969386
+     ],
+     "refined": "충청북도 청주시 청원구 내덕동 10",
+     "error_text": null
+    },
+    "대전 서구 변동": {
+     "url": "https://api.vworld.kr/req/address?service=address&request=getcoord&version=2.0&crs=epsg:4326&address=%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%84%9C%EA%B5%AC%20%EB%B3%80%EB%8F%99&refine=true&simple=false&format=json&type=parcel&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 600,
+     "elapsed_ms": 63,
+     "api_status": "OK",
+     "crs": "epsg:4326(요청값)",
+     "point": [
+      127.3877130036671,
+      36.327037783020685
+     ],
+     "refined": "대전광역시 서구 변동 1-1",
+     "error_text": null
+    },
+    "부산 동래구 온천동": {
+     "url": "https://api.vworld.kr/req/address?service=address&request=getcoord&version=2.0&crs=epsg:4326&address=%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EC%98%A8%EC%B2%9C%EB%8F%99&refine=true&simple=false&format=json&type=parcel&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 637,
+     "elapsed_ms": 52,
+     "api_status": "OK",
+     "crs": "epsg:4326(요청값)",
+     "point": [
+      129.07739538329116,
+      35.22503139576125
+     ],
+     "refined": "부산광역시 동래구 온천동 1",
+     "error_text": null
+    }
+   },
+   "search_district": {
+    "서울 용산구 이태원동": {
+     "url": "https://api.vworld.kr/req/search?service=search&request=search&version=2.0&crs=EPSG:4326&size=5&page=1&query=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%9D%B4%ED%83%9C%EC%9B%90%EB%8F%99&type=district&category=L4&format=json&errorformat=json&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 498,
+     "elapsed_ms": 61,
+     "api_status": "OK",
+     "candidates": [
+      {
+       "title": "서울특별시 용산구 이태원동",
+       "id": "11170130",
+       "point": [
+        126.9950627,
+        37.53251464
+       ]
+      }
+     ],
+     "shift_from_old_seed_m": 223,
+     "old_seed": {
+      "lon": 126.9946,
+      "lat": 37.5345,
+      "source": "수기 근사"
+     },
+     "error_text": null
+    },
+    "부산 동구 초량동": {
+     "url": "https://api.vworld.kr/req/search?service=search&request=search&version=2.0&crs=EPSG:4326&size=5&page=1&query=%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EA%B5%AC%20%EC%B4%88%EB%9F%89%EB%8F%99&type=district&category=L4&format=json&errorformat=json&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 493,
+     "elapsed_ms": 58,
+     "api_status": "OK",
+     "candidates": [
+      {
+       "title": "부산광역시 동구 초량동",
+       "id": "26170101",
+       "point": [
+        129.0369625,
+        35.11393599
+       ]
+      }
+     ],
+     "shift_from_old_seed_m": 560,
+     "old_seed": {
+      "lon": 129.037,
+      "lat": 35.119,
+      "source": "수기 근사"
+     },
+     "error_text": null
+    },
+    "부산 부산진구 전포동": {
+     "url": "https://api.vworld.kr/req/search?service=search&request=search&version=2.0&crs=EPSG:4326&size=5&page=1&query=%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EC%A0%84%ED%8F%AC%EB%8F%99&type=district&category=L4&format=json&errorformat=json&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 499,
+     "elapsed_ms": 66,
+     "api_status": "OK",
+     "candidates": [
+      {
+       "title": "부산광역시 부산진구 전포동",
+       "id": "26230102",
+       "point": [
+        129.0673912,
+        35.15434684
+       ]
+      }
+     ],
+     "shift_from_old_seed_m": 221,
+     "old_seed": {
+      "lon": 129.065,
+      "lat": 35.154,
+      "source": "수기 근사"
+     },
+     "error_text": null
+    },
+    "청주 상당구 수동": {
+     "url": "https://api.vworld.kr/req/search?service=search&request=search&version=2.0&crs=EPSG:4326&size=5&page=1&query=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EC%88%98%EB%8F%99&type=district&category=L4&format=json&errorformat=json&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 512,
+     "elapsed_ms": 54,
+     "api_status": "OK",
+     "candidates": [
+      {
+       "title": "충청북도 청주시 상당구 수동",
+       "id": "43111112",
+       "point": [
+        127.49568637144594,
+        36.64300854539127
+       ]
+      }
+     ],
+     "shift_from_old_seed_m": 279,
+     "old_seed": {
+      "lon": 127.496,
+      "lat": 36.6405,
+      "source": "수기 근사"
+     },
+     "error_text": null
+    },
+    "청주 서원구 모충동": {
+     "url": "https://api.vworld.kr/req/search?service=search&request=search&version=2.0&crs=EPSG:4326&size=5&page=1&query=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%84%9C%EC%9B%90%EA%B5%AC%20%EB%AA%A8%EC%B6%A9%EB%8F%99&type=district&category=L4&format=json&errorformat=json&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 502,
+     "elapsed_ms": 58,
+     "api_status": "OK",
+     "candidates": [
+      {
+       "title": "충청북도 청주시 서원구 모충동",
+       "id": "43112103",
+       "point": [
+        127.4768389,
+        36.62771297
+       ]
+      }
+     ],
+     "shift_from_old_seed_m": 412,
+     "old_seed": {
+      "lon": 127.48,
+      "lat": 36.625,
+      "source": "수기 근사"
+     },
+     "error_text": null
+    },
+    "청주 청원구 내덕동": {
+     "url": "https://api.vworld.kr/req/search?service=search&request=search&version=2.0&crs=EPSG:4326&size=5&page=1&query=%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%B2%AD%EC%9B%90%EA%B5%AC%20%EB%82%B4%EB%8D%95%EB%8F%99&type=district&category=L4&format=json&errorformat=json&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 502,
+     "elapsed_ms": 57,
+     "api_status": "OK",
+     "candidates": [
+      {
+       "title": "충청북도 청주시 청원구 내덕동",
+       "id": "43114102",
+       "point": [
+        127.4826598,
+        36.65836046
+       ]
+      }
+     ],
+     "shift_from_old_seed_m": 755,
+     "old_seed": {
+      "lon": 127.47426,
+      "lat": 36.6591,
+      "source": "교량 소재지 주소 평균"
+     },
+     "error_text": null
+    },
+    "대전 서구 변동": {
+     "url": "https://api.vworld.kr/req/search?service=search&request=search&version=2.0&crs=EPSG:4326&size=5&page=1&query=%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%84%9C%EA%B5%AC%20%EB%B3%80%EB%8F%99&type=district&category=L4&format=json&errorformat=json&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 489,
+     "elapsed_ms": 63,
+     "api_status": "OK",
+     "candidates": [
+      {
+       "title": "대전광역시 서구 변동",
+       "id": "30170102",
+       "point": [
+        127.3867477,
+        36.32581829
+       ]
+      }
+     ],
+     "shift_from_old_seed_m": 289,
+     "old_seed": {
+      "lon": 127.38577,
+      "lat": 36.32333,
+      "source": "교량 소재지(태평교)"
+     },
+     "error_text": null
+    },
+    "부산 동래구 온천동": {
+     "url": "https://api.vworld.kr/req/search?service=search&request=search&version=2.0&crs=EPSG:4326&size=5&page=1&query=%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EC%98%A8%EC%B2%9C%EB%8F%99&type=district&category=L4&format=json&errorformat=json&key=***",
+     "referer": null,
+     "at": "2026-09-15T17:53:04+09:00",
+     "status": 200,
+     "content_type": "application/json;charset=UTF-8",
+     "bytes": 496,
+     "elapsed_ms": 70,
+     "api_status": "OK",
+     "candidates": [
+      {
+       "title": "부산광역시 동래구 온천동",
+       "id": "26260108",
+       "point": [
+        129.0801103,
+        35.22005403
+       ]
+      }
+     ],
+     "shift_from_old_seed_m": 1468,
+     "old_seed": {
+      "lon": 129.06769,
+      "lat": 35.21157,
+      "source": "교량 소재지 주소 평균"
+     },
+     "error_text": null
+    }
+   }
+  }
+ },
+ "negative_control_fake_key": {
+  "base_tms": {
+   "status": 200,
+   "content_type": "application/xml;charset=UTF-8",
+   "bytes": 448,
+   "magic": null,
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ExceptionReport xmlns=\"http://www.opengis.net/ows/1.1\"\n\txmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txsi:schemaLocation=\"http://schemas.opengis.net/ows/1.1.0/owsExceptionReport.xsd\"\n\tversion=\"1.1.0\" xml:lang=\"kor\">\n\t<Exception exceptionCode=\"InvalidP",
+   "error": null
+  },
+  "sat_tms": {
+   "status": 200,
+   "content_type": "application/xml;charset=UTF-8",
+   "bytes": 448,
+   "magic": null,
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ExceptionReport xmlns=\"http://www.opengis.net/ows/1.1\"\n\txmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txsi:schemaLocation=\"http://schemas.opengis.net/ows/1.1.0/owsExceptionReport.xsd\"\n\tversion=\"1.1.0\" xml:lang=\"kor\">\n\t<Exception exceptionCode=\"InvalidP",
+   "error": null
+  },
+  "wms": {
+   "status": 200,
+   "content_type": "application/xml;charset=UTF-8",
+   "bytes": 398,
+   "magic": null,
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<ServiceExceptionReport version=\"1.3.0\" xmlns=\"http://www.opengis.net/ogc\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.opengis.net/ogc http://schemas.opengis.net/wms/1.3.0/exceptions_1_3_0.xsd\">\n<ServiceException code=\"",
+   "error": null
+  },
+  "wfs": {
+   "status": 200,
+   "content_type": "application/xml;charset=UTF-8",
+   "bytes": 398,
+   "magic": null,
+   "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<ServiceExceptionReport version=\"1.1.0\" xmlns=\"http://www.opengis.net/ogc\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.opengis.net/ogc http://schemas.opengis.net/wfs/1.1.0/exceptions_1_1_0.xsd\">\n<ServiceException code=\"",
+   "error": null
+  },
+  "data": {
+   "status": 200,
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 234,
+   "magic": null,
+   "head": "{\"response\" : {\"service\" : {\"name\" : \"data\", \"version\" : \"2.0\", \"operation\" : \"GetFeature\", \"time\" : \"1(ms)\"}, \"status\" : \"ERROR\", \"error\" : {\"level\" : \"2\", \"code\" : \"INVALID_KEY\", \"text\" : \"등록되지 않은 인증키입니다.\"}}}",
+   "error": null
+  },
+  "webgl": {
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 2160,
+   "magic": null,
+   "head": "\r\n\t\t\r\n\t\t\r\n\t\t<!-- version : 3.0  2023-01-03. 조현석 부장. -->\r\n\t\t<!-- 웹지엘 엔진 버젼 업그레이드 후 API 반영  -->\r\n\r\n\t\tvar v_protocol='';\r\n\t\tvar vworldUrl='';\r\n\t\tvar vworld2DCache='';\r\n\t\tvar vworldBaseMapUrl='';\r\n\t\tvar vworldStyledMapUrl='';\r\n\t\tvar isUserDomain = '';\r\n\t\tif ( isUs",
+   "error": null
+  },
+  "geocoder": {
+   "status": 200,
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 235,
+   "magic": null,
+   "head": "{\"response\" : {\"service\" : {\"name\" : \"address\", \"version\" : \"2.0\", \"operation\" : \"getcoord\", \"time\" : \"4(ms)\"}, \"status\" : \"ERROR\", \"error\" : {\"level\" : \"2\", \"code\" : \"INVALID_KEY\", \"text\" : \"등록되지 않은 인증키입니다.\"}}}",
+   "error": null
+  }
+ }
+}
