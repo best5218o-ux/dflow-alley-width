@@ -37,3 +37,8 @@ data/vworld/national/raw/firewater/*.csv
 
 # --- 무시: 작업지시서2 의 실행 전 사본 폴더
 _run/
+
+# --- 무시: 위 두 항목이 이 PC 에서는 비공개 저장소를 가리키는 **심볼릭 링크**로 존재한다.
+# 디렉터리 패턴(뒤에 /)은 심볼릭 링크를 잡지 못해 따로 적는다 — 2026-09-18 추가.
+data/vworld/models
+data/vworld/national/raw/NODELINKDATA_*

@@ -9,6 +9,7 @@
 판정: docs/판정기준.md §29-5 그대로 — ≤ 2.5 BLOCKED(문헌) · ≤ 3.5 CONDITIONAL_C(우리 설정) · 그 외 폭축_통과후보.
 긴급차량 전폭 E: KFS 전폭 상한(경형 1.9 · 소형 2.2 · 중형/대형 2.5) 중 W 이하 최대. 일반차량 G = 2.0.
 4단 슬롯(§34-14): 2.5(E) · 3.7(E+P) · 5.7(E+P+G).
+  슬롯 열(슬롯_2.5m·슬롯_3.7m·슬롯_5.7m)의 경계는 §34-14 의 **고정 임계값**이며, 행마다 달라지는 긴급차량_전폭상한E 와는 다른 양이다.
 폭 값이 없는 구간은 값을 만들지 않는다 → WIDTH_UNKNOWN(판정 보류, fail-closed).
 출력: deliverables/이태원_도로구간폭_판정.csv · data/vworld/national/derived/slot_itaewon_width.json
 """
@@ -74,9 +75,9 @@ def rows_for(seg, only_kw):
             "폭m_road_bt": "" if W is None else W,
             "판정": b, "판정근거": why,
             "긴급차량_전폭상한E": "" if e is None else e,
-            "슬롯_E": "" if s[0] is None else ("Y" if s[0] else "N"),
-            "슬롯_E+P": "" if s[1] is None else ("Y" if s[1] else "N"),
-            "슬롯_E+P+G": "" if s[2] is None else ("Y" if s[2] else "N"),
+            "슬롯_2.5m": "" if s[0] is None else ("Y" if s[0] else "N"),
+            "슬롯_3.7m": "" if s[1] is None else ("Y" if s[1] else "N"),
+            "슬롯_5.7m": "" if s[2] is None else ("Y" if s[2] else "N"),
             "폭출처": "도로명주소 도로구간 road_bt(오프라인 수집분)" if W is not None else "속성 없음 — 값 만들지 않음",
         })
     return out

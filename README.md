@@ -7,9 +7,9 @@
 
 | 단계 | 준비 | 확인할 수 있는 것 | 확인할 수 없는 것 |
 |---|---|---|---|
-| ① 설치 없이(표준 라이브러리) | `git clone` 만 | `verify_deliverables.py` — 제출본 수치 38개를 `deliverables/` CSV 에서 재계산(통과 38) · `verify_numbers.py` — 본문 추출본 vs 산출물 · `slot_time_stage1.py` — 시간 축 1단계(바이트 일치) · `PREREG.md` 의 blob SHA-1 대조 | 산출물이 「맞게 만들어졌는가」 |
+| ① 설치 없이(표준 라이브러리) | `git clone` 만 | `verify_deliverables.py` — 제출본 수치 38개를 `deliverables/` CSV 에서 재계산(통과 38) · `verify_numbers.py` — 본문 추출본 vs 산출물 · `slot_time_stage1.py` — 시간 축 1단계(바이트 일치) · `PREREG.md` 의 blob SHA-1 대조 · `slot_itaewon_width.py` — 커밋된 원시 캐시(`raw/road_bt_national_cells.jsonl.gz`)만으로 이태원 164구간 폭 판정 재생성(네트워크·모델·비공개 코어 없음) | 산출물이 「맞게 만들어졌는가」 |
 | ② `pip install -r requirements.txt` 후(인터넷·키 없이) | Python 3.11+ · 패키지 | 커밋된 원시 캐시(`raw/*.jsonl.gz`)와 마스크 캐시(`derived/sam_vehicle_cache/`)에서 **전국 집계·민감도·개소 집계·AI-A·교차표·CCTV 대조**를 재실행 → 산출물과 대조(2026-09-18 전부 동일) | 브이월드 조회가 필요한 것(내접폭·경사·연계 테이블·레이어 커버리지) · 표준노드링크가 필요한 것(포함률·위계 대조) · SAM 재실행 |
-| ③ 원천을 직접 받은 뒤(브이월드 키 · 표준노드링크 612 MB · SAM 가중치 358 MB) | 위 + `VWORLD_APIKEY`·`VWORLD_DOMAIN` · `acquire_open.py nodelink` · SAM 가중치 | 나머지 전부 — 브이월드 조회 계열 · 표준노드링크 계열 · **SAM 사슬(원 마스크 3,838 → 71)** 재실행 | 손으로 만든 표 5종(`산출물_명세.md` 「생성 스크립트 없음」) · 제출본 `.hwpx` 기반 산출(`주장_출처대조.csv` 190행판 · `조판편차_실측.json`) · 비공개 코어 모듈이 필요한 이태원 슬롯 시연(`slot_itaewon_*.py`) |
+| ③ 원천을 직접 받은 뒤(브이월드 키 · 표준노드링크 612 MB · SAM 가중치 358 MB) | 위 + `VWORLD_APIKEY`·`VWORLD_DOMAIN` · `acquire_open.py nodelink` · SAM 가중치 | 나머지 전부 — 브이월드 조회 계열 · 표준노드링크 계열 · **SAM 사슬(원 마스크 3,838 → 71)** 재실행 | 손으로 만든 표 5종(`산출물_명세.md` 「생성 스크립트 없음」) · 제출본 `.hwpx` 기반 산출(`주장_출처대조.csv` 190행판 · `조판편차_실측.json`) · 비공개 코어 모듈이 필요한 이태원 슬롯 시연(`slot_itaewon_{demo,sop3,arm3_width}.py`) · 브이월드 API 차단으로 미산출된 이태원 도로경계 내접폭(`itaewon_medial_width.py` — 0건이 아니라 조회 실패) |
 
 무엇이 실제로 돌았고 무엇이 안 돌았는지는 **`docs/재현성_감사_2026-09-18.md`**(실행 표 · 교체한 산출물 · 여전히 안 되는 것 · 판정)와
 `docs/재현로그_2026-09-18.md` 에 있다. 이 README 의 명령은 2026-09-18 에 한 번씩 실제로 실행했다 — 단 `acquire_open.py nodelink`(271 MB 다운로드)와 SAM 가중치 다운로드는 돌리지 않았고(이미 있는 파일을 연결해 썼다), `pip install` 은 새 venv 에서 torch 를 뺀 핀 그대로 설치 + torch 는 `--dry-run` 으로 확인했다.
