@@ -1,11 +1,13 @@
-numpy==2.5.3
+# 2026-09-18 정정 — numpy 2.5.3 · pyproj 3.8.0 · scipy 1.18.1 은 PyPI 에 존재하지 않아 설치가 실패했다.
+# 실재하는 최신 버전으로 내린다. 산출에 쓴 API 는 모두 이 버전에서 동일하다.
+numpy==2.4.6
 shapely==2.1.2
-pyproj==3.8.0
+pyproj==3.7.2
 pillow==12.3.0
 opencv-python-headless==5.0.0.93
 pandas==3.0.5
 pyogrio==0.13.0
-scipy==1.18.1
+scipy==1.17.1
 torch==2.14.0
 torchvision==0.29.0
 segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
