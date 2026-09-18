@@ -1,0 +1,124 @@
+{
+ "rule_doc": "docs/판정기준.md §29 · §29-5",
+ "name": "이태원 참사 지점 인근 4개 도로 — 도로경계 면 내접폭 (「통과가능폭」 아님)",
+ "대상": [
+  "이태원로27가길",
+  "이태원로27길",
+  "이태원로27나길",
+  "이태원로"
+ ],
+ "대전과_같은_출처_같은_방법": "레이어 lt_c_n3a0010000 / lt_l_n3a0020000 · STEP 1.0 · TRIM 2.0 · MIN_LEN 10.0 · MIN_PTS 8 · EPSG:5186 계측",
+ "대전과_다른_점": [
+  "대상이 좌표 조각이 아니라 도로명 4개 — 표본점은 지오코더로 받는다",
+  "장애물 차감폭(벽·옹벽·계단) 미산출",
+  "SAM 차량 차감폭 미적용"
+ ],
+ "boundary_definition": "미확인 — 브이월드 제공 속성 id·dycd 뿐(SCLS 미제공)",
+ "attribution_limit": "축선 귀속은 거리 기반(rdnm 비어 있음) — road_bt 와의 차이가 값 오차인지 귀속 오차인지 구분되지 않는다",
+ "params": {
+  "bbox_half_m": 200.0,
+  "step_m": 1.0,
+  "trim_m": 2.0,
+  "min_inside_len_m": 10.0,
+  "min_points": 8
+ },
+ "구간수": 4,
+ "산출성공": 0,
+ "산출실패": 4,
+ "내접폭_최소m": null,
+ "내접폭_최대m": null,
+ "내접폭_중앙값m": null,
+ "판정분포": {
+  "BLOCKED": 0,
+  "CONDITIONAL_C": 0,
+  "폭축_통과후보": 0,
+  "UNKNOWN_FAIL_CLOSED": 4
+ },
+ "실패사유별_건수": {
+  "지오코딩 실패: 1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>": 4
+ },
+ "실행환경_한계": "2026-09-18 실행: api.vworld.kr 로의 CONNECT 가 이 실행 환경의 이그레스 정책에서 403 으로 거부되어 지오코딩·WFS 조회를 한 건도 하지 못했다. 값이 0 이거나 없다는 뜻이 아니라 「조회 실패」다. 네트워크가 열린 환경에서 같은 스크립트를 그대로 실행하면 산출된다.",
+ "무결성": "조회 실패와 0건은 구분해 기록한다. 산출 못 한 도로는 빈 값 + 미산출사유로 남기고 값을 만들지 않는다.",
+ "roads": [
+  {
+   "도로명": "이태원로27가길",
+   "geocode_points": 0,
+   "geocode_errors": [
+    "1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "3: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "5: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "7: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "9: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "11: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   ],
+   "road_bt_n": 2,
+   "road_bt_min_m": 2.0,
+   "road_bt_median_m": 5.5,
+   "pieces": [],
+   "산출성공_표본점": 0,
+   "산출실패_표본점": 0,
+   "판정": "UNKNOWN_FAIL_CLOSED",
+   "미산출사유": "지오코딩 실패: 1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "도로명": "이태원로27길",
+   "geocode_points": 0,
+   "geocode_errors": [
+    "1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "3: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "5: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "7: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "9: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "11: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   ],
+   "road_bt_n": 8,
+   "road_bt_min_m": 3.0,
+   "road_bt_median_m": 6.5,
+   "pieces": [],
+   "산출성공_표본점": 0,
+   "산출실패_표본점": 0,
+   "판정": "UNKNOWN_FAIL_CLOSED",
+   "미산출사유": "지오코딩 실패: 1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "도로명": "이태원로27나길",
+   "geocode_points": 0,
+   "geocode_errors": [
+    "1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "3: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "5: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "7: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "9: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "11: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   ],
+   "road_bt_n": 1,
+   "road_bt_min_m": 7.0,
+   "road_bt_median_m": 7.0,
+   "pieces": [],
+   "산출성공_표본점": 0,
+   "산출실패_표본점": 0,
+   "판정": "UNKNOWN_FAIL_CLOSED",
+   "미산출사유": "지오코딩 실패: 1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+   "도로명": "이태원로",
+   "geocode_points": 0,
+   "geocode_errors": [
+    "1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "3: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "5: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "7: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "9: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "11: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+   ],
+   "road_bt_n": 20,
+   "road_bt_min_m": 2.0,
+   "road_bt_median_m": 4.0,
+   "pieces": [],
+   "산출성공_표본점": 0,
+   "산출실패_표본점": 0,
+   "판정": "UNKNOWN_FAIL_CLOSED",
+   "미산출사유": "지오코딩 실패: 1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+ ]
+}

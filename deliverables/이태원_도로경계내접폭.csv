@@ -1,0 +1,5 @@
+﻿도로명,표본점수,산출성공_표본점,내접폭_최소m,내접폭_중앙값m,판정_§29-5,긴급차량_전폭상한E,슬롯_E_2.5,슬롯_E+P_3.7,슬롯_E+P+G_5.7,속성폭_road_bt_최소m,속성폭_road_bt_중앙값m,차이_내접폭최소-속성폭최소_m,폭출처,미산출사유
+이태원로27가길,0,0,,,UNKNOWN_FAIL_CLOSED,,,,,2.0,5.5,,국토지리정보원 도로경계 면 내접폭(VWorld WFS lt_c_n3a0010000) — 대전 26개소와 같은 출처,지오코딩 실패: 1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+이태원로27길,0,0,,,UNKNOWN_FAIL_CLOSED,,,,,3.0,6.5,,국토지리정보원 도로경계 면 내접폭(VWorld WFS lt_c_n3a0010000) — 대전 26개소와 같은 출처,지오코딩 실패: 1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+이태원로27나길,0,0,,,UNKNOWN_FAIL_CLOSED,,,,,7.0,7.0,,국토지리정보원 도로경계 면 내접폭(VWorld WFS lt_c_n3a0010000) — 대전 26개소와 같은 출처,지오코딩 실패: 1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+이태원로,0,0,,,UNKNOWN_FAIL_CLOSED,,,,,2.0,4.0,,국토지리정보원 도로경계 면 내접폭(VWorld WFS lt_c_n3a0010000) — 대전 26개소와 같은 출처,지오코딩 실패: 1: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
